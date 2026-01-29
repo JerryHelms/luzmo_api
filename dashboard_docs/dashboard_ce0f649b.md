@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Orders Dashboard](../screenshots/Work Orders_ce0f649b.png)
+![Work Orders Dashboard](../screenshots/Work_Orders_ce0f649b.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ This dashboard would be valuable for managers, supervisors, and team members res
 
 ## AI-Generated Summary
 
-This "Work Orders" dashboard provides a comprehensive view of an organization's work order management processes. It is designed to assist operations, maintenance, and service teams in tracking, analyzing, and optimizing the execution of work orders. The dashboard includes filtering options, performance metrics, and interactive data tables that enable users to answer critical questions about work order types, labor hours, expenses, and trends across locations. This dashboard would be valuable for managers, supervisors, and team members responsible for work order planning, assignment, and performance tracking, as it helps them make informed decisions and identify areas for improvement in the overall work order management process.
+This "Work Orders" dashboard provides a comprehensive view of an organization's work order management processes, empowering operations, maintenance, and service teams to track, analyze, and optimize work order execution. The dashboard allows users to filter and search work orders by key criteria, view detailed transaction data, examine labor hour trends by location, and access interactive tables of work order information. This helps managers, supervisors, and team members answer critical questions about work order types, efficiency, and performance, enabling them to make informed decisions and improve the overall work order management process.
 
 ### Tags
 
-`work orders` `operations management` `maintenance` `service management` `performance tracking`
+`work orders` `operations management` `maintenance tracking` `data analysis` `performance optimization`
 
 ---
 
-*Generated on 2026-01-29 11:49:08 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:19 by Luzmo API Tools*

@@ -29,11 +29,11 @@ Overall, this "Invoices/Payments" dashboard is a powerful tool that helps organi
 
 ## AI-Generated Summary
 
-This "Invoices/Payments" dashboard provides a comprehensive view of an organization's invoicing and payment activities. Designed for finance and accounting teams, it delivers valuable insights to help monitor and manage the invoicing process. The dashboard allows users to analyze invoice data from multiple angles, including tracking key metrics like total invoices, amount paid, and amount remaining. It also provides date and dropdown filters, as well as visualizations like pivot tables, charts, and evolution numbers to uncover trends in invoicing by year, month, status, and more. This dashboard empowers finance teams to better manage cash flow, identify payment issues, and optimize invoicing processes, leading to improved financial performance and customer satisfaction.
+This "Invoices/Payments" dashboard provides a comprehensive view of an organization's invoicing and payment activities, empowering finance and accounting teams to monitor and manage the invoicing process more effectively. By offering a range of filters, visualizations, and key metrics, the dashboard helps users answer critical questions about outstanding invoices, top-performing venues, and invoicing/payment trends over time. This holistic perspective enables teams to improve cash flow management, identify payment issues, and optimize invoicing processes - ultimately supporting better financial performance and customer satisfaction.
 
 ### Tags
 
-`invoicing` `payments` `finance` `accounting` `cash flow`
+`invoicing` `payments` `finance` `accounting` `collections`
 
 ## Filters
 
@@ -48,4 +48,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:52:42 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:43 by Luzmo API Tools*

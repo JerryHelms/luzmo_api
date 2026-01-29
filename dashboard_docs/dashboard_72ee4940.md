@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Users Missing Account Dashboard](../screenshots/Users Missing Account_72ee4940.png)
+![Users Missing Account Dashboard](../screenshots/Users_Missing_Account_72ee4940.png)
 
 ## Description
 
@@ -20,12 +20,12 @@ Overall, the "Users Missing Account" dashboard is a powerful tool that enables t
 
 ## AI-Generated Summary
 
-The "Users Missing Account" dashboard provides a comprehensive view of an organization's user base, enabling IT administrators, customer service teams, and data analysts to identify and address gaps or issues with user account information. This dashboard allows users to effectively search, filter, and analyze user data, including details like user profiles, account status, and missing information. By proactively identifying and addressing user account issues, the dashboard helps the organization maintain a secure and up-to-date user database, ultimately improving the user experience and ensuring the overall integrity of the organization's systems.
+The "Users Missing Account" dashboard provides a comprehensive view of an organization's user base, enabling administrators, customer service teams, and data analysts to identify and address gaps or issues with user account information. Users can leverage the dashboard's powerful search and filter capabilities to quickly pinpoint users with missing critical account details, such as profile information or access status. This allows the organization to proactively maintain a secure and up-to-date user database, ultimately improving the overall user experience and ensuring the integrity of the organization's systems.
 
 ### Tags
 
-`user management` `account administration` `data analysis` `security` `user experience`
+`user management` `account administration` `data analytics` `user experience` `information security`
 
 ---
 
-*Generated on 2026-01-29 11:52:00 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:59 by Luzmo API Tools*

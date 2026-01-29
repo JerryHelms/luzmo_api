@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![User Groups Dashboard](../screenshots/User Groups_ddb97560.png)
+![User Groups Dashboard](../screenshots/User_Groups_ddb97560.png)
 
 ## Description
 
@@ -20,12 +20,12 @@ Overall, this dashboard seems to be a comprehensive tool for user group manageme
 
 ## AI-Generated Summary
 
-This "User Groups" dashboard provides a comprehensive overview and management tool for user groups within an organization. It allows administrators, IT managers, and HR teams to easily browse, filter, and analyze the different user groups, enabling them to quickly identify key groups, understand group composition, and make updates or changes as needed. The dashboard features multiple search and selection dropdowns to filter the user groups based on various criteria, as well as three data tables that display detailed information about the groups, such as the number of users, group permissions, and activity levels. This centralized hub for user group management helps ensure the organization's user access and permissions are properly maintained and aligned with business requirements.
+This "User Groups" dashboard provides a comprehensive overview and management tool for user groups within an organization. It allows administrators, HR teams, and other stakeholders to easily browse, filter, and analyze the different user groups, their compositions, and key metrics. With multiple search and selection dropdowns, users can segment and view group details based on various criteria such as department, location, role, or other attributes. The three data tables display in-depth information about the user groups, enabling users to quickly identify key groups, understand group activity and permissions, and make necessary updates or changes as needed. This dashboard serves as a central hub for managing the user group structure across the organization, supporting effective user access and permissions management.
 
 ### Tags
 
-`user management` `access control` `permissions` `user groups` `organization structure`
+`user management` `user groups` `user access` `employee permissions` `organizational structure`
 
 ---
 
-*Generated on 2026-01-29 11:49:05 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:16 by Luzmo API Tools*

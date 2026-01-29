@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Orders Dashboard](../screenshots/Work Orders_f146f70b.png)
+![Work Orders Dashboard](../screenshots/Work_Orders_f146f70b.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, this "Work Orders" dashboard is a useful tool for teams responsible for
 
 ## AI-Generated Summary
 
-This "Work Orders" dashboard provides a centralized, comprehensive view of the organization's work order management. It enables maintenance teams, facilities managers, and operations personnel to efficiently track, prioritize, and resolve work orders by allowing them to search, filter, and monitor the status of various work orders. The dashboard's key features, such as multiple search and select dropdowns and detailed data tables, give users the ability to quickly find, review, and manage work orders based on criteria like location, department, priority, and status. This dashboard is a valuable tool for organizations that need to maintain visibility, control, and optimization of their work order processes.
+This "Work Orders" dashboard provides a centralized view and management capabilities for teams responsible for executing and monitoring maintenance tasks across the organization. The dashboard's key features, including comprehensive search and filtering options as well as detailed data tables, enable users to quickly find, prioritize, and track the status of work orders. This helps maintenance teams, facilities managers, and operations personnel stay on top of outstanding tasks, identify bottlenecks, and optimize the overall work order process. With this dashboard, users can access a holistic overview of the organization's maintenance activities and make informed decisions to ensure efficient and timely resolution of work orders.
 
 ### Tags
 
-`work orders` `maintenance` `operations` `facilities management` `work order management`
+`work orders` `maintenance` `facilities management` `operations` `task management`
 
 ---
 
-*Generated on 2026-01-29 11:48:57 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:08 by Luzmo API Tools*

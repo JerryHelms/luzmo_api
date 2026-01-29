@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Transaction Detail Report Review Dashboard](../screenshots/Transaction Detail Report Review_7d0e59f5.png)
+![Transaction Detail Report Review Dashboard](../screenshots/Transaction_Detail_Report_Review_7d0e59f5.png)
 
 ## Description
 
@@ -23,12 +23,12 @@ Overall, the Transaction Detail Report Review dashboard provides a comprehensive
 
 ## AI-Generated Summary
 
-The Transaction Detail Report Review dashboard provides a comprehensive view of an organization's financial transactions, enabling finance and accounting teams to thoroughly analyze transaction data and gain valuable insights. With robust filtering capabilities, date range selection, and powerful search functionality, users can quickly drill down into specific areas of interest, such as transaction types, costs, workflows, and more. This dashboard supports informed decision-making by allowing users to identify trends, potential issues, and opportunities for optimization in the organization's financial operations. It would be valuable for finance managers, accountants, and other stakeholders who need to understand and manage the organization's financial transactions effectively.
+The Transaction Detail Report Review dashboard provides a comprehensive view of an organization's financial transactions, enabling finance and accounting teams to thoroughly analyze transaction data and identify patterns, issues, and areas for optimization. The dashboard's robust filtering capabilities, date range selection, and powerful search functionality allow users to quickly drill down into specific transaction details based on criteria like workflow, transaction type, location, category, status, and budget code. The dashboard includes pivot tables and regular tables that display a detailed breakdown of transaction types, costs, and other relevant metrics. This dashboard would be valuable for finance managers, accountants, and other stakeholders who need to gain visibility into the organization's financial transactions and support informed decision-making.
 
 ### Tags
 
-`financial management` `transaction analysis` `financial reporting` `data visualization` `business intelligence`
+`finance` `accounting` `transaction analysis` `financial management` `reporting`
 
 ---
 
-*Generated on 2026-01-29 11:54:14 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:18 by Luzmo API Tools*

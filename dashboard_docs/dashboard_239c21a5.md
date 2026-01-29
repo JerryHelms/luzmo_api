@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Contacts Dashboard](../screenshots/Hubspot Contacts_239c21a5.png)
+![Hubspot Contacts Dashboard](../screenshots/Hubspot_Contacts_239c21a5.png)
 
 ## Description
 
@@ -26,11 +26,11 @@ This dashboard is likely used by sales managers, regional sales directors, and o
 
 ## AI-Generated Summary
 
-The Hubspot Contacts dashboard provides a comprehensive view of sales pipeline performance and deal progression for sales managers and executives. It offers insights into the sales funnel, key sales metrics, and trends to help identify areas for improvement and make data-driven decisions to optimize sales strategy and achieve targets. The dashboard's components allow users to track open deals, closed deals, weighted pipeline value, deal creation, and other critical sales KPIs, while also providing visibility into the factors driving successful closures. This dashboard is a valuable tool for sales leadership to monitor the overall health of the sales pipeline and drive sales growth.
+The Hubspot Contacts dashboard provides a comprehensive view of sales performance and pipeline management. It enables sales managers and executives to monitor key metrics, identify areas for improvement, and make data-driven decisions to drive sales growth. The dashboard offers insights into the sales funnel, sales activity, deal progression, and historical trends, allowing users to track the health of the sales pipeline, spot opportunities, and optimize their sales strategies.
 
 ### Tags
 
-`sales performance` `sales pipeline` `sales analytics` `customer relationship management` `business intelligence`
+`sales performance` `pipeline management` `sales analytics` `crm` `business intelligence`
 
 ## Filters
 
@@ -45,4 +45,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:49:38 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:51 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Event Summary Report Dashboard](../screenshots/Event Summary Report_2b554033.png)
+![Event Summary Report Dashboard](../screenshots/Event_Summary_Report_2b554033.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ This Event Summary Report dashboard is a valuable tool for event organizers, man
 
 ## AI-Generated Summary
 
-The Event Summary Report dashboard provides event organizers and managers with a comprehensive view of their event activities. It allows users to analyze and track various aspects of events, such as attendance, location, and type, enabling them to make data-driven decisions and optimize their event planning and execution. The dashboard features filters, search functionality, and detailed event information, empowering users to explore event data from multiple perspectives and gain insights that can help them improve the success and impact of their events.
+The Event Summary Report dashboard is a comprehensive tool that provides event organizers and managers with detailed insights into their event activities. This dashboard allows users to analyze and track various aspects of their events, such as event date, type, location, and attendance, empowering them to make data-driven decisions and optimize their event planning and execution. With its rich set of filters and interactive tables, the dashboard enables users to explore event data from multiple perspectives, identify trends, and uncover valuable insights that can help improve the success and impact of their events.
 
 ### Tags
 
-`event management` `event analytics` `event reporting` `data-driven decision making` `performance optimization`
+`event management` `event analytics` `event planning` `data-driven decisions` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:53:03 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:05 by Luzmo API Tools*

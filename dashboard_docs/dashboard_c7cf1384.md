@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Lead Generation Dashboard Template - Copy Dashboard](../screenshots/Lead Generation Dashboard Template - Copy_c7cf1384.png)
+![Lead Generation Dashboard Template - Copy Dashboard](../screenshots/Lead_Generation_Dashboard_Template_-_Copy_c7cf1384.png)
 
 ## Description
 
@@ -26,11 +26,11 @@ This dashboard would be valuable for marketing managers, demand generation speci
 
 ## AI-Generated Summary
 
-This Lead Generation Dashboard Template provides marketing teams with a comprehensive view of their lead generation efforts across the customer journey. It brings together key metrics and visualizations to help identify the most efficient channels, measure lead engagement, and understand the overall performance of marketing campaigns. The dashboard enables users to monitor lead volume and quality, analyze lead geographic distribution, understand campaign performance, evaluate lead behavior, and discover trends and patterns. This dashboard would be valuable for marketing managers, demand generation specialists, and sales operations teams who are responsible for driving and optimizing lead generation activities.
+This Lead Generation Dashboard Template provides marketing teams with a comprehensive view of their lead generation efforts across the customer journey. It consolidates critical lead data and performance metrics into a single dashboard, empowering users to make data-driven decisions, optimize marketing campaigns, and improve the overall efficiency of the lead generation process. The dashboard offers insights into lead volume and quality, geographic distribution, campaign performance, lead behavior, and high-level trends and patterns. It enables users to monitor key metrics, analyze engagement, and identify the most effective channels and campaigns. This dashboard would be valuable for marketing managers, demand generation specialists, and sales operations teams responsible for driving and optimizing lead generation activities.
 
 ### Tags
 
-`lead generation` `marketing analytics` `campaign performance` `lead management` `customer journey`
+`lead generation` `marketing analytics` `campaign performance` `customer journey` `data-driven decision making`
 
 ## Filters
 
@@ -43,4 +43,4 @@ This dashboard has **4 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:50:19 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:30 by Luzmo API Tools*

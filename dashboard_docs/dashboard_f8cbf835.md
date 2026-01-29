@@ -4,16 +4,16 @@
 
 ## Screenshot
 
-![STC - Inventory Reports Dashboard](../screenshots/STC - Inventory Reports_f8cbf835.png)
+![STC - Inventory Reports Dashboard](../screenshots/STC_-_Inventory_Reports_f8cbf835.png)
 
 ## AI-Generated Summary
 
-This STC Inventory Reports dashboard provides comprehensive insights into a company's inventory. It allows users to track and manage inventory levels, item details, and storage locations. Key features include the ability to view inventory summaries, re-order reports, and drill down into specific item numbers, tag numbers, categories, and storage locations. This dashboard is valuable for inventory managers, purchasing agents, and operations teams who need to maintain optimal inventory levels and ensure efficient storage and distribution.
+This dashboard provides comprehensive inventory reporting and analysis for an organization. It includes a range of components that allow users to view and interact with key inventory metrics, such as item counts, total value, and quantity to order. The dashboard includes interactive filters and selection tools to allow users to quickly analyze inventory data by item number, tag number, category, type, and storage location. Additionally, it provides summary reports and pivot tables to help users gain high-level insights into inventory trends and conditions. This dashboard would be valuable for inventory managers, supply chain professionals, and other business stakeholders who need to monitor and optimize inventory levels and operations.
 
 ### Tags
 
-`inventory management` `item tracking` `storage optimization` `purchasing` `operations`
+`inventory` `supply chain` `reporting` `analytics` `operations`
 
 ---
 
-*Generated on 2026-01-29 11:55:49 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:58 by Luzmo API Tools*

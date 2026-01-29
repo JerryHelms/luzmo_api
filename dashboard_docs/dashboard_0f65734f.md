@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory - Items Dashboard](../screenshots/Inventory - Items_0f65734f.png)
+![Inventory - Items Dashboard](../screenshots/Inventory_-_Items_0f65734f.png)
 
 ## Description
 
@@ -22,11 +22,11 @@ This dashboard would be primarily utilized by inventory managers, supply chain p
 
 ## AI-Generated Summary
 
-The "Inventory - Items" dashboard provides a comprehensive view of an organization's inventory, enabling inventory managers and supply chain professionals to effectively monitor and manage their inventory levels, value, and replenishment needs. The dashboard consolidates data from multiple sources, allowing users to explore inventory details by various filters such as item name, tag number, category, inventory type, and storage location. Key metrics like number of items, inventory value, and amount to order offer valuable insights into current inventory status and potential actions required. Detailed reports on storage location and overall inventory summary further empower users to make data-driven decisions, optimize inventory levels, and ensure efficient supply chain operations.
+The "Inventory - Items" dashboard provides a comprehensive view of an organization's inventory, empowering inventory managers and supply chain professionals to effectively monitor and manage their inventory levels, values, and replenishment needs. The dashboard consolidates data from multiple sources, allowing users to explore and analyze inventory information through a variety of filters, visualizations, and tables. Key features include the ability to view inventory metrics such as item counts, inventory values, and suggested order quantities, as well as detailed reports on storage location summaries and overall inventory status. This dashboard enables data-driven decision-making, supports inventory optimization, and ensures efficient supply chain operations.
 
 ### Tags
 
-`inventory management` `supply chain` `business intelligence` `operations` `data analytics`
+`inventory management` `supply chain` `business intelligence` `data visualization` `operations`
 
 ## Filters
 
@@ -38,4 +38,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:53:16 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:16 by Luzmo API Tools*

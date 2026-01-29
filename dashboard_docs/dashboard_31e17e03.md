@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Days Open Dashboard](../screenshots/Days Open_31e17e03.png)
+![Days Open Dashboard](../screenshots/Days_Open_31e17e03.png)
 
 ## Description
 
@@ -24,11 +24,11 @@ This dashboard is likely used by managers, team leads, and operational personnel
 
 ## AI-Generated Summary
 
-This "Days Open" dashboard provides comprehensive reporting and analysis on open requests or tasks across an organization. It equips managers, team leads, and operational personnel with powerful insights to monitor, investigate, and optimize the request resolution process. The dashboard features robust filtering capabilities, key performance metrics, and detailed visualizations that enable users to quickly identify trends, pinpoint areas for improvement, and make data-driven decisions to enhance customer satisfaction and operational efficiency.
+This comprehensive "Days Open" dashboard provides a powerful reporting and analytics solution for tracking and managing open requests or tasks across an organization. It offers a wide range of interactive filters, visualizations, and key metrics to help managers, team leads, and operational personnel monitor the status, aging, and resolution of open items. The dashboard allows users to quickly identify areas of concern, understand trends, and make data-driven decisions to optimize the open request handling process and improve customer satisfaction.
 
 ### Tags
 
-`request management` `task tracking` `operational reporting` `performance analysis` `process optimization`
+`open request management` `operations reporting` `task tracking` `performance optimization` `customer service`
 
 ## Filters
 
@@ -40,4 +40,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:49 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:55 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Support]Events to Review - Copy Dashboard](../screenshots/_Support_Events to Review - Copy_3fc1b59f.png)
+![[Support]Events to Review - Copy Dashboard](../screenshots/_Support_Events_to_Review_-_Copy_3fc1b59f.png)
 
 ## Description
 
@@ -24,11 +24,11 @@ This dashboard would be primarily used by a support team responsible for reviewi
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of events that require review and processing by a support team. It features a variety of components that allow users to filter, analyze, and track key metrics related to these events. The dashboard enables the support team to quickly identify events that need attention, understand the event details and associated resources, and monitor overall event-related activity and performance. The combination of filters, tables, and metrics empowers the support team to efficiently prioritize and address the events under their purview.
+This [Support]Events to Review - Copy dashboard provides a comprehensive view of events that require review and processing by a support team. It allows users to quickly identify events that need attention, understand the event details and associated resources, and monitor overall event-related activity and performance. The dashboard features a variety of components that enable the support team to efficiently filter, analyze, and track key metrics related to these events, such as status, event group, venue, and internal/external occurrences. This helps the support team prioritize and address the events under their purview.
 
 ### Tags
 
-`event management` `support operations` `performance monitoring` `resource allocation` `event tracking`
+`event management` `support operations` `performance monitoring` `resource tracking` `business intelligence`
 
 ## Filters
 
@@ -40,4 +40,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:21 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:24 by Luzmo API Tools*

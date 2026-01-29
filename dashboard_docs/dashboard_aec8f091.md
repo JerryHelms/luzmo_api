@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Assets and Work Orders - Deprecated Dashboard](../screenshots/Assets and Work Orders - Deprecated_aec8f091.png)
+![Assets and Work Orders - Deprecated Dashboard](../screenshots/Assets_and_Work_Orders_-_Deprecated_aec8f091.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, this dashboard seems designed to give asset managers and maintenance te
 
 ## AI-Generated Summary
 
-This deprecated "Assets and Work Orders" dashboard provides a comprehensive view of an organization's asset management and maintenance operations. It helps asset managers, maintenance teams, and operations personnel monitor and analyze the company's physical assets and associated work orders. Users can filter, search, and analyze asset and work order data to identify trends, monitor performance, and make data-driven decisions about asset management and maintenance strategies. The dashboard includes tables displaying assets and work orders, as well as a pivot table for more flexible data analysis.
+This deprecated "Assets and Work Orders" dashboard provides a comprehensive view of an organization's asset management and maintenance operations. It helps asset managers, maintenance teams, and operations personnel monitor and analyze the company's physical assets and associated work orders. The dashboard features interactive filters to narrow down data by asset category, location, condition, status, priority, and more. It displays two tables - one for assets and another for related work orders. Additionally, a pivot table component allows for flexible data analysis. This dashboard enables users to identify trends, monitor performance, and make data-driven decisions about asset management and maintenance strategies.
 
 ### Tags
 
-`asset management` `work orders` `maintenance` `operations` `data-driven decision making`
+`asset management` `work orders` `maintenance` `operations` `data analysis`
 
 ---
 
-*Generated on 2026-01-29 11:53:56 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:57 by Luzmo API Tools*

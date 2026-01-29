@@ -22,12 +22,12 @@ This dashboard would be valuable for finance teams monitoring budgets and expens
 
 ## AI-Generated Summary
 
-This comprehensive Transactions dashboard provides business leaders and operational teams with deep visibility into the company's financial transactions and labor activities. It consolidates data from multiple sources, enabling users to analyze transactions across key dimensions like transaction type, technician, supplier/vendor, and work order ID. Extensive filtering and search capabilities empower users to quickly slice and dice the data to answer specific questions. Key insights include monthly labor hours, expenses, and overall transaction volume trends, detailed breakdowns of labor hours by location and technician, and a comprehensive transactions view for auditing and reconciliation. This dashboard would be valuable for finance, operations, and procurement teams to make more informed, data-driven decisions.
+This Transactions dashboard provides a comprehensive view of the company's financial transactions and labor activities, enabling business leaders and operational teams to gain deep insights and make informed, data-driven decisions. The dashboard consolidates data from multiple sources, allowing users to analyze transactions across various dimensions such as transaction type, technician, supplier/vendor, and work order ID. The extensive use of filters, date ranges, and search capabilities empowers users to quickly slice and dice the data to answer specific questions. Key insights include monthly labor hours, expenses, and overall transaction volume trends over time, detailed breakdowns of labor hours by location and technician, and a comprehensive transactions view with the ability to drill down into individual records. This dashboard would be valuable for finance teams monitoring budgets and expenses, operations managers optimizing labor utilization, and procurement leaders evaluating supplier performance.
 
 ### Tags
 
-`transactions` `finance` `operations` `labor management` `procurement`
+`transactions` `finance` `operations` `reporting` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:51:51 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:51 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Assets and Work Orders with Allocated Costs Dashboard](../screenshots/Assets and Work Orders with Allocated Costs_09fd6b61.png)
+![Assets and Work Orders with Allocated Costs Dashboard](../screenshots/Assets_and_Work_Orders_with_Allocated_Costs_09fd6b61.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ By consolidating these various data sources and visualization types, this dashbo
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of a company's asset management and work order operations, helping asset managers, maintenance teams, and finance professionals understand the allocation of costs across the company's assets and work orders. It offers insights into asset status, condition, and location, as well as work order status and workflow, to support decision-making around maintenance, replacement, and resource allocation. The dashboard also includes detailed cost allocation information, including a pivot table and a bar chart that show the top assets with the highest total costs, enabling finance professionals and decision-makers to make data-driven budgeting and investment decisions.
+This dashboard provides a comprehensive view of a company's asset management and work order operations, enabling asset managers, maintenance teams, and finance professionals to understand the allocation of costs across the company's assets and work orders. The dashboard features a range of interactive filters and visualizations, allowing users to analyze asset details, track work order status and workflow, and gain insights into cost allocation. Key insights include asset management, work order analysis, and detailed cost allocation information, which supports data-driven decision-making for optimizing asset performance, maintenance processes, and overall financial management.
 
 ### Tags
 
-`asset management` `work order management` `cost allocation` `operations optimization` `financial analysis`
+`asset management` `work orders` `cost allocation` `maintenance` `finance`
 
 ---
 
-*Generated on 2026-01-29 11:54:55 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:01 by Luzmo API Tools*

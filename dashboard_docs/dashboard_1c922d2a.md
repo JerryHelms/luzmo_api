@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Transaction: Labor Details Dashboard](../screenshots/Transaction_ Labor Details_1c922d2a.png)
+![Transaction: Labor Details Dashboard](../screenshots/Transaction__Labor_Details_1c922d2a.png)
 
 ## Description
 
@@ -28,11 +28,11 @@ This dashboard serves as a centralized hub for labor-related data, empowering st
 
 ## AI-Generated Summary
 
-The "Transaction: Labor Details" dashboard provides a comprehensive view of labor-related transactions for an organization. It is designed to help managers, finance teams, and operations personnel monitor and analyze labor costs, hours, and performance. The dashboard includes interactive components that enable users to filter, slice, and visualize labor data by various dimensions such as transaction type, technician, work order ID, and supplier/vendor. Key features include summary pivot tables and bar charts for labor hours, evolution numbers for tracking metrics over time, and a detailed transactions table for granular analysis. This dashboard empowers stakeholders to make informed decisions about resource allocation, cost management, and operational efficiency by answering questions about labor hour distribution, top cost drivers, and trends.
+The "Transaction: Labor Details" dashboard provides a comprehensive view of labor-related transactions for an organization. This dashboard is likely used by managers, finance teams, or operations personnel to monitor and analyze labor costs, hours, and performance. The dashboard includes interactive components that allow users to filter, slice, and visualize labor data by various dimensions such as transaction type, technician, work order ID, and supplier/vendor. Users can explore labor hours and costs across different work types and locations, identify top labor drivers, track trends over time, and view detailed transaction records. This dashboard serves as a centralized hub for labor-related data, empowering stakeholders to make informed decisions about resource allocation, cost management, and operational efficiency.
 
 ### Tags
 
-`labor management` `operations analysis` `financial reporting` `resource optimization` `cost management`
+`labor management` `work orders` `operations analytics` `resource allocation` `cost management`
 
 ## Filters
 
@@ -50,4 +50,4 @@ This dashboard has **9 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:44 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:48 by Luzmo API Tools*

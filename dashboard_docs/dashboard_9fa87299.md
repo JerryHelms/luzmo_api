@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![AR Schedules Dashboard](../screenshots/AR Schedules_9fa87299.png)
+![AR Schedules Dashboard](../screenshots/AR_Schedules_9fa87299.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, the "AR Schedules" dashboard serves as a centralized hub for finance an
 
 ## AI-Generated Summary
 
-The "AR Schedules" dashboard provides a comprehensive view of a company's accounts receivable (AR) data, enabling finance and accounting teams to monitor and manage outstanding customer invoices and payments. With a range of filtering options and detailed data tables, this dashboard helps users analyze customer AR status, aging, and payment trends. Key insights include identifying late or delinquent payments, understanding cash flow, and informing customer credit and relationship management strategies. Overall, this dashboard serves as a central hub for optimizing AR and improving the company's financial position.
+The "AR Schedules" dashboard provides a comprehensive view of accounts receivable (AR) data, enabling finance and accounting teams to monitor and manage outstanding customer invoices and payments. The dashboard offers a range of filtering options to analyze AR aging, customer payment trends, and the overall AR status of the organization. Key insights include identifying late or delinquent payments, optimizing cash flow, and informing customer relationship management strategies. This centralized dashboard serves as a powerful tool for finance professionals to understand the company's AR position and take appropriate actions to improve cash flow and customer relationships.
 
 ### Tags
 
-`accounts receivable` `financial reporting` `cash flow management` `customer credit` `customer relationship management`
+`accounts receivable` `cash flow management` `customer payment analysis` `financial reporting` `credit management`
 
 ---
 
-*Generated on 2026-01-29 11:53:39 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:41 by Luzmo API Tools*

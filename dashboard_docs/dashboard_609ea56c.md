@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![MG_Events to Review Dashboard](../screenshots/MG_Events to Review_609ea56c.png)
+![MG_Events to Review Dashboard](../screenshots/MG_Events_to_Review_609ea56c.png)
 
 ## Description
 
@@ -29,13 +29,11 @@ This dashboard is likely used by event managers, venue coordinators, and other k
 
 ## AI-Generated Summary
 
-The "MG_Events to Review" dashboard provides a centralized, data-driven view of upcoming events that need to be reviewed and managed. This dashboard empowers event planners, venue managers, and other stakeholders to effectively monitor, coordinate, and execute their organization's events. 
-
-By combining various filter, visualization, and data display components, users can quickly understand the current status and progress of upcoming events, identify potential issues or areas that need attention, analyze trends and patterns to inform future planning, and collaborate across teams. The dashboard's comprehensive set of tools enables users to efficiently review, track, and manage the full event lifecycle.
+The "MG_Events to Review" dashboard provides a centralized, data-driven view to help event managers, venue coordinators, and other stakeholders effectively review, monitor, and manage the full lifecycle of upcoming events. This dashboard empowers users to understand the current status and progress of events, identify potential issues or areas that need attention, analyze trends and patterns, and collaborate across different teams. By combining various filter, visualization, and data display components, users can quickly narrow down event data, track key metrics, and make informed decisions to ensure the successful execution of the organization's events.
 
 ### Tags
 
-`event planning` `event management` `venue management` `data-driven decision making` `collaboration`
+`event management` `event planning` `venue management` `performance monitoring` `data-driven decision making`
 
 ## Filters
 
@@ -47,4 +45,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:53:32 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:33 by Luzmo API Tools*

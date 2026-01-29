@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Capital Needs With Pivot Tables Dashboard](../screenshots/Capital Needs With Pivot Tables_00001b2d.png)
+![Capital Needs With Pivot Tables Dashboard](../screenshots/Capital_Needs_With_Pivot_Tables_00001b2d.png)
 
 ## Description
 
@@ -29,12 +29,12 @@ This dashboard would be valuable for executives, finance teams, and operational 
 
 ## AI-Generated Summary
 
-The "Capital Needs With Pivot Tables" dashboard provides a comprehensive view of an organization's capital investment requirements, project pipeline, and cost trends. It empowers project managers, facility planners, and financial analysts to understand the current status, estimated costs, and prioritization of the organization's capital projects. The dashboard features interactive components like dropdown filters, pivot tables, and various charts that allow users to analyze capital needs and costs across different dimensions such as location, category, and project year. This dashboard supports data-driven decision-making around budget planning, project prioritization, and resource allocation for the organization's capital investments.
+The "Capital Needs With Pivot Tables" dashboard provides a comprehensive overview of an organization's capital project pipeline and investment requirements. Leveraging interactive components like dropdown filters, pivot tables, and trend visualizations, this dashboard empowers project managers, facility planners, and financial analysts to gain insights into the current backlog, estimated costs, and investment priorities across different locations, categories, and project years. The dashboard enables users to understand how capital needs are distributed, identify trends over time, and make informed decisions about project prioritization and resource allocation. This valuable tool supports strategic capital planning and budgeting for the organization.
 
 ### Tags
 
-`capital planning` `project management` `facilities management` `financial analysis` `budgeting`
+`capital planning` `project management` `financial analysis` `facilities management` `budget planning`
 
 ---
 
-*Generated on 2026-01-29 11:50:41 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:48 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Due This Week Dashboard](../screenshots/Due This Week_e73e8868.png)
+![Due This Week Dashboard](../screenshots/Due_This_Week_e73e8868.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ Overall, the "Due This Week" dashboard serves as a valuable tool for maintaining
 
 ## AI-Generated Summary
 
-The "Due This Week" dashboard provides a comprehensive overview of upcoming tasks and deadlines for an organization or team. It helps users stay organized, prioritize their efforts, and ensure critical work is completed on time. Key features include searchable filters to narrow down the information, date range selection to focus on specific timeframes, and dynamic metrics that display the total number of due tasks and other key indicators. This dashboard is valuable for project managers, team leaders, and anyone responsible for tracking and managing upcoming work and deliverables, allowing them to maintain visibility, monitor progress, and proactively address potential issues or bottlenecks in the workflow.
+The "Due This Week" dashboard provides a comprehensive view of upcoming tasks and deadlines for an organization or team, enabling users to effectively manage their work. It allows users to filter, analyze, and monitor the status of tasks through various components, including search and select filters, date filters, and data tables. This dashboard is particularly useful for project managers, team leaders, and anyone responsible for tracking and managing upcoming work and deliverables. By offering a centralized view of due tasks and deadlines, the dashboard helps users stay organized, prioritize their efforts, and ensure critical work is completed on time, ultimately improving the team's productivity and performance.
 
 ### Tags
 
-`project management` `task management` `workflow monitoring` `deadline tracking` `team productivity`
+`task management` `project management` `deadline tracking` `work planning` `team productivity`
 
 ---
 
-*Generated on 2026-01-29 11:52:47 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:48 by Luzmo API Tools*

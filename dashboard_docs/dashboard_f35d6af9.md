@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Created Work Orders Dashboard](../screenshots/Created Work Orders_f35d6af9.png)
+![Created Work Orders Dashboard](../screenshots/Created_Work_Orders_f35d6af9.png)
 
 ## Description
 
@@ -20,12 +20,12 @@ By using the dropdown filters and pivot tables, users can quickly identify trend
 
 ## AI-Generated Summary
 
-The "Created Work Orders" dashboard provides a comprehensive view of work orders for an organization, enabling operations managers, project managers, and team leaders to track and analyze the status and progress of work orders. The dashboard allows users to filter the data by work order type, status, and date range, and presents detailed information in pivot tables about the number of work orders created, their status, and associated costs or resource utilization. This dashboard helps users identify trends, bottlenecks, and areas for improvement in the work order process, allowing them to make informed decisions, optimize resource allocation, and ensure timely completion of work orders. The insights provided by this dashboard are valuable for various stakeholders, including operations, project management, and executive leadership.
+The "Created Work Orders" dashboard provides a comprehensive overview of an organization's work order management. This dashboard is designed to help operations managers, project managers, and team leaders track and analyze the status, progress, and associated costs of work orders. By using the interactive filters and pivot tables, users can easily identify trends, bottlenecks, and areas for improvement in the work order process. This dashboard can support informed decision-making, optimize resource allocation, and ensure timely completion of work orders, ultimately enhancing the overall operational efficiency of the organization.
 
 ### Tags
 
-`work orders` `operations management` `project management` `resource utilization` `work order tracking`
+`work order management` `operations analytics` `project management` `resource utilization` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:50:52 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:57 by Luzmo API Tools*

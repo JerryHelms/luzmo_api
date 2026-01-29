@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![INTERNAL Client Event Invoices Dashboard](../screenshots/INTERNAL Client Event Invoices_6ba7af9e.png)
+![INTERNAL Client Event Invoices Dashboard](../screenshots/INTERNAL_Client_Event_Invoices_6ba7af9e.png)
 
 ## Description
 
@@ -26,11 +26,11 @@ This dashboard would be particularly useful for finance teams responsible for cl
 
 ## AI-Generated Summary
 
-The "INTERNAL Client Event Invoices" dashboard provides a comprehensive view of client event invoicing and payments for finance and operations teams. It enables users to track, analyze, and manage the financial aspects of their client events. The dashboard offers a range of features, including filtering and segmentation tools, high-level invoice and payment metrics, trend analysis, top-performing venue identification, and detailed invoice data. This dashboard would be particularly useful for finance teams responsible for client event invoicing and collections, as well as operations teams that need to understand the financial performance of their client events. By providing a centralized and interactive view of invoice data, the dashboard enables users to make more informed decisions, improve cash flow management, and optimize their client event operations.
+The "INTERNAL Client Event Invoices" dashboard provides finance and operations teams with a comprehensive view of client event invoicing and payments. This dashboard brings together key data and metrics to help users track, analyze, and manage the financial aspects of their client events. Users can filter and segment the data, monitor high-level invoice and payment metrics, analyze invoice trends over time, identify top-performing venues, and dive into detailed invoice data. This dashboard enables finance teams responsible for client event invoicing and collections, as well as operations teams, to make more informed decisions, improve cash flow management, and optimize their client event operations.
 
 ### Tags
 
-`client events` `invoicing` `finance` `operations` `analytics`
+`client events` `invoicing` `finance` `operations` `data visualization`
 
 ## Filters
 
@@ -45,4 +45,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:53:13 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:13 by Luzmo API Tools*

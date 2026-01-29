@@ -4,16 +4,16 @@
 
 ## Screenshot
 
-![Evesham Work Order Status Dashboard](../screenshots/Evesham Work Order Status_acdefce1.png)
+![Evesham Work Order Status Dashboard](../screenshots/Evesham_Work_Order_Status_acdefce1.png)
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of the work order status for the Evesham organization. It tracks key metrics such as total requests, new requests, approved requests, queued requests, started requests, requests in review, closed requests, and canceled requests. The dashboard includes a detailed breakdown of work order status through interactive filters, charts, and a data table. This would be valuable for managers, supervisors, and operational teams to monitor the work order lifecycle, identify bottlenecks, and make informed decisions to improve efficiency and customer service.
+This dashboard provides an overview of the work order status for the Evesham organization. It displays the total number of requests, as well as the breakdown by different statuses such as new, approved, queued, started, review, closed, canceled, and on hold. Users can filter the data by date and status to quickly understand the current state of work orders and identify any bottlenecks or areas that need attention. This dashboard would be valuable for managers, supervisors, and operations teams responsible for monitoring and managing the work order process.
 
 ### Tags
 
-`work orders` `operations` `process management` `business intelligence` `service delivery`
+`work orders` `operations` `status tracking` `business intelligence` `performance monitoring`
 
 ---
 
-*Generated on 2026-01-29 11:55:41 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:49 by Luzmo API Tools*

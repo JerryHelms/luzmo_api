@@ -4,16 +4,16 @@
 
 ## Screenshot
 
-![Event Schedules Dashboard](../screenshots/Event Schedules_ef7fc1f0.png)
+![Event Schedules Dashboard](../screenshots/Event_Schedules_ef7fc1f0.png)
 
 ## AI-Generated Summary
 
-The Event Schedules dashboard provides a comprehensive overview of upcoming events, including their start dates, statuses, venues, and event groups. It allows users to filter and view event listings, services, and available event spaces. This dashboard is particularly useful for event planners, venue managers, and stakeholders who need to stay on top of event schedules, availability, and related details to ensure successful event execution.
+The Event Schedules dashboard provides a comprehensive view of upcoming events, allowing event organizers and managers to easily track and manage event details. It features a range of filtering options, such as event start date, status, venue, and event group, allowing users to quickly find and analyze relevant information. The dashboard includes several data visualizations, including tables that display event listings, services, and spaces, enabling users to gain insights into the various aspects of event planning and execution. This dashboard would be valuable for event management teams, venue coordinators, and other stakeholders who need to stay informed about upcoming events and ensure smooth event operations.
 
 ### Tags
 
-`event scheduling` `event management` `venue management` `calendar` `business operations`
+`event management` `event scheduling` `event planning` `venue management` `operations`
 
 ---
 
-*Generated on 2026-01-29 11:55:46 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:55 by Luzmo API Tools*

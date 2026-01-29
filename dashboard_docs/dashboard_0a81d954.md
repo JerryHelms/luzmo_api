@@ -24,11 +24,11 @@ Overall, this dashboard provides a centralized and interactive way for users to 
 
 ## AI-Generated Summary
 
-This "Events" dashboard provides a comprehensive view of an organization's event-related data and activities. It enables event managers, coordinators, and other stakeholders to monitor, analyze, and report on various aspects of the organization's events, such as event count, status, venue, and event group. The dashboard offers a variety of interactive filters, time-series metrics, donut charts, and pivot tables to help users quickly identify trends, spot anomalies, and gain insights into the organization's event portfolio. This dashboard supports informed decision-making, effective event planning, resource allocation, and performance tracking, making it valuable for event management and reporting purposes.
+This "Events" dashboard provides a comprehensive view of an organization's event-related data and activities. It is designed to help event managers, coordinators, and other stakeholders monitor, analyze, and report on various aspects of the organization's events. The dashboard enables users to filter and segment event data, track event counts and status over time, understand the distribution of events by different criteria, and explore detailed event-level information. The combination of interactive visualizations and data tables allows users to quickly identify trends, spot anomalies, and gain insights that support informed decision-making and more effective event management.
 
 ### Tags
 
-`events` `event management` `performance tracking` `data analysis` `reporting`
+`event management` `business analytics` `performance tracking` `resource allocation` `reporting`
 
 ## Filters
 
@@ -40,4 +40,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:52:39 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:39 by Luzmo API Tools*

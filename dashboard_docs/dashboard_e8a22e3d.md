@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Transaction: Expense Details Dashboard](../screenshots/Transaction_ Expense Details_e8a22e3d.png)
+![Transaction: Expense Details Dashboard](../screenshots/Transaction__Expense_Details_e8a22e3d.png)
 
 ## Description
 
@@ -24,11 +24,11 @@ This dashboard would be valuable for finance, procurement, and operations teams 
 
 ## AI-Generated Summary
 
-This "Transaction: Expense Details" dashboard provides a comprehensive view of an organization's expenses, enabling finance, procurement, and operations teams to closely monitor and analyze expense patterns, identify cost-saving opportunities, and make informed decisions about supplier and vendor relationships. The dashboard offers a wide range of features, including high-level expense metrics, expense breakdowns by various dimensions (type, technician, supplier/vendor, work order, category, work type), supplier/vendor cost analysis, and expense trend visualization. This dashboard empowers users to understand the drivers of the organization's expenses, track spending over time, and optimize supplier and vendor management, ultimately supporting financial control and operational efficiency.
+This "Transaction: Expense Details" dashboard provides a comprehensive view of an organization's expense data, enabling finance, procurement, and operations teams to track, analyze, and manage various aspects of their expenses. The dashboard offers a wide range of insights, including high-level expense metrics, expense breakdowns by type, technician, supplier/vendor, work order, and other dimensions, as well as supplier/vendor-specific insights. Users can filter and explore the data to identify cost-saving opportunities, monitor spending trends, and make informed decisions about supplier and vendor relationships.
 
 ### Tags
 
-`expense tracking` `procurement management` `vendor analysis` `financial reporting` `operational efficiency`
+`expense management` `procurement` `vendor management` `cost analysis` `financial reporting`
 
 ## Filters
 
@@ -52,4 +52,4 @@ This dashboard has **15 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:41 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:46 by Luzmo API Tools*

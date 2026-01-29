@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Alaska Reports Dashboard](../screenshots/Alaska Reports_db158efd.png)
+![Alaska Reports Dashboard](../screenshots/Alaska_Reports_db158efd.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ This dashboard would be valuable for Alaska-based operations and maintenance tea
 
 ## AI-Generated Summary
 
-The Alaska Reports dashboard provides a comprehensive view of key metrics and performance indicators related to work requests and completion in Alaska. This dashboard is likely used by managers, supervisors, and other stakeholders involved in overseeing and optimizing the work request and fulfillment process. The dashboard offers insights into productivity, efficiency, and service levels, allowing users to monitor and analyze the performance of the work request and completion process. This can help inform decision-making and drive continuous improvement for Alaska-based operations and maintenance teams.
+The Alaska Reports dashboard provides a comprehensive view of key metrics and performance indicators related to work requests and completion in Alaska. This dashboard is likely used by managers, supervisors, and other stakeholders involved in overseeing and optimizing the work request and fulfillment process. The dashboard offers insights into productivity, efficiency, and service levels that can inform decision-making and drive continuous improvement for Alaska-based operations and maintenance teams.
 
 ### Tags
 
-`operations` `maintenance` `work orders` `performance management` `alaska`
+`work orders` `maintenance` `operations` `performance management` `alaska`
 
 ---
 
-*Generated on 2026-01-29 11:49:56 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:07 by Luzmo API Tools*

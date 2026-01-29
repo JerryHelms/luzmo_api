@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Login Activity Dashboard](../screenshots/_Internal_ Login Activity_891700ef.png)
+![[Internal] Login Activity Dashboard](../screenshots/_Internal__Login_Activity_891700ef.png)
 
 ## Description
 
@@ -28,12 +28,12 @@ This dashboard would be primarily used by IT, security, and user engagement team
 
 ## AI-Generated Summary
 
-This internal dashboard provides a comprehensive view of user login activity and trends, allowing IT, security, and user engagement teams to monitor login patterns, identify potential security concerns, and understand user engagement. The dashboard tracks key metrics like unique users, daily and monthly active users, login methods, and login tokens issued, providing insights into user behavior and authentication activity. With features like heat tables, line charts, and domain-based user analysis, the dashboard supports data-driven decision-making around login security, user engagement, and operational improvements.
+This internal dashboard, titled "Login Activity," provides a comprehensive view of user login activity and user trends for a business or organization. The dashboard contains a variety of components that address different aspects of login behavior, allowing users to monitor and analyze user engagement, login patterns, and potential security concerns. Key insights include user metrics, login methods, login tokens, login patterns, and user domain analysis. This dashboard would be primarily used by IT, security, and user engagement teams to monitor login activity, identify trends and patterns, and potentially investigate security-related issues or user engagement opportunities.
 
 ### Tags
 
-`login activity` `user engagement` `security monitoring` `authentication trends` `business intelligence`
+`login analytics` `user engagement` `security monitoring` `it operations` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:54:04 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:07 by Luzmo API Tools*

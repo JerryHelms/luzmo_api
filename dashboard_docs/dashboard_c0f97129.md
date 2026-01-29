@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Summary (EVESHAM) Dashboard](../screenshots/Work Order Summary _EVESHAM__c0f97129.png)
+![Work Order Summary (EVESHAM) Dashboard](../screenshots/Work_Order_Summary__EVESHAM__c0f97129.png)
 
 ## Description
 
@@ -25,12 +25,12 @@ By providing this level of visibility and insight, the "Work Order Summary (EVES
 
 ## AI-Generated Summary
 
-The "Work Order Summary (EVESHAM)" dashboard provides a comprehensive overview of work orders for the Evesham location, empowering managers and operations teams with the ability to track and analyze work order data. The dashboard offers a clear and concise view of the work order landscape, answering key questions such as the current volume of work orders, the status of individual work orders, and the progress of outstanding work orders. By leveraging the dashboard's various components, including dropdown filters, evolution numbers, date filters, and data tables, users can make more informed decisions, optimize their work order processes, and improve the overall efficiency and productivity of the Evesham location.
+The "Work Order Summary (EVESHAM)" dashboard provides a comprehensive overview of work orders for the Evesham location. It is designed to help managers and operations teams track and analyze work order data, enabling them to make informed decisions to optimize workflows and resource allocation. The dashboard offers filtering capabilities, evolution numbers for key metrics, and detailed data tables to give users a clear understanding of the work order landscape. This includes insights into the current volume of work orders, their status and priority, and the assigned technicians. By providing this level of visibility, the dashboard empowers users to identify areas for improvement, prioritize outstanding work orders, and enhance the overall efficiency and productivity of the Evesham location.
 
 ### Tags
 
-`work orders` `operations` `management` `performance tracking` `resource optimization`
+`work orders` `operations management` `performance tracking` `workflow optimization` `resource allocation`
 
 ---
 
-*Generated on 2026-01-29 11:52:14 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:13 by Luzmo API Tools*

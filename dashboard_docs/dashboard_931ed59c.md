@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Rogers Work Order Details Dashboard](../screenshots/Rogers Work Order Details_931ed59c.png)
+![Rogers Work Order Details Dashboard](../screenshots/Rogers_Work_Order_Details_931ed59c.png)
 
 ## Description
 
@@ -29,16 +29,12 @@ By providing a centralized and interactive view of work order data, the "Rogers 
 
 ## AI-Generated Summary
 
-The "Rogers Work Order Details" dashboard provides a comprehensive view of work order information for Rogers, a company that manages various work orders and projects. This interactive dashboard serves as a central hub for accessing, filtering, and analyzing detailed work order data, empowering users to make informed decisions, optimize resource allocation, and improve the overall management of Rogers' work order processes.
-
-The dashboard enables users to search and select work order details, filter by specific date ranges, perform free-text searches, and view detailed work order information in tabular format. This functionality helps answer critical questions, such as the current status and priority of active work orders, which work orders are assigned to specific technicians or locations, and what work orders were opened or completed within a particular date range.
-
-By providing a centralized and intuitive interface to work order data, the dashboard is valuable for Rogers' operations, project management, and service teams, allowing them to quickly access and analyze the information they need to effectively manage the company's work order processes.
+The "Rogers Work Order Details" dashboard provides a comprehensive view of work order information for Rogers, a company that manages various work orders and projects. This interactive dashboard serves as a central hub for accessing, filtering, and analyzing detailed work order data. It enables users, such as operations, project management, and service teams, to quickly search, select, and review work orders based on criteria like status, priority, location, and assigned technicians. The dashboard also allows users to view work orders by date range and perform free-text searches to find specific work orders. By offering a centralized and customizable view of work order data, this dashboard empowers Rogers' teams to make informed decisions, optimize resource allocation, and improve the overall management of their work order processes.
 
 ### Tags
 
-`work orders` `operations` `project management` `service management` `data analysis`
+`work orders` `operations` `project management` `service management` `data analytics`
 
 ---
 
-*Generated on 2026-01-29 11:50:30 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:39 by Luzmo API Tools*

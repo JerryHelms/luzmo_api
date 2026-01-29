@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Transaction: Labor and Expenses Dashboard](../screenshots/Transaction_ Labor and Expenses_4f8df002.png)
+![Transaction: Labor and Expenses Dashboard](../screenshots/Transaction__Labor_and_Expenses_4f8df002.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ Overall, this dashboard serves as a valuable tool for financial management, oper
 
 ## AI-Generated Summary
 
-The "Transaction: Labor and Expenses" dashboard provides comprehensive insights into an organization's labor and expense transactions. It empowers finance, operations, and management teams to track, analyze, and optimize the organization's spending and resource utilization. The dashboard enables users to filter and segment data by location, category, work order, and date range, monitor key metrics and trends over time, analyze transaction data in detail, and drill down into individual work order details. This centralized, interactive platform helps stakeholders understand labor costs, identify spending patterns, and make more informed business decisions to drive operational efficiency and strategic planning.
+This "Transaction: Labor and Expenses" dashboard provides a comprehensive view of an organization's labor and expense transactions. It is designed to help finance, operations, and management teams track, analyze, and gain insights into the organization's spending and resource utilization. Users can filter and segment the data by various criteria, monitor key metrics and trends over time, analyze transaction data in detail, and drill down into individual work order details. This centralized, interactive platform enables stakeholders to understand labor costs, monitor spending patterns, identify opportunities for optimization, and make more informed business decisions.
 
 ### Tags
 
-`financial management` `operational efficiency` `labor costs` `expense tracking` `strategic planning`
+`financial management` `operational efficiency` `cost optimization` `resource utilization` `strategic planning`
 
 ---
 
-*Generated on 2026-01-29 11:55:25 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:32 by Luzmo API Tools*

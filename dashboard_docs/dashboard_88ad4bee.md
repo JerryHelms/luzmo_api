@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Details (V2) Dashboard](../screenshots/Work Order Details _V2__88ad4bee.png)
+![Work Order Details (V2) Dashboard](../screenshots/Work_Order_Details__V2__88ad4bee.png)
 
 ## Description
 
@@ -23,12 +23,16 @@ This dashboard would be highly useful for facilities managers, maintenance teams
 
 ## AI-Generated Summary
 
-The "Work Order Details (V2)" dashboard provides a comprehensive view of work order information, enabling facilities managers, maintenance teams, and operations personnel to effectively manage and analyze their organization's work orders. The dashboard's robust filtering, searching, and pivoting capabilities empower users to quickly identify and address bottlenecks, optimize resource allocation, and make data-driven decisions to improve operational efficiency. Key features include the ability to filter work orders by workflow, location, status, priority, and assigned personnel, as well as the option to search for specific work orders and analyze trends and metrics over time. The pivot table component summarizes closed work orders, closed labor hours, and assigned personnel by category, providing valuable insights to help users understand and improve their work order management processes.
+The "Work Order Details (V2)" dashboard is a powerful tool for facilities managers, maintenance teams, and operations personnel to efficiently manage and analyze work order data across an organization. This dashboard provides users with a comprehensive view of work orders, allowing them to filter, search, and pivot the data to uncover valuable insights that drive data-driven decision-making.
+
+Key capabilities of the dashboard include the ability to filter work orders by various criteria such as workflow, location, category code, status, priority, type, reason, and assigned personnel. Users can also search for specific work orders by ID, description, comments, room, and assigned personnel. The dashboard features a pivot table that summarizes closed work orders, closed labor hours, and assigned personnel by category, enabling users to identify trends and optimize resource allocation.
+
+This dashboard would be invaluable for organizations that need to maintain and improve their facilities and operations. By providing a centralized and customizable view of work order data, it empowers users to stay on top of work order progress, track metrics, and make informed decisions to enhance overall efficiency and productivity.
 
 ### Tags
 
-`work orders` `facilities management` `operations` `maintenance` `data analysis`
+`work orders` `facilities management` `operations` `data analysis` `decision-making`
 
 ---
 
-*Generated on 2026-01-29 11:54:35 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:40 by Luzmo API Tools*

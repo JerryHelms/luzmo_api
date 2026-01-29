@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Capital Needs Dashboard](../screenshots/Capital Needs_4612b44d.png)
+![Capital Needs Dashboard](../screenshots/Capital_Needs_4612b44d.png)
 
 ## Description
 
@@ -23,12 +23,12 @@ This dashboard likely serves as a central hub for capital planning and budgeting
 
 ## AI-Generated Summary
 
-The "Capital Needs" dashboard provides a comprehensive overview of an organization's capital investment requirements and project pipeline. It enables finance, facilities, and capital planning teams to understand the current status, trends, and projected costs of planned capital projects. Key insights include monitoring the total open requests and backlog costs, analyzing the age and category breakdown of projects, and visualizing capital needs by year, category, and location. This dashboard serves as a central hub for capital planning and budgeting, allowing stakeholders to make informed decisions about resource allocation, project prioritization, and long-term financial planning.
+The "Capital Needs" dashboard provides a comprehensive view of an organization's capital investment requirements and project pipeline. This dashboard is designed for finance, facilities, and capital planning teams to understand the current status, trends, and projected costs of planned capital projects. Users can easily filter and search for specific projects, monitor key metrics like total open requests and backlog cost, analyze the age and category breakdown of projects, and visualize capital needs by year, category, and location. The detailed data tables and pivot tables allow users to dive into the specifics of estimated capital costs, enabling informed decision-making around resource allocation, project prioritization, and long-term financial planning.
 
 ### Tags
 
-`capital planning` `facilities management` `financial planning` `project management` `budgeting`
+`capital planning` `facilities management` `financial planning` `project management` `resource allocation`
 
 ---
 
-*Generated on 2026-01-29 11:54:58 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:04 by Luzmo API Tools*

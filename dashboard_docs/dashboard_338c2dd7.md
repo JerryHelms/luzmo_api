@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Keys Checked Out Dashboard](../screenshots/Keys Checked Out_338c2dd7.png)
+![Keys Checked Out Dashboard](../screenshots/Keys_Checked_Out_338c2dd7.png)
 
 ## Description
 
@@ -27,12 +27,12 @@ This dashboard would be valuable for facility managers, security teams, and othe
 
 ## AI-Generated Summary
 
-The "Keys Checked Out" dashboard provides a comprehensive view of the keys that have been checked out within an organization. This dashboard is likely used by facility managers, security personnel, or anyone responsible for tracking and managing the company's key inventory. The dashboard contains a variety of filters and tables that allow users to easily identify which keys are currently checked out, who has them, and the history of key usage over time. This information can help identify any issues or trends in the key management process and ensure that the organization maintains control and visibility over its key inventory.
+The "Keys Checked Out" dashboard provides a comprehensive view of the keys that have been checked out within an organization. This dashboard is likely used by facility managers, security personnel, or anyone responsible for tracking and managing the company's key inventory. The dashboard allows users to filter the data by key tag number, key description, and assigned personnel, and provides detailed information about the keys that have been checked out and assigned. It also includes pivot tables that summarize the checked-out keys by individual and by key, as well as date and search filters to enable targeted analysis. This dashboard would be valuable for identifying patterns and trends in key usage, as well as for maintaining control and visibility over the organization's key inventory.
 
 ### Tags
 
-`key management` `facility management` `security` `inventory tracking` `asset management`
+`key management` `facility management` `security` `inventory tracking` `data visualization`
 
 ---
 
-*Generated on 2026-01-29 11:52:30 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:30 by Luzmo API Tools*

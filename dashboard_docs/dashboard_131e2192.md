@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Details - Conroe Dashboard](../screenshots/Work Order Details - Conroe_131e2192.png)
+![Work Order Details - Conroe Dashboard](../screenshots/Work_Order_Details_-_Conroe_131e2192.png)
 
 ## Description
 
@@ -23,12 +23,12 @@ Overall, this dashboard serves as a central hub for work order management and vi
 
 ## AI-Generated Summary
 
-The "Work Order Details - Conroe" dashboard provides a comprehensive view of work orders for the Conroe location, enabling operations and maintenance teams to efficiently track, manage, and analyze work order data. This dashboard offers interactive filtering, search, and sorting capabilities that allow users to quickly identify, review, and address work orders based on various criteria such as work order details, status, and date. With this dashboard, users can gain valuable insights into work order trends, problem areas, and resource allocation, supporting better decision-making and improving overall operational efficiency for the Conroe operation.
+The "Work Order Details - Conroe" dashboard provides a comprehensive view of work orders for the Conroe location, enabling operations and maintenance teams to track, manage, and analyze work order data. With interactive filtering and search capabilities, users can quickly identify, review, and monitor work orders based on various criteria such as work order attributes, status, and dates. This dashboard supports better decision-making, resource allocation, and operational efficiency by delivering detailed work order information in a centralized and accessible format.
 
 ### Tags
 
-`work orders` `operations management` `maintenance` `location-based analytics` `work order tracking`
+`work orders` `operations management` `maintenance` `data analytics` `location-based reporting`
 
 ---
 
-*Generated on 2026-01-29 11:51:32 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:28 by Luzmo API Tools*

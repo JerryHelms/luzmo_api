@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Orders Open by Campus Dashboard](../screenshots/Work Orders Open by Campus_5932386b.png)
+![Work Orders Open by Campus Dashboard](../screenshots/Work_Orders_Open_by_Campus_5932386b.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ The consolidated view of open work orders by campus location and date range prov
 
 ## AI-Generated Summary
 
-The "Work Orders Open by Campus" dashboard provides campus facility managers and operations teams with a comprehensive overview of open work orders across their facilities. This dashboard enables users to easily track the volume and status of open work orders by campus location and date range, empowering them to prioritize maintenance tasks, allocate resources effectively, and monitor progress on resolving outstanding issues. The dashboard's consolidated view of work order data helps operations teams make data-driven decisions to ensure the efficient upkeep of campus buildings and infrastructure.
+The "Work Orders Open by Campus" dashboard provides campus facility managers and operations teams with a comprehensive view of open work orders across their facilities. This dashboard allows users to easily identify and track the volume and status of open work orders by campus location and date range. Facility managers can use this dashboard to prioritize maintenance tasks, allocate resources, and monitor progress on resolving outstanding issues, helping to ensure the efficient and effective management of campus buildings and infrastructure.
 
 ### Tags
 
-`work orders` `facility management` `campus operations` `maintenance tracking` `data-driven decision making`
+`campus facilities` `work orders` `operations management` `maintenance tracking` `facilities management`
 
 ---
 
-*Generated on 2026-01-29 11:49:50 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:02 by Luzmo API Tools*

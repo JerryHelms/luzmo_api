@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Assigned To Summary Dashboard](../screenshots/Assigned To Summary_222dd056.png)
+![Assigned To Summary Dashboard](../screenshots/Assigned_To_Summary_222dd056.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ Overall, the "Assigned To Summary" dashboard is a crucial tool for managers and 
 
 ## AI-Generated Summary
 
-The "Assigned To Summary" dashboard provides a centralized view of work assignments and task progress across an organization. It enables managers, team leads, and project coordinators to analyze the distribution of work, identify potential bottlenecks, and track the overall progress of key initiatives. By allowing users to filter the data by different workflows, the dashboard offers valuable insights to help optimize resource allocation, improve productivity, and ensure timely completion of important tasks and projects.
+The "Assigned To Summary" dashboard provides an at-a-glance view of work assignments and task progress across different workflows within an organization. This dashboard is likely used by managers, team leads, and project coordinators to understand how work is distributed, identify potential bottlenecks, and monitor the overall progress of key initiatives. By allowing users to filter the data by different workflow categories, the dashboard enables stakeholders to analyze workload, track deadlines, and make informed decisions about resource allocation and process improvements. This centralized view of work assignments and statuses can help optimize productivity and ensure timely completion of important tasks and projects.
 
 ### Tags
 
-`work assignment` `task management` `productivity tracking` `resource allocation` `workflow monitoring`
+`work management` `task tracking` `resource allocation` `workflow analysis` `project management`
 
 ---
 
-*Generated on 2026-01-29 11:53:24 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:25 by Luzmo API Tools*

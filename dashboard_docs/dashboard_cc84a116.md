@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Export Dashboard](../screenshots/Work Order Export_cc84a116.png)
+![Work Order Export Dashboard](../screenshots/Work_Order_Export_cc84a116.png)
 
 ## Description
 
@@ -28,12 +28,12 @@ This dashboard would be valuable for teams responsible for work order management
 
 ## AI-Generated Summary
 
-The "Work Order Export" dashboard is a comprehensive reporting tool designed to provide insights and analysis around work order data. It empowers teams responsible for work order management, such as operations, project management, or facilities management, to monitor key performance indicators, identify trends, and make data-driven decisions to optimize work order processes and resource allocation. The dashboard offers a holistic view of work order-related data, enabling users to track and analyze metrics like work order count, total cost, and the distribution of work orders across different workflows, statuses, and completion months. With its intuitive filtering options and multidimensional data visualizations, this dashboard helps organizations gain visibility into their work order management operations and make informed decisions to improve efficiency and productivity.
+The "Work Order Export" dashboard is a comprehensive reporting tool designed to provide insights and analysis around work order data. It enables teams responsible for work order management, such as operations, project management, or facilities management, to monitor key performance indicators, identify trends, and make data-driven decisions to optimize work order processes and resource allocation. The dashboard offers a holistic view of work order-related data, allowing users to analyze metrics like work order count, total cost, and the distribution of work orders across different workflows, statuses, and completion months. With its extensive filtering options and data visualization capabilities, this dashboard helps users gain a deeper understanding of their work order management activities and make informed, data-driven decisions.
 
 ### Tags
 
-`work orders` `operations management` `project management` `facilities management` `data-driven decision making`
+`work orders` `operations` `facilities management` `project management` `data analytics`
 
 ---
 
-*Generated on 2026-01-29 11:52:36 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:37 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Event Summary Report (Updated) Dashboard](../screenshots/Event Summary Report _Updated__3a8f8747.png)
+![Event Summary Report (Updated) Dashboard](../screenshots/Event_Summary_Report__Updated__3a8f8747.png)
 
 ## Description
 
@@ -23,12 +23,12 @@ Overall, this dashboard serves as a centralized hub for event-related data, enab
 
 ## AI-Generated Summary
 
-The "Event Summary Report (Updated)" dashboard provides a comprehensive overview of an organization's event-related data, enabling event managers, organizers, and stakeholders to gain valuable insights into the performance and trends of their events. This dashboard allows users to filter, search, and analyze event data based on key attributes such as event start date, event group, and venue. The dashboard features various components, including dropdown filters, search filters, date filters, evolution numbers, and tables, which allow users to quickly and effectively monitor, analyze, and report on the organization's event activities. This centralized hub for event data helps decision-makers make data-driven decisions, identify trends, and optimize their event strategies.
+The "Event Summary Report (Updated)" dashboard provides a comprehensive overview of event-related data, enabling event managers, organizers, and stakeholders to monitor, analyze, and report on the organization's event activities. This dashboard allows users to filter, search, and view event data based on key attributes such as event start date, group, and venue. The dashboard features evolution numbers, tables, and other visualizations that help users track event occurrences over time, identify trends, and make data-driven decisions to optimize their event strategies.
 
 ### Tags
 
-`event management` `event analytics` `business operations` `data-driven decision making` `performance optimization`
+`event management` `event analytics` `event reporting` `performance monitoring` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:53:09 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:10 by Luzmo API Tools*

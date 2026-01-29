@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Production - Dashboard Widgets Dashboard](../screenshots/Production - Dashboard Widgets_1cde28a4.png)
+![Production - Dashboard Widgets Dashboard](../screenshots/Production_-_Dashboard_Widgets_1cde28a4.png)
 
 ## Description
 
@@ -24,11 +24,13 @@ Overall, this dashboard is likely used by production managers, operations leader
 
 ## AI-Generated Summary
 
-This "Production - Dashboard Widgets" dashboard provides comprehensive insights and analysis for production-focused businesses. It tracks and visualizes key production metrics and trends, enabling users to monitor output, analyze product mix, and explore data from different time periods or attributes. The dashboard includes a variety of chart types, such as area charts, bar charts, and sunburst charts, which offer multiple views and analyses of the production data. This dashboard is likely used by production managers, operations leaders, and others responsible for overseeing and optimizing the manufacturing or assembly process, helping them make data-informed decisions and drive continuous improvement.
+This "Production - Dashboard Widgets" dashboard provides comprehensive insights and analysis for a production-focused business. It tracks and visualizes key production metrics and trends, including the volume of items created and completed over time, the top product categories being produced, and the ability to filter and segment the data.
+
+The dashboard's various chart types, such as area charts, bar charts, and sunburst charts, enable production managers, operations leaders, and other stakeholders to monitor production output, analyze product mix, and identify patterns or changes in the manufacturing or assembly process. The filtering and slicing capabilities allow users to explore the data from different time periods or break it down by specific attributes, supporting data-driven decision-making and continuous improvement efforts.
 
 ### Tags
 
-`production` `operations` `manufacturing` `analytics` `data visualization`
+`production` `operations` `manufacturing` `product mix` `data visualization`
 
 ## Filters
 
@@ -40,4 +42,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:50:10 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:21 by Luzmo API Tools*

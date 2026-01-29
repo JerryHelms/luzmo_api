@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory Management Dashboard Template - Copy Dashboard](../screenshots/Inventory Management Dashboard Template - Copy_84bdf2d8.png)
+![Inventory Management Dashboard Template - Copy Dashboard](../screenshots/Inventory_Management_Dashboard_Template_-_Copy_84bdf2d8.png)
 
 ## Description
 
@@ -28,12 +28,12 @@ Overall, this Inventory Management Dashboard Template gives logistics and supply
 
 ## AI-Generated Summary
 
-This Inventory Management Dashboard Template provides a comprehensive view of a company's inventory and logistics operations. It is designed for logistics and supply chain professionals to track key performance indicators (KPIs) related to inventory management, product availability, and shipping times. The dashboard includes visualizations that enable users to quickly identify areas for improvement and make data-driven decisions, such as monitoring inventory levels, warehouse availability, revenue analysis, shipping and fulfillment performance, and demand trends. By centralizing this data, the dashboard helps logistics and supply chain teams optimize inventory levels, improve customer service, and drive business growth.
+This Inventory Management Dashboard Template provides a comprehensive view of a company's inventory and logistics operations, designed to help logistics and supply chain professionals track key performance indicators (KPIs) related to inventory management, product availability, and shipping times. The dashboard includes visualizations and components that enable users to identify areas for improvement and make data-driven decisions, such as monitoring inventory levels, analyzing revenue by product, and tracking shipping and fulfillment performance. By centralizing this data-driven view of inventory and fulfillment operations, the dashboard empowers users to optimize inventory levels, improve customer service, and drive business growth.
 
 ### Tags
 
-`inventory management` `logistics` `supply chain` `operations` `performance monitoring`
+`inventory management` `supply chain` `logistics` `performance tracking` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:49:13 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:25 by Luzmo API Tools*

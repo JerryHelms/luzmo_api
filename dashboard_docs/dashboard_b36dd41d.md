@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Arkansas State Mandated Inspections Dashboard](../screenshots/Arkansas State Mandated Inspections_b36dd41d.png)
+![Arkansas State Mandated Inspections Dashboard](../screenshots/Arkansas_State_Mandated_Inspections_b36dd41d.png)
 
 ## Description
 
@@ -20,12 +20,12 @@ By bringing together these various components, the dashboard empowers state offi
 
 ## AI-Generated Summary
 
-The "Arkansas State Mandated Inspections" dashboard provides state officials and administrators with a comprehensive view of the state's inspection activities and associated work orders. This dashboard consolidates key data points, including the total number of state mandated inspections, work orders, and their breakdowns by name, date, reason, type, and priority. The dashboard empowers users to monitor compliance, identify areas for improvement, and make informed decisions regarding the management of the inspection program. The diverse set of visualizations, filters, and pivot tables enable users to slice and dice the data, allowing them to focus on specific inspections, time periods, or other criteria. This tool serves as a centralized hub for accessing and analyzing critical information related to state mandated inspections and associated work orders in Arkansas.
+The "Arkansas State Mandated Inspections" dashboard provides state officials and administrators with a comprehensive view of the state's inspection activities and associated work orders. This tool consolidates key data points, enabling users to monitor compliance, identify areas for improvement, and make informed decisions regarding the management of the inspection program. The dashboard features a diverse set of visualizations and filters, allowing users to explore various aspects of the inspection process, including total inspections, work order volumes, and breakdowns by name, date, reason, type, and priority. By bringing together these components, the dashboard serves as a centralized hub for accessing and analyzing critical information related to state mandated inspections in Arkansas.
 
 ### Tags
 
-`inspections` `work orders` `compliance` `operations` `state government`
+`inspections` `compliance` `work orders` `state government` `operations`
 
 ---
 
-*Generated on 2026-01-29 11:51:20 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:19 by Luzmo API Tools*

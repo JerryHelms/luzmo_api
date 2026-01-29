@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Location Rollup Dashboard](../screenshots/Location Rollup_e0f130e6.png)
+![Location Rollup Dashboard](../screenshots/Location_Rollup_e0f130e6.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ With access to 3 connected datasets, this dashboard enables users to gain a comp
 
 ## AI-Generated Summary
 
-The "Location Rollup" dashboard provides a comprehensive view of an organization's performance and trends across different locations or sites. This dashboard is designed to help business leaders, operations managers, and location-focused analysts gain insights and make data-driven decisions about resource allocation, expansion, and optimization at the location level. The dashboard enables users to quickly filter and search for specific locations, analyze date-based trends, view key performance indicators (KPIs), and dive deeper into the data using pivot tables and bar charts. With access to 3 connected datasets, this dashboard empowers users to understand their organization's performance holistically, supporting strategic decision-making and operational efficiency.
+The "Location Rollup" dashboard provides a comprehensive view of location-based data for an organization, enabling business leaders, operations managers, and location-focused analysts to understand trends and insights across different locations or sites. This dashboard allows users to quickly filter and search for specific locations, analyze date-based performance trends, view key metrics at a high level, and dive deeper into the data using interactive pivot tables and visualizations. With access to three connected datasets, the dashboard offers a valuable tool for making data-driven decisions about resource allocation, expansion, or optimization at the location level.
 
 ### Tags
 
-`location analytics` `business intelligence` `operations management` `performance monitoring` `site optimization`
+`location analytics` `business performance` `site operations` `regional insights` `location optimization`
 
 ---
 
-*Generated on 2026-01-29 11:49:18 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:32 by Luzmo API Tools*

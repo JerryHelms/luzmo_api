@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![AK DEED Report - Copy Dashboard](../screenshots/AK DEED Report - Copy_6fcc4c4c.png)
+![AK DEED Report - Copy Dashboard](../screenshots/AK_DEED_Report_-_Copy_6fcc4c4c.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ Without access to the actual data, it's difficult to provide more specific insig
 
 ## AI-Generated Summary
 
-This dashboard provides comprehensive insights into the maintenance and work order management activities of an organization. It combines a variety of visualizations and data analysis tools to help users understand and monitor different aspects of their maintenance operations, such as work order volume, scheduled vs. unscheduled work, and maintenance hours by month. The dashboard enables maintenance managers, operations teams, and leadership to track key metrics, identify trends, and make informed decisions to optimize maintenance activities and resource allocation.
+This dashboard provides comprehensive insights into the maintenance and work order management activities of an organization. It combines various visualizations and data analysis tools to help users understand and monitor different aspects of their maintenance operations. The dashboard includes filters for Fiscal Year and Workflow, enabling users to analyze the information from different perspectives. It features pivot tables that provide detailed breakdowns and summaries of maintenance metrics, such as work order counts, hours, and maintenance hours by month. The dashboard also includes column charts that compare key metrics, like Initiated Work Orders vs. Completed Work Orders, and Scheduled Work Order Hours vs. Unscheduled Work Order Hours, helping users identify trends and patterns. Additionally, a combination chart displays unscheduled work order counts and hours, providing a comprehensive view of the organization's unscheduled maintenance activities. This dashboard is valuable for maintenance managers, operations teams, and leadership who need to monitor and analyze the organization's maintenance performance, track key metrics, identify areas for improvement, and make data-driven decisions to optimize maintenance activities and resource allocation.
 
 ### Tags
 
-`maintenance` `work orders` `operations` `performance management` `data-driven decision making`
+`maintenance` `work orders` `operations` `performance monitoring` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:54:46 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:52 by Luzmo API Tools*

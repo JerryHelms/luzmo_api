@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Map From Subscriptions Dashboard](../screenshots/_Internal_ Map From Subscriptions_e6fadd78.png)
+![[Internal] Map From Subscriptions Dashboard](../screenshots/_Internal__Map_From_Subscriptions_e6fadd78.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, the "Map From Subscriptions" dashboard serves as a strategic tool for t
 
 ## AI-Generated Summary
 
-The "Map From Subscriptions" dashboard provides a geographic visualization of the organization's subscription data, enabling stakeholders to analyze the distribution and trends of their subscription base. The three choropleth maps allow users to identify regions with high, medium, and low subscription concentrations, as well as potential geographic patterns or hotspots. This strategic tool helps the organization, such as sales, marketing, and customer success teams, make data-driven decisions, optimize their geographic coverage, and identify opportunities for growth or retention.
+This internal dashboard, titled "Map From Subscriptions", provides a visual representation of geographic data related to the organization's subscriptions. The dashboard contains three choropleth maps, which display the geographical spread and trends of the organization's subscription base. Users can gain insights into the geographic distribution of subscriptions, identify potential hotspots, and track changes over time. This dashboard would be valuable for sales, marketing, and customer success teams, enabling them to make data-driven decisions, optimize their geographic coverage, and identify opportunities for growth or retention.
 
 ### Tags
 
-`subscriptions` `geographic analysis` `business intelligence` `customer insights` `strategic planning`
+`subscriptions` `geographic analysis` `choropleth maps` `sales strategy` `customer insights`
 
 ---
 
-*Generated on 2026-01-29 11:49:40 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:54 by Luzmo API Tools*

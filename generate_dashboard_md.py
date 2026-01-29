@@ -76,7 +76,7 @@ def generate_dashboard_markdown(
     from pathlib import Path
 
     # Generate safe name for screenshot filename
-    safe_name = "".join(c if c.isalnum() or c in (' ', '-', '_') else '_' for c in name)
+    safe_name = "".join(c if c.isalnum() or c in ('-', '_') else '_' for c in name)
     safe_name = safe_name[:50]  # Limit length
     screenshot_filename = f"{safe_name}_{safe_id}.png"
 

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory Monthly Snapshot Dashboard](../screenshots/Inventory Monthly Snapshot_e0a01190.png)
+![Inventory Monthly Snapshot Dashboard](../screenshots/Inventory_Monthly_Snapshot_e0a01190.png)
 
 ## Description
 
@@ -29,11 +29,11 @@ This dashboard serves as a valuable tool for inventory managers and other decisi
 
 ## AI-Generated Summary
 
-The Inventory Monthly Snapshot dashboard provides a comprehensive view of a company's inventory management across various categories, catalogs, and storage locations. This dashboard is likely used by inventory managers, supply chain analysts, and other stakeholders responsible for monitoring and optimizing the company's inventory. With this dashboard, users can track key inventory metrics over time, identify trends and potential issues, and make informed decisions to optimize inventory levels and improve overall supply chain efficiency.
+The Inventory Monthly Snapshot dashboard provides a comprehensive view of a company's inventory management across various categories, catalogs, and storage locations. This dashboard is a valuable tool for inventory managers, supply chain analysts, and other stakeholders responsible for monitoring and optimizing the company's inventory. Users can track key metrics like total inventory and value, identify trends, and drill down into specific categories, catalogs, inventory types, and storage locations to gain insights and make informed decisions to improve inventory levels and supply chain efficiency.
 
 ### Tags
 
-`inventory management` `supply chain` `operations` `business intelligence` `data-driven decision making`
+`inventory management` `supply chain` `business intelligence` `dashboard` `data visualization`
 
 ## Filters
 
@@ -45,4 +45,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:52:44 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:45 by Luzmo API Tools*

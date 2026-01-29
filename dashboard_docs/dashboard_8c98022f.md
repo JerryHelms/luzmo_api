@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Maintenance Reports  - Copy Dashboard](../screenshots/Maintenance Reports  - Copy_8c98022f.png)
+![Maintenance Reports  - Copy Dashboard](../screenshots/Maintenance_Reports__-_Copy_8c98022f.png)
 
 ## Description
 
@@ -30,12 +30,12 @@ This dashboard is likely to be used by maintenance managers, facility managers, 
 
 ## AI-Generated Summary
 
-The "Maintenance Reports - Copy" dashboard provides a comprehensive view of an organization's maintenance operations, helping maintenance managers, facility managers, and operational decision-makers track performance, identify areas for improvement, and make informed decisions. The dashboard includes a variety of visualizations, such as charts, pivot tables, and filters, that enable users to analyze maintenance hours, work order status, scheduled vs. unscheduled maintenance, and other key metrics. By presenting a centralized, data-driven perspective on maintenance activities, this dashboard empowers users to optimize resource allocation, enhance maintenance planning, and ensure the efficient management of the organization's assets.
+The "Maintenance Reports - Copy" dashboard provides a comprehensive view of an organization's maintenance operations, enabling maintenance managers, facility managers, and other operational decision-makers to gain valuable insights and make informed decisions. The dashboard features a variety of components, including pivot tables, charts, and filters, that allow users to analyze maintenance hours, work order data, and other key performance indicators. With the ability to filter by fiscal year and workflow stage, users can easily identify patterns, pinpoint areas for improvement, and optimize maintenance processes. This dashboard serves as a centralized hub for maintenance reporting and analysis, empowering stakeholders to ensure the efficient and effective management of the organization's assets and resources.
 
 ### Tags
 
-`maintenance` `facility management` `operations` `performance monitoring` `asset management`
+`maintenance` `work orders` `facility management` `operations` `performance analysis`
 
 ---
 
-*Generated on 2026-01-29 11:52:17 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:16 by Luzmo API Tools*

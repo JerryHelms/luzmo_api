@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Orders Created and Completed Dashboard](../screenshots/Work Orders Created and Completed_4749ee75.png)
+![Work Orders Created and Completed Dashboard](../screenshots/Work_Orders_Created_and_Completed_4749ee75.png)
 
 ## Description
 
@@ -21,12 +21,12 @@ The combination of filters, charts, and tabular views allows users to quickly un
 
 ## AI-Generated Summary
 
-This "Work Orders Created and Completed" dashboard provides insights and visibility into the work order management process within an organization. It combines data from two connected datasets to give users a comprehensive view of work order creation, status, and completion. The dashboard allows users to filter and search work orders by various criteria, monitor the overall volume of work orders created and completed over time, analyze work order trends and details, and identify areas for process improvement. This dashboard would be particularly useful for managers, supervisors, and operations teams responsible for overseeing and optimizing the work order lifecycle. It enables them to track key metrics, identify bottlenecks, and make informed decisions to improve work order processing efficiency and customer service.
+This "Work Orders Created and Completed" dashboard provides comprehensive visibility and insights into the work order management process within an organization. It combines data from two connected datasets to enable users, such as managers, supervisors, and operations teams, to monitor the volume of work orders created and completed over time, analyze trends and details, and identify areas for process improvement. The dashboard features a range of components, including filters, charts, and tabular views, that allow users to quickly understand the current state of work orders, dive into underlying details, and make informed decisions to optimize work order processing efficiency and customer service.
 
 ### Tags
 
-`work orders` `work order management` `operations` `process improvement` `customer service`
+`work order management` `operations optimization` `process visibility` `performance monitoring` `work order analytics`
 
 ---
 
-*Generated on 2026-01-29 11:54:02 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:04 by Luzmo API Tools*

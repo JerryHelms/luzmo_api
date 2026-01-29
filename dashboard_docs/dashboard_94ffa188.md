@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Sales Pipeline Dashboard Template - Copy Dashboard](../screenshots/Sales Pipeline Dashboard Template - Copy_94ffa188.png)
+![Sales Pipeline Dashboard Template - Copy Dashboard](../screenshots/Sales_Pipeline_Dashboard_Template_-_Copy_94ffa188.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ This dashboard would be particularly valuable for sales managers, directors, and
 
 ## AI-Generated Summary
 
-The Sales Pipeline Dashboard Template provides a comprehensive view of the sales pipeline, enabling sales leaders and managers to track the status and progress of deals, identify bottlenecks, and monitor key sales metrics. This dashboard offers insights into the sales process, including the number of open and accepted deals, the sales funnel, close rate, accepted vs. refused deals per employee, and weighted pipeline value. It also provides details on the types of accepted deals, their sources, and the reasons for refusal, allowing users to make data-driven decisions to drive sales growth and achieve their targets. The dashboard's customization and filtering capabilities enable sales teams of varying sizes and needs to tailor the information to their specific requirements.
+The Sales Pipeline Dashboard Template is a comprehensive reporting tool designed to provide sales leaders and managers with a clear, data-driven view of their sales pipeline and performance. This dashboard offers a high-level overview of the sales process, enabling users to track the status and progress of deals, identify bottlenecks, and monitor key sales metrics. The dashboard's customizable filters, charts, and tables deliver insights into pipeline visibility, sales performance, and deal-level details, empowering sales teams to make informed decisions and drive business growth.
 
 ### Tags
 
-`sales` `pipeline` `performance` `deals` `analytics`
+`sales pipeline` `sales performance` `deal insights` `sales reporting` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:49:10 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:22 by Luzmo API Tools*

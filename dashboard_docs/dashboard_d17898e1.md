@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Scheduled Requests Dashboard](../screenshots/Scheduled Requests_d17898e1.png)
+![Scheduled Requests Dashboard](../screenshots/Scheduled_Requests_d17898e1.png)
 
 ## Description
 
@@ -20,12 +20,12 @@ Overall, this dashboard is a valuable tool for maintenance and operations profes
 
 ## AI-Generated Summary
 
-The "Scheduled Requests" dashboard provides maintenance and operations teams with a comprehensive overview of upcoming preventive maintenance (PM) tasks. This dashboard helps organizations proactively plan and manage their scheduled work to ensure asset reliability and availability. The dashboard's key features include filtering and searching capabilities, as well as visual representations of upcoming PM tasks through interactive bar charts. This centralized view of scheduled work enables data-driven decision-making, allowing teams to optimize their maintenance activities and ensure they have the necessary resources to complete tasks on time.
+The "Scheduled Requests" dashboard provides maintenance and operations teams with a comprehensive overview of upcoming preventive maintenance (PM) tasks. This dashboard helps these teams proactively plan and manage their scheduled work by allowing them to filter and search for specific assets, locations, or priorities. The visual bar charts display the volume and timing of the scheduled PM tasks, enabling better resource allocation and capacity planning. This dashboard supports data-driven decision-making and helps organizations optimize their maintenance activities, ensuring the reliability and availability of their assets.
 
 ### Tags
 
-`preventive maintenance` `asset management` `work scheduling` `operations optimization` `maintenance planning`
+`preventive maintenance` `asset management` `work order scheduling` `operations planning` `maintenance optimization`
 
 ---
 
-*Generated on 2026-01-29 11:48:59 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:11 by Luzmo API Tools*

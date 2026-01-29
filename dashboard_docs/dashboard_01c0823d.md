@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory Transactions Dashboard](../screenshots/Inventory Transactions_01c0823d.png)
+![Inventory Transactions Dashboard](../screenshots/Inventory_Transactions_01c0823d.png)
 
 ## Description
 
@@ -26,11 +26,11 @@ Overall, the Inventory Transactions dashboard serves as a valuable tool for inve
 
 ## AI-Generated Summary
 
-The Inventory Transactions dashboard provides a comprehensive view of an organization's inventory management operations. It empowers inventory managers, procurement teams, and finance professionals to track, analyze, and optimize inventory activities across multiple locations, catalogs, and transaction types. Users can filter the data by various criteria, monitor key inventory metrics over time, analyze transaction patterns and trends, and drill down into individual transactions. This centralized dashboard delivers valuable insights to support informed decision-making and drive improvements in inventory management.
+The Inventory Transactions dashboard provides a comprehensive view of an organization's inventory management activities, empowering inventory managers, procurement teams, and finance professionals to track, analyze, and optimize their inventory operations. With its wide range of filter and analysis components, users can quickly identify patterns, trends, and anomalies in inventory data, monitor key metrics, and drill down into individual transactions. The dashboard serves as a valuable tool for making informed decisions, identifying areas for improvement, and enhancing overall inventory management processes.
 
 ### Tags
 
-`inventory` `procurement` `finance` `operations` `analytics`
+`inventory management` `procurement` `finance` `operations` `analytics`
 
 ## Filters
 
@@ -42,4 +42,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:53:45 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:47 by Luzmo API Tools*

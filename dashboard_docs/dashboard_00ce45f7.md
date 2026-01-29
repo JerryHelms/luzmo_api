@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Account Renewals Dashboard](../screenshots/_Internal_ Account Renewals_00ce45f7.png)
+![[Internal] Account Renewals Dashboard](../screenshots/_Internal__Account_Renewals_00ce45f7.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, this dashboard serves as a valuable tool for account management, sales,
 
 ## AI-Generated Summary
 
-This internal dashboard provides a comprehensive view of upcoming subscription renewals for various services used by the organization. It enables account managers, sales teams, and operations personnel to proactively monitor and manage the renewal process for their client accounts. Users can filter the data by state, parent organization, area, active subscriptions, and the renewal dates for different services, such as HeroHQ, EventHQ, and Inventory HQ. The dashboard includes interactive data tables and dropdown menus to help users quickly identify accounts with upcoming renewals, monitor the status of subscription services, and potentially identify opportunities for renewal negotiations or upselling. This dashboard is a valuable tool for maintaining and growing the organization's client relationships by ensuring timely renewals and identifying potential issues or opportunities.
+This internal dashboard provides a comprehensive view of upcoming renewal dates for various subscription services used within the organization. It is designed to help account managers, sales teams, and operations personnel monitor and manage the renewal process for client accounts. Users can easily filter and segment the data by state, parent organization, area, active subscriptions, and renewal dates for specific services like HeroHQ, EventHQ, and Inventory HQ. The dashboard includes interactive data tables that display detailed account information, enabling users to proactively identify renewal opportunities, negotiate contract renewals, and potentially upsell additional services. This dashboard is a valuable tool for maintaining and growing the organization's client relationships.
 
 ### Tags
 
-`account management` `subscription management` `customer renewals` `operations` `sales`
+`account management` `subscription renewals` `client lifecycle management` `operations monitoring` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:49:21 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:35 by Luzmo API Tools*

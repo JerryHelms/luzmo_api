@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory Stock Received Dashboard](../screenshots/Inventory Stock Received_289c2398.png)
+![Inventory Stock Received Dashboard](../screenshots/Inventory_Stock_Received_289c2398.png)
 
 ## Description
 
@@ -25,11 +25,11 @@ This dashboard would be valuable for inventory management, supply chain optimiza
 
 ## AI-Generated Summary
 
-The Inventory Stock Received dashboard provides a comprehensive view of the inventory items that have been received by the organization. This interactive dashboard allows inventory managers, supply chain professionals, and business analysts to monitor, analyze, and optimize the incoming inventory. Users can easily filter the data by category, item type, item number, tag number, and date range, and the dashboard presents key metrics such as total quantity received, received items by supplier, and a ranking of the received items. With these insights, the organization can make informed decisions about inventory levels, supplier performance, and restocking needs, ultimately improving supply chain efficiency and customer service.
+The Inventory Stock Received dashboard provides a comprehensive view of the incoming inventory items for the organization. It allows inventory managers, supply chain professionals, and business analysts to monitor and analyze the receiving process by enabling them to filter the data by various criteria such as category code, item type, item number, tag number, and date range. The dashboard features interactive components like dropdown filters, search filters, a regular table displaying restock transaction details, an evolution number showing the total quantity received, a bar chart visualizing the received items by supplier, and a slicer filter to rank the received items. With this dashboard, users can easily explore the inventory data, identify trends, and gain insights to make informed decisions about inventory levels, supplier performance, and restocking needs, ultimately supporting inventory management, supply chain optimization, and reporting efforts.
 
 ### Tags
 
-`inventory management` `supply chain optimization` `receiving process` `stock tracking` `business intelligence`
+`inventory` `supply chain` `received items` `reporting` `analytics`
 
 ## Filters
 
@@ -41,4 +41,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:52:20 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:19 by Luzmo API Tools*

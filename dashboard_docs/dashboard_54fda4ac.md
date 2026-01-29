@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Arkansas Usage Dashboard](../screenshots/Arkansas Usage_54fda4ac.png)
+![Arkansas Usage Dashboard](../screenshots/Arkansas_Usage_54fda4ac.png)
 
 ## Description
 
@@ -18,12 +18,12 @@ Overall, the Arkansas Usage dashboard serves as a valuable tool for state govern
 
 ## AI-Generated Summary
 
-The Arkansas Usage dashboard provides state government officials, policymakers, and program managers with a comprehensive view of key usage metrics and trends across Arkansas. The dashboard offers insights into the state's population, economic output, and healthcare utilization, enabling users to monitor performance, identify patterns, and make data-driven decisions. The combination of one-number components and pivot table visualizations allows for high-level summaries as well as detailed, multidimensional analysis, supporting a holistic understanding of the state's overall situation. By integrating data from multiple sources, the dashboard offers a centralized platform for users to gain a comprehensive understanding of Arkansas' usage and performance, ultimately informing strategic initiatives to improve the well-being and development of the state.
+The Arkansas Usage dashboard provides state government officials, policymakers, and program managers with a comprehensive view of key usage metrics and trends for the state of Arkansas. The dashboard integrates data from multiple sources to deliver high-level summaries and detailed, multidimensional analyses across various aspects of the state's economy, social services, and infrastructure. By monitoring population, economic output, healthcare utilization, and other critical metrics, users can gain valuable insights to support data-driven decision-making and drive strategic initiatives that improve the overall well-being and development of Arkansas.
 
 ### Tags
 
-`state government` `policymaking` `program management` `usage analytics` `arkansas`
+`arkansas government` `usage analytics` `state performance` `policy decision-making` `program management`
 
 ---
 
-*Generated on 2026-01-29 11:49:02 by Luzmo API Tools*
+*Generated on 2026-01-29 12:42:14 by Luzmo API Tools*

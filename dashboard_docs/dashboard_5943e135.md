@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Completed Progress Dashboard](../screenshots/Completed Progress_5943e135.png)
+![Completed Progress Dashboard](../screenshots/Completed_Progress_5943e135.png)
 
 ## Description
 
@@ -20,11 +20,11 @@ This dashboard would be valuable for teams responsible for managing and tracking
 
 ## AI-Generated Summary
 
-The "Completed Progress" dashboard is a comprehensive reporting tool that enables teams responsible for managing and tracking the completion of various work orders or tasks to monitor progress, identify bottlenecks, and optimize the completion process. The dashboard provides robust filtering and segmentation capabilities, allowing users to slice and dice the data to gain a granular understanding of completed work orders. It offers detailed insights into the volume, distribution, and trends of completed work across different categories and locations, empowering decision-makers to make informed decisions about resource allocation and process improvements.
+The "Completed Progress" dashboard is a comprehensive reporting tool that tracks and analyzes the status and details of completed work orders or tasks. It provides a robust set of filtering options, including workflow, type, reason, category, fiscal year, and date ranges, allowing users to slice and dice the data to gain a granular understanding of the completed work. The dashboard includes visualizations that offer insights into the volume, distribution, and trends of completed work across different categories and locations. This dashboard would be valuable for teams responsible for managing and tracking the completion of various work orders or tasks, as it enables them to monitor progress, identify bottlenecks, and optimize the completion process.
 
 ### Tags
 
-`work orders` `task management` `operations` `progress tracking` `data-driven decision making`
+`work orders` `task management` `operations` `progress tracking` `data analysis`
 
 ## Filters
 
@@ -36,4 +36,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:32 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:37 by Luzmo API Tools*

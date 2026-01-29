@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Trip Requests Dashboard](../screenshots/Trip Requests_9fcc175c.png)
+![Trip Requests Dashboard](../screenshots/Trip_Requests_9fcc175c.png)
 
 ## Description
 
@@ -30,12 +30,12 @@ The Trip Requests dashboard would be particularly useful for operations managers
 
 ## AI-Generated Summary
 
-The Trip Requests dashboard provides a comprehensive view of trip request data for an organization, helping managers and analysts understand and track key metrics related to the trip request process. The dashboard features a rich set of interactive components that allow users to easily filter, analyze, and visualize the data from multiple perspectives. With options to drill down by location, trip type, request status, and more, users can identify trends, spot anomalies, and uncover insights that can help optimize the trip request workflow. This dashboard would be particularly useful for operations managers, travel coordinators, and business analysts who need to monitor and improve the efficiency of the trip request process.
+The Trip Requests dashboard provides a comprehensive view of trip request data for an organization. It helps managers and analysts understand and track key metrics related to trip requests, enabling them to identify trends, spot anomalies, and uncover insights about the trip request process. The dashboard features a variety of interactive components that allow users to filter and analyze the data in multiple ways, including 42 dropdown filters, 6 date filters, 3 regular tables, 3 column charts, 3 evolution numbers, and 3 pivot tables. This rich set of components allows users to answer questions like: What is the overall volume of trip requests and how has it changed over time? What are the most common trip destinations and how do trip volumes vary by location? What is the breakdown of trip requests by status? Are there any bottlenecks or inefficiencies in the trip request workflow that need to be addressed? The Trip Requests dashboard would be particularly useful for operations managers, travel coordinators, and business analysts who need to monitor and optimize the trip request process.
 
 ### Tags
 
-`travel management` `operations analytics` `business intelligence` `workflow optimization` `data visualization`
+`operations` `travel` `workflow` `analytics` `reporting`
 
 ---
 
-*Generated on 2026-01-29 11:51:49 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:47 by Luzmo API Tools*

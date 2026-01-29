@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Quota Analysis for Reps - 2025 and 2026 Closed Deals Only Dashboard](../screenshots/Quota Analysis for Reps - 2025 and 2026 Closed Dea_ead08339.png)
+![Quota Analysis for Reps - 2025 and 2026 Closed Deals Only Dashboard](../screenshots/Quota_Analysis_for_Reps_-_2025_and_2026_Closed_Dea_ead08339.png)
 
 ## Description
 
@@ -25,11 +25,11 @@ Overall, this dashboard appears to be a valuable tool for sales leaders to track
 
 ## AI-Generated Summary
 
-This dashboard provides sales managers and executives with a comprehensive view of their team's quota performance for the current and upcoming fiscal years. By analyzing closed deals from 2025 and 2026, the dashboard offers insights into long-term sales trends and planning. Key features include filters for fiscal year, quarter, and month; evolution numbers tracking quota, sales, and attainment; visualizations like column charts and bullet charts; and pivot tables with detailed breakdowns of sales performance data. This dashboard empowers sales leaders to identify top-performing teams and individuals, spot areas for improvement, and make data-driven decisions to optimize sales strategies and resource allocation.
+This sales performance dashboard provides sales managers and executives with a comprehensive view of their team's quota attainment for the current fiscal year. It allows users to track and analyze sales data, identify top-performing teams and individuals, and make data-driven decisions to optimize sales strategies and resource allocation. The dashboard includes visualizations such as evolution numbers, column charts, pivot tables, and a bullet chart, enabling users to deeply understand sales quota achievement, trends, and performance. With dynamic filtering by fiscal year, quarter, and month, the dashboard supports long-term sales planning and analysis, helping sales leaders identify areas for improvement and ensure their team is on track to meet their sales goals.
 
 ### Tags
 
-`sales` `quota management` `performance analysis` `trend analysis` `business intelligence`
+`sales performance` `quota analysis` `sales management` `data-driven decision making` `business intelligence`
 
 ## Filters
 
@@ -44,4 +44,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:55:10 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:17 by Luzmo API Tools*

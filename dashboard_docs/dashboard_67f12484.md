@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Construction Management Dashboard Template - Copy Dashboard](../screenshots/Construction Management Dashboard Template - Copy_67f12484.png)
+![Construction Management Dashboard Template - Copy Dashboard](../screenshots/Construction_Management_Dashboard_Template_-_Copy_67f12484.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ This dashboard serves as a valuable tool for construction managers, project lead
 
 ## AI-Generated Summary
 
-This Construction Management Dashboard provides a comprehensive overview of key performance metrics and insights to help construction project managers and executives effectively monitor and oversee ongoing construction projects. The dashboard consolidates critical information across three connected datasets, empowering users to track construction spend, analyze quality inspection processes, and identify incident response trends. With a diverse set of 40 visualizations, the dashboard enables users to quickly assess project health, identify areas for improvement, and make informed decisions to ensure successful project delivery.
+The Construction Management Dashboard Template provides construction project managers and executives with a comprehensive view of key metrics and insights to effectively oversee ongoing construction projects. The dashboard consolidates essential information across three connected datasets, enabling users to monitor critical aspects of construction management, including incident response, project spend, and quality inspection processes. The diverse set of 40 components, including charts, gauges, and filters, allow users to track overall construction spend, analyze quality inspection results, identify incident trends per supplier, and explore resolution times for different types of defects. This dashboard serves as a valuable tool for construction leaders to quickly assess project health, identify areas for improvement, and make informed decisions to ensure successful project delivery.
 
 ### Tags
 
-`construction management` `project performance` `quality assurance` `incident response` `construction analytics`
+`construction management` `project oversight` `quality assurance` `incident response` `construction analytics`
 
 ---
 
-*Generated on 2026-01-29 11:50:58 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:02 by Luzmo API Tools*

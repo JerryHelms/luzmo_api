@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Closed Corrective and Scheduled Work Order Statistics Dashboard](../screenshots/Closed Corrective and Scheduled Work Order Statist_63a8bbf9.png)
+![Closed Corrective and Scheduled Work Order Statistics Dashboard](../screenshots/Closed_Corrective_and_Scheduled_Work_Order_Statist_63a8bbf9.png)
 
 ## Description
 
@@ -21,7 +21,7 @@ Overall, this dashboard gives maintenance and operations leaders a centralized v
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of the closed corrective and scheduled work order statistics for an organization. It is likely used by maintenance and operations managers to monitor the performance and efficiency of their work order processes. The dashboard includes a variety of visualizations and components that allow users to analyze the data from multiple perspectives, including tracking key metrics over time, breaking down work orders by location, month, workflow, and reason, and identifying seasonal patterns in work order completion rates. This centralized view of closed work order data enables maintenance and operations leaders to identify opportunities for process improvement, resource allocation, and better meeting service level agreements.
+This dashboard provides a comprehensive view of the closed corrective and scheduled work order statistics for an organization. It is likely used by maintenance and operations managers to monitor the performance and efficiency of their work order processes. The dashboard includes a variety of visualizations and components that allow users to analyze the data from multiple perspectives, such as tracking key metrics over time, breaking down work orders by location, month, workflow, and reason, and visualizing completion rates. This gives maintenance and operations leaders a centralized view of their closed work order data, enabling them to identify opportunities for process improvement, resource allocation, and better meeting service level agreements.
 
 ### Tags
 
@@ -29,4 +29,4 @@ This dashboard provides a comprehensive view of the closed corrective and schedu
 
 ---
 
-*Generated on 2026-01-29 11:51:26 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:22 by Luzmo API Tools*

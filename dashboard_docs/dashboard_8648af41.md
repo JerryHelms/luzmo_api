@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Missing User Roles Dashboard](../screenshots/_Internal_ Missing User Roles_8648af41.png)
+![[Internal] Missing User Roles Dashboard](../screenshots/_Internal__Missing_User_Roles_8648af41.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ This dashboard is likely to be used by a variety of internal teams, including IT
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of users with missing roles within the organization, enabling internal teams such as IT, HR, and operations managers to quickly identify and address issues related to access controls and user management. By tracking key metrics like the count of users with missing roles, as well as allowing users to filter and analyze historical data by creation date, the dashboard helps stakeholders maintain the integrity of the organization's access policies and ensure that all employees have the appropriate permissions to perform their job functions effectively.
+This internal dashboard, titled "Missing User Roles," provides valuable insights to help IT, HR, and operational teams ensure that users within the organization have the appropriate access and permissions to perform their job functions effectively. By offering a comprehensive view of users with missing roles, the dashboard enables stakeholders to quickly identify trends, analyze historical data, and take proactive actions to maintain the integrity of the organization's access controls and user management processes. The dashboard includes a variety of intuitive components, such as search filters, evolution numbers, date filters, column charts, and detailed data tables, making it easy for users to find, analyze, and address issues related to missing user roles. This centralized interface empowers internal teams to effectively monitor and manage this critical operational aspect, contributing to the overall security and efficiency of the organization.
 
 ### Tags
 
-`user management` `access control` `role assignments` `operations` `it governance`
+`user management` `access control` `operational visibility` `risk management` `compliance`
 
 ---
 
-*Generated on 2026-01-29 11:52:05 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:05 by Luzmo API Tools*

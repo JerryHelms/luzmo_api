@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Export - Copy Dashboard](../screenshots/Work Order Export - Copy_7a7ed5ad.png)
+![Work Order Export - Copy Dashboard](../screenshots/Work_Order_Export_-_Copy_7a7ed5ad.png)
 
 ## Description
 
@@ -23,7 +23,7 @@ This dashboard serves as a valuable tool for operations managers, finance profes
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of work order data, catering to the needs of operations and finance teams. It allows users to analyze work order trends, costs, and performance across various dimensions, enabling data-driven decision-making and improved efficiency in the work order process. Key insights include work order volume and total cost trends, detailed breakdowns of work orders by status, type, category, and workflow, and visualizations that highlight changes over time. This dashboard serves as a valuable tool for operations managers, finance professionals, and other stakeholders who need to monitor, analyze, and report on work order performance.
+This dashboard provides a comprehensive view of work order data, catering to the needs of operations and finance teams. It allows users to analyze work order trends, costs, and performance across various dimensions, such as workflow, status, type, and category. Key insights include work order volume and total cost trends over time, detailed breakdowns of work orders by different attributes, and pivot tables that enable deeper data analysis. This dashboard serves as a valuable tool for operations managers, finance professionals, and other stakeholders who need to monitor, analyze, and report on work order performance, supporting data-driven decision-making and improving the efficiency and cost-effectiveness of the work order process.
 
 ### Tags
 
@@ -31,4 +31,4 @@ This dashboard provides a comprehensive view of work order data, catering to the
 
 ---
 
-*Generated on 2026-01-29 11:51:58 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:57 by Luzmo API Tools*

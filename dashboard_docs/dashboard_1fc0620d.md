@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Capital Needs - Haddonfield Dashboard](../screenshots/Capital Needs - Haddonfield_1fc0620d.png)
+![Capital Needs - Haddonfield Dashboard](../screenshots/Capital_Needs_-_Haddonfield_1fc0620d.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ This dashboard would be highly valuable for city planners, budget managers, and 
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive view of the capital needs, costs, and project status for the city of Haddonfield. It enables city planners, budget managers, and decision-makers to analyze the capital requirements across various locations, categories, and time frames, empowering them to make informed decisions, optimize resource allocation, and ensure effective capital project management. The dashboard offers features such as search and filtering, cost analysis by category and location, detailed cost projections, and project timeline and status tracking, giving stakeholders a centralized and data-driven approach to managing the city's capital needs.
+This dashboard provides a comprehensive view of the capital needs and projects for the city of Haddonfield. It offers valuable insights and tools for city planners, budget managers, and decision-makers to effectively manage and allocate capital resources. The dashboard features advanced filtering and analysis capabilities, enabling users to explore capital needs by location, category, and project year. It presents a clear overview of the total open requests and backlog costs, as well as detailed cost projections and project timelines. This centralized platform empowers stakeholders to make informed decisions, optimize resource allocation, and ensure efficient capital project management.
 
 ### Tags
 
-`capital planning` `municipal budget` `city infrastructure` `project management` `resource allocation`
+`capital planning` `municipal infrastructure` `project management` `budget allocation` `city planning`
 
 ---
 
-*Generated on 2026-01-29 11:51:29 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:25 by Luzmo API Tools*

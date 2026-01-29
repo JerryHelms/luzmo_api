@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Revenue Goals Dashboard (replaced by a 2026 version) Dashboard](../screenshots/Revenue Goals Dashboard _replaced by a 2026 versio_c850d2eb.png)
+![Revenue Goals Dashboard (replaced by a 2026 version) Dashboard](../screenshots/Revenue_Goals_Dashboard__replaced_by_a_2026_versio_c850d2eb.png)
 
 ## Description
 
@@ -29,12 +29,12 @@ By providing a centralized and data-driven view of the company's revenue perform
 
 ## AI-Generated Summary
 
-The Revenue Goals Dashboard is a comprehensive reporting tool that provides key stakeholders with a detailed overview of the company's financial performance and progress towards revenue targets. This dashboard is designed to help executives, sales leaders, and finance teams track and analyze critical revenue metrics, identify trends, and make informed decisions to drive business growth. The dashboard showcases key revenue-related metrics such as monthly orders, year-to-date sales, annual recurring revenue, and team revenue goals. It also includes pivot tables and charts that enable users to dive deeper into sales and ARR data at a more granular level, helping them understand performance, identify growth opportunities, and take targeted actions to achieve their revenue goals.
+The Revenue Goals Dashboard provides a comprehensive overview of the company's financial performance and progress towards revenue targets. It empowers executives, sales leaders, and finance teams to track and analyze critical revenue metrics, identify trends, and make informed decisions to drive business growth. The dashboard displays a range of revenue-related metrics, including monthly orders, year-to-date sales, annual recurring revenue (ARR), and team revenue goals, presented through a variety of visualizations such as combination charts, evolution-number components, and pivot tables. This centralized and data-driven view allows users to monitor the company's overall revenue performance, identify growth opportunities, and take targeted actions to achieve their revenue goals.
 
 ### Tags
 
-`revenue reporting` `financial performance` `sales analytics` `business growth` `data-driven decision making`
+`revenue management` `financial reporting` `sales performance` `business intelligence` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:55:04 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:11 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Details - Hemet USD Dashboard](../screenshots/Work Order Details - Hemet USD_3bb0b156.png)
+![Work Order Details - Hemet USD Dashboard](../screenshots/Work_Order_Details_-_Hemet_USD_3bb0b156.png)
 
 ## Description
 
@@ -18,12 +18,12 @@ Overall, this dashboard serves as a central hub for work order tracking and anal
 
 ## AI-Generated Summary
 
-The "Work Order Details - Hemet USD" dashboard provides a comprehensive view of work orders for the Hemet Unified School District. This dashboard is designed to help facilities, maintenance, and operations teams within the school district monitor and manage their work order processes. The dashboard includes a range of interactive filters and search options, allowing users to quickly find and analyze work orders based on criteria such as workflow, location, category code, date, work order ID, status, priority, description, budget, and assigned technician. The dashboard also includes pivot tables and regular tables that display detailed work order information, enabling users to gain insights into metrics such as work order volume, status, and completion times. This dashboard serves as a central hub for work order tracking and analysis, empowering Hemet USD's facilities and maintenance teams to make data-driven decisions, optimize their workflows, and ensure the efficient and timely completion of work orders across the school district.
+The "Work Order Details - Hemet USD" dashboard provides a comprehensive view of work orders for the Hemet Unified School District (Hemet USD). This dashboard is designed for use by facilities, maintenance, and operations teams within the school district to monitor and manage their work order processes. The dashboard includes a range of interactive filters and search options, enabling users to quickly find and analyze work orders based on criteria such as workflow, location, category, date, status, priority, description, comments, budget code, and assigned technician. The dashboard presents detailed work order information through pivot tables and regular tables, offering insights into metrics like work order volume, status, and completion times. This dashboard serves as a central hub for work order tracking and analysis, empowering Hemet USD's facilities and maintenance teams to make data-driven decisions, optimize workflows, and ensure the efficient and timely completion of work orders across the school district.
 
 ### Tags
 
-`work orders` `facilities management` `operations` `data-driven decision making` `school district`
+`work orders` `facilities management` `operations` `school district` `maintenance`
 
 ---
 
-*Generated on 2026-01-29 11:53:42 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:44 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Deals with Data Issues Dashboard](../screenshots/Hubspot Deals with Data Issues_2ddb3914.png)
+![Hubspot Deals with Data Issues Dashboard](../screenshots/Hubspot_Deals_with_Data_Issues_2ddb3914.png)
 
 ## Description
 
@@ -18,12 +18,12 @@ Overall, this dashboard serves as a comprehensive solution for sales and account
 
 ## AI-Generated Summary
 
-This dashboard provides sales and account management teams with valuable insights into their Hubspot deals and any associated data quality issues. By displaying trends in deals with problems, enabling users to filter data by account team, and surfacing detailed deal-level information, the dashboard empowers users to proactively identify and address data quality concerns. This helps ensure the integrity of the sales pipeline and enables more informed decision-making, ultimately improving sales performance and customer relationships.
+This dashboard provides sales and account management teams with comprehensive insights into their Hubspot deals, enabling them to identify and address any potential data quality issues. By monitoring trends in deals with problems, segmenting data by account teams, and accessing detailed deal-level information, users can gain a holistic understanding of their sales pipeline and ensure the integrity of their Hubspot data. This dashboard empowers teams to make more informed decisions, maintain data quality, and ultimately drive better sales outcomes.
 
 ### Tags
 
-`sales` `data quality` `deals` `pipeline management` `account management`
+`sales` `data quality` `deal tracking` `account management` `hubspot`
 
 ---
 
-*Generated on 2026-01-29 11:55:15 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:24 by Luzmo API Tools*

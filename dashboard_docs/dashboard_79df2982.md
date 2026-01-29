@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hold or Canceled Work Orders Dashboard](../screenshots/Hold or Canceled Work Orders_79df2982.png)
+![Hold or Canceled Work Orders Dashboard](../screenshots/Hold_or_Canceled_Work_Orders_79df2982.png)
 
 ## Description
 
@@ -22,11 +22,11 @@ The combination of dropdown filters, slicers, charts, and detailed work order ta
 
 ## AI-Generated Summary
 
-This "Hold or Canceled Work Orders" dashboard provides comprehensive visibility and analysis into the status of work orders that have been put on hold or canceled. It is likely used by maintenance and operations teams to understand the reasons, timing, and impact of work orders that did not get completed as originally planned. The dashboard includes interactive filters and visualizations that enable users to quickly identify key trends and patterns, such as workflow, type, reason, and status of hold or canceled work orders, as well as the fiscal year and date of work order creation, and the top locations and months with the highest volume of hold or canceled work orders. These insights can help the team understand the root causes of work order delays or cancellations, identify problem areas that need more attention, and make data-driven decisions to improve maintenance processes and reduce the occurrence of hold or canceled work orders going forward. The dashboard would be valuable for maintenance managers, work order coordinators, and other stakeholders responsible for the efficiency and productivity of the maintenance function.
+This "Hold or Canceled Work Orders" dashboard provides comprehensive visibility and analysis into the status of work orders that have been put on hold or canceled. It is likely used by maintenance and operations teams to understand the reasons, timing, and impact of work orders that did not get completed as originally planned. The dashboard includes interactive filters and visualizations to help users quickly identify key trends and patterns, such as workflow, type, reason, and status of hold or canceled work orders, as well as fiscal year and date of work order creation, and top locations and months with the highest volume of hold or canceled work orders. These insights can help the team understand the root causes of work order delays or cancellations, identify problem areas that need more attention, and make data-driven decisions to improve maintenance processes and reduce the occurrence of hold or canceled work orders going forward.
 
 ### Tags
 
-`work orders` `maintenance` `operations` `analytics` `performance`
+`maintenance` `work orders` `operations` `analytics` `process improvement`
 
 ## Filters
 
@@ -47,4 +47,4 @@ This dashboard has **12 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:51:38 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:34 by Luzmo API Tools*

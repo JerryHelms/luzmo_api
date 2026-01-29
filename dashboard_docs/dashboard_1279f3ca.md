@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Contacts Exploration Dashboard](../screenshots/Hubspot Contacts Exploration_1279f3ca.png)
+![Hubspot Contacts Exploration Dashboard](../screenshots/Hubspot_Contacts_Exploration_1279f3ca.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ By providing these insights, the "Hubspot Contacts Exploration" dashboard empowe
 
 ## AI-Generated Summary
 
-The "Hubspot Contacts Exploration" dashboard provides a comprehensive view of a company's Hubspot contacts data, allowing sales, marketing, and customer success teams to analyze and gain insights into their customer base. This dashboard empowers users to answer questions about their most common company types and verticals, track trends in contacts with no email or who have opted out, and identify engaged versus disengaged contacts. With its variety of filters, visualizations, and tables, this dashboard enables users to make more informed decisions, identify opportunities, and optimize their strategies for nurturing and engaging with their customer base.
+The "Hubspot Contacts Exploration" dashboard provides a comprehensive view of a company's Hubspot contacts data, enabling sales, marketing, and customer success teams to analyze their customer base and gain valuable insights. With a range of components, including dropdown filters, evolution numbers, column and bar charts, and regular and pivot tables, users can explore contact data by various criteria such as company type and vertical. This dashboard empowers teams to answer key questions, such as understanding the most common company profiles, tracking changes in engaged vs. disengaged contacts over time, and identifying opportunities to optimize their customer engagement strategies.
 
 ### Tags
 
-`hubspot` `contacts` `customer_analysis` `sales_insights` `marketing_analytics`
+`hubspot` `customer analysis` `contact management` `sales intelligence` `marketing analytics`
 
 ---
 
-*Generated on 2026-01-29 11:50:23 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:33 by Luzmo API Tools*

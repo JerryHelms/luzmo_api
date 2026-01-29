@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Transaction: Expense by Vendor Dashboard](../screenshots/Transaction_ Expense by Vendor_9718c896.png)
+![Transaction: Expense by Vendor Dashboard](../screenshots/Transaction__Expense_by_Vendor_9718c896.png)
 
 ## Description
 
@@ -29,11 +29,11 @@ This dashboard likely serves as a central hub for the organization's vendor expe
 
 ## AI-Generated Summary
 
-This "Transaction: Expense by Vendor" dashboard provides a comprehensive view of an organization's vendor expenses and transactions. It is likely used by finance, procurement, or operations teams to monitor and analyze vendor-related spending. The dashboard includes a variety of interactive components that allow users to filter, slice, and pivot the data in multiple ways, empowering them to understand total vendor expenses, identify high-spend vendors, analyze expenses by transaction type or other attributes, locate specific vendor transactions, and identify potential cost savings opportunities. This dashboard serves as a central hub for the organization's vendor expense management, enabling data-driven decision-making about vendor relationships and spending.
+The "Transaction: Expense by Vendor" dashboard provides a comprehensive view of an organization's vendor expenses and transactions. It empowers finance, procurement, and operations teams to monitor, analyze, and optimize vendor-related spending. The dashboard offers a range of interactive components, including filters, pivot tables, charts, and detailed transaction data, enabling users to understand total vendor expenses, identify high-spend vendors, analyze expenses by various attributes, and quickly locate and research specific vendor transactions. This central hub for vendor expense management helps users make data-driven decisions about vendor relationships and spending.
 
 ### Tags
 
-`vendor management` `expense tracking` `finance` `procurement` `operations`
+`vendor management` `expense tracking` `procurement` `finance` `operations`
 
 ## Filters
 
@@ -45,4 +45,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:49:58 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:09 by Luzmo API Tools*

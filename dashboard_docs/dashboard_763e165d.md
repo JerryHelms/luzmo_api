@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Arkansas Work Order Details Dashboard](../screenshots/Arkansas Work Order Details_763e165d.png)
+![Arkansas Work Order Details Dashboard](../screenshots/Arkansas_Work_Order_Details_763e165d.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ This dashboard serves as a valuable tool for stakeholders across Arkansas, helpi
 
 ## AI-Generated Summary
 
-The "Arkansas Work Order Details" dashboard provides a comprehensive view into the state's work order management system, empowering users such as work order managers, maintenance teams, and administrative staff to gain valuable insights, track trends, and make data-driven decisions. The dashboard's rich set of filtering options, including work order status, location, and date range, allows users to quickly identify and analyze specific work orders of interest. The detailed work order information displayed in the interactive tables further enables stakeholders to monitor the efficiency of work order processing, identify areas for improvement, and ensure the effective execution of work orders across Arkansas.
+The "Arkansas Work Order Details" dashboard provides a comprehensive view of the state's work order management system, empowering users such as work order managers, maintenance teams, and administrative staff to gain valuable insights and make data-driven decisions. The dashboard offers a rich set of filtering capabilities, allowing users to refine and analyze work order data based on various criteria, including status, location, and time frames. With its interactive tables displaying detailed work order information, this dashboard enables users to track trends, identify patterns, and monitor the progress of work orders, ultimately helping to streamline operations, enhance transparency, and ensure the effective execution of work orders throughout Arkansas.
 
 ### Tags
 
-`work orders` `operations` `data analysis` `state government` `asset management`
+`work orders` `operations management` `maintenance` `data analytics` `dashboard`
 
 ---
 
-*Generated on 2026-01-29 11:55:27 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:35 by Luzmo API Tools*

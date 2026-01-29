@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Deals Dashboard](../screenshots/Hubspot Deals_412010e2.png)
+![Hubspot Deals Dashboard](../screenshots/Hubspot_Deals_412010e2.png)
 
 ## Description
 
@@ -22,11 +22,11 @@ This dashboard consolidates data from multiple sources, allowing sales leaders t
 
 ## AI-Generated Summary
 
-The Hubspot Deals dashboard is a comprehensive sales management tool that provides sales leaders and managers with a high-level overview of their sales pipeline and performance. It answers critical questions about deal progression through the sales funnel, sales team performance against targets, drivers of sales success, and opportunities to streamline the sales cycle. The dashboard consolidates data from multiple sources, allowing sales professionals to quickly understand the health of their sales operations and make informed decisions to drive revenue growth.
+The Hubspot Deals dashboard is a comprehensive sales management tool that provides sales leaders and managers with a high-level overview of their sales pipeline and performance. It answers critical questions such as where leads are getting stuck in the sales funnel, how the sales team is performing against targets, what factors are driving sales success, and how efficiently the sales team is operating. The dashboard consolidates data from multiple sources, allowing users to quickly understand the health of their sales pipeline, identify areas for improvement, and make informed decisions to drive revenue growth. It is an essential tool for sales managers, directors, and executives who need to monitor and optimize their sales operations.
 
 ### Tags
 
-`sales` `pipeline management` `performance tracking` `deal progression` `revenue growth`
+`sales` `pipeline management` `performance tracking` `revenue optimization` `deal analysis`
 
 ## Filters
 
@@ -41,4 +41,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:50:12 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:24 by Luzmo API Tools*

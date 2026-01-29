@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Luzmo Support] - Event Summary Report - Copy Dashboard](../screenshots/_Luzmo Support_ - Event Summary Report - Copy_3aba7b4b.png)
+![[Luzmo Support] - Event Summary Report - Copy Dashboard](../screenshots/_Luzmo_Support__-_Event_Summary_Report_-_Copy_3aba7b4b.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ In summary, the [Luzmo Support] - Event Summary Report dashboard is a valuable t
 
 ## AI-Generated Summary
 
-The [Luzmo Support] - Event Summary Report dashboard provides a comprehensive overview of Luzmo's event performance data, enabling the support team and event organizers to track key metrics, identify trends, and make data-driven decisions to enhance event management. By leveraging interactive filters and detailed data tables, users can analyze event attendance, popular venues and groups, and event activity over time. This dashboard helps the Luzmo team gain valuable insights that can inform event planning, marketing, and overall operations, ultimately improving the company's event offerings and customer experience.
+The [Luzmo Support] - Event Summary Report dashboard provides a comprehensive overview of event data for Luzmo, a company that manages various events or venues. This dashboard is designed to help Luzmo's support team and event organizers track and analyze key event metrics, such as attendance, venue details, and event activity. By leveraging interactive filters and data tables, users can gain insights into the performance and trends of Luzmo's events, which can inform decision-making for improved event planning, marketing, and management.
 
 ### Tags
 
-`event management` `event analytics` `performance monitoring` `data-driven decision making` `venue optimization`
+`event management` `event analytics` `venue management` `customer support` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:53:01 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:03 by Luzmo API Tools*

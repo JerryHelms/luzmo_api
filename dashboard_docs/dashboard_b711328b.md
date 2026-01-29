@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![New Jersey M-1 Dashboard](../screenshots/New Jersey M-1_b711328b.png)
+![New Jersey M-1 Dashboard](../screenshots/New_Jersey_M-1_b711328b.png)
 
 ## Description
 
@@ -25,12 +25,12 @@ Overall, the "New Jersey M-1" dashboard provides a comprehensive view of the M-1
 
 ## AI-Generated Summary
 
-The "New Jersey M-1" dashboard provides a comprehensive view of the maintenance costs and spending for the M-1 project in New Jersey. This dashboard is designed to help public sector officials, transportation department managers, and project stakeholders understand the financial performance of the M-1 maintenance efforts. The dashboard includes a variety of components, such as dropdown filters, column charts, pivot tables, and data tables, that enable users to analyze the historical trends and current status of the M-1 maintenance program, including how costs and spending are distributed across different geographic areas. This information can help identify cost drivers, optimize resource allocation, and support decision-making around the M-1 project.
+The "New Jersey M-1" dashboard provides a comprehensive view of the maintenance costs and spending for the M-1 project in New Jersey. This dashboard is designed to help public sector officials, transportation department managers, and project stakeholders understand the financial performance of the M-1 maintenance program. The dashboard offers insights into the historical trends and current status of maintenance costs, with the ability to analyze spending by geographic location. This information can support decision-making around resource allocation, cost optimization, and the overall management of this critical infrastructure project.
 
 ### Tags
 
-`infrastructure maintenance` `transportation budgeting` `project financial performance` `public sector analytics` `geographic cost analysis`
+`maintenance` `infrastructure` `transportation` `finance` `project management`
 
 ---
 
-*Generated on 2026-01-29 11:53:53 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:54 by Luzmo API Tools*

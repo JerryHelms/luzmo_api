@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Deal Line Items Dashboard](../screenshots/Hubspot Deal Line Items_2fac66e5.png)
+![Hubspot Deal Line Items Dashboard](../screenshots/Hubspot_Deal_Line_Items_2fac66e5.png)
 
 ## Description
 
@@ -27,12 +27,12 @@ This dashboard would be valuable for sales leaders and managers who need to moni
 
 ## AI-Generated Summary
 
-This "Hubspot Deal Line Items" dashboard provides a comprehensive view of a company's sales pipeline and performance. It is designed to help sales leaders, managers, and representatives track and analyze their deals throughout the sales process. The dashboard features visualizations and filters that allow users to monitor overall sales performance, analyze deal trends by product and stage, and drill down into the details of open and closed won deals. This dashboard would be valuable for sales teams who need to make data-driven decisions to improve their sales strategies and execution.
+This "Hubspot Deal Line Items" dashboard provides a comprehensive view of a company's sales pipeline and performance. It is designed to help sales leaders, managers, and representatives track and analyze their deals throughout the sales process. The dashboard features visualizations and filters that allow users to monitor overall sales performance, analyze deal trends by product family and type, and drill down into details of open and closed won deals. This centralized, visual platform helps sales teams make data-driven decisions to improve their performance and profitability.
 
 ### Tags
 
-`sales` `deal management` `pipeline analysis` `hubspot` `performance tracking`
+`sales pipeline` `sales analytics` `deal management` `business intelligence` `revenue tracking`
 
 ---
 
-*Generated on 2026-01-29 11:55:18 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:26 by Luzmo API Tools*

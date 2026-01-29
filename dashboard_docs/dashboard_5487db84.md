@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Work Order Detailed Report Dashboard](../screenshots/Work Order Detailed Report_5487db84.png)
+![Work Order Detailed Report Dashboard](../screenshots/Work_Order_Detailed_Report_5487db84.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, this dashboard gives stakeholders a detailed, data-driven view of the c
 
 ## AI-Generated Summary
 
-The "Work Order Detailed Report" dashboard provides a comprehensive view of the company's open work orders, helping managers and operations teams track and analyze this important aspect of the business. The dashboard allows users to filter work order data by various criteria, analyze trends in the number of open work orders over time, and dive deeper into yearly trends through pivot-table components. This data-driven view of the company's work order status and history enables stakeholders to make more informed decisions about resource allocation, process improvements, and customer service.
+The "Work Order Detailed Report" dashboard provides a comprehensive view of the company's open work orders, helping managers and operations teams track and analyze this important aspect of the business. It allows users to filter work order data by various criteria, analyze trends in the number of open work orders over time, and dive deeper into yearly trends through interactive pivot tables. This dashboard gives stakeholders a detailed, data-driven view of the company's work order status and history, enabling them to make more informed decisions about resource allocation, process improvements, and customer service.
 
 ### Tags
 
-`work orders` `field service` `operations management` `maintenance` `business analytics`
+`work orders` `field service` `maintenance` `operations` `resource management`
 
 ---
 
-*Generated on 2026-01-29 11:49:53 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:04 by Luzmo API Tools*

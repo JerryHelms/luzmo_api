@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Quota Analysis for Reps - 2026 Closed Deals Only  Dashboard](../screenshots/Quota Analysis for Reps - 2026 Closed Deals Only _5566a52b.png)
+![Quota Analysis for Reps - 2026 Closed Deals Only  Dashboard](../screenshots/Quota_Analysis_for_Reps_-_2026_Closed_Deals_Only__5566a52b.png)
 
 ## Description
 
@@ -22,11 +22,11 @@ Together, these components enable sales leaders to closely monitor their team's 
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive analysis of sales quotas and performance for the company's sales representatives in 2026. It is designed to help sales managers and executives track and understand their team's sales performance against their quotas. The dashboard features various components that display key metrics and insights, such as year-to-date (YTD) quota, actual sales, and percentage of quota achieved, as well as visualizations of sales data by account team and month. Detailed pivot tables allow users to analyze performance by different dimensions. Together, these components enable sales leaders to closely monitor their team's progress, identify areas of strength and opportunity, and make informed decisions to optimize sales strategies and achieve their annual targets.
+This dashboard provides a comprehensive analysis of sales quotas and performance for the company's sales representatives in 2026. It enables sales managers and executives to closely monitor their team's progress, identify areas of strength and opportunity, and make informed decisions to optimize sales strategies and achieve their annual targets. The dashboard features key metrics and insights, including year-to-date quota, actual sales, and percentage of quota achieved, as well as visualizations of sales performance by account team and month. Users can analyze the data by quarter and month, allowing them to focus on specific time periods. This dashboard would be particularly useful for regional sales managers, the sales leadership team, and executives responsible for overall sales performance.
 
 ### Tags
 
-`sales performance` `quota analysis` `sales analytics` `sales management` `business intelligence`
+`sales` `quota` `performance` `analytics` `reporting`
 
 ## Filters
 
@@ -41,4 +41,4 @@ This dashboard has **6 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:55:01 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:07 by Luzmo API Tools*

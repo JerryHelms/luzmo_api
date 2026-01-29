@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Arkansas State Mandated Inspections - Copy Dashboard](../screenshots/Arkansas State Mandated Inspections - Copy_33482b75.png)
+![Arkansas State Mandated Inspections - Copy Dashboard](../screenshots/Arkansas_State_Mandated_Inspections_-_Copy_33482b75.png)
 
 ## Description
 
@@ -27,12 +27,12 @@ This information would be valuable for monitoring compliance, identifying areas 
 
 ## AI-Generated Summary
 
-This dashboard provides a comprehensive overview of Arkansas' state-mandated inspections and related work orders. It is designed for government officials, agency managers, and inspectors to track, analyze, and report on these critical operational activities. The dashboard includes various interactive filters, pivot tables, and detailed data views that enable users to explore inspection and work order trends by date, name, type, priority, and reason. Key insights include the total number of inspections and work orders, the types and priorities of work orders, and patterns in inspection and work order activity over time. This information is valuable for monitoring compliance, identifying process improvement opportunities, and supporting data-driven decisions related to resource allocation, staffing, and other operational considerations.
+This dashboard provides a comprehensive view of Arkansas' state-mandated inspections and related work orders. It is likely used by government officials, agency managers, and inspectors to track, analyze, and report on these critical operational activities. The dashboard includes interactive filters, pivot tables, and detailed data views that enable users to explore the data from multiple angles, such as by inspection name, work order type, priority, and reason. Key insights include the total number of inspections and work orders over time, as well as trends and patterns in these activities. This information is valuable for monitoring compliance, identifying areas for process improvement, and supporting data-driven decision-making related to resource allocation, staffing, and other operational considerations.
 
 ### Tags
 
-`government inspections` `work orders` `compliance monitoring` `operational analytics` `data-driven decision-making`
+`state inspections` `work orders` `government operations` `compliance` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:51:40 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:37 by Luzmo API Tools*

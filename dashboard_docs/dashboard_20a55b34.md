@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Group Details Dashboard](../screenshots/Group Details_20a55b34.png)
+![Group Details Dashboard](../screenshots/Group_Details_20a55b34.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ Overall, the "Group Details" dashboard seems to be a valuable tool for event org
 
 ## AI-Generated Summary
 
-The "Group Details" dashboard is a comprehensive tool for event organizers, managers, and analysts to monitor and analyze the performance of various event groups. It provides a wide range of filtering options, data tables, and pivot tables that enable users to quickly identify trends, patterns, and key metrics across different events, venues, and event statuses. The dashboard allows users to gain valuable insights into event attendance, engagement, and other important factors, helping them make data-driven decisions to optimize event planning and execution.
+The "Group Details" dashboard is a comprehensive tool for event organizers, managers, and analysts to analyze and monitor the performance of different event groups. It provides a wide range of functionality, including filtering controls, data tables, and pivot tables, to help users understand key metrics such as event attendance, status, and group-level trends. The dashboard allows users to quickly focus on specific subsets of the data based on criteria like event start date, event group, venue, and internal/external events. This enables data-driven decision-making, identification of areas for improvement, and better overall management of the event portfolio.
 
 ### Tags
 
-`event management` `data analysis` `performance monitoring` `group analysis` `event planning`
+`event management` `data analysis` `performance monitoring` `business intelligence` `event reporting`
 
 ---
 
-*Generated on 2026-01-29 11:52:50 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:51 by Luzmo API Tools*

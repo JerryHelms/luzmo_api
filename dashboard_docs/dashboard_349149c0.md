@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![PM Schedules Dashboard](../screenshots/PM Schedules_349149c0.png)
+![PM Schedules Dashboard](../screenshots/PM_Schedules_349149c0.png)
 
 ## Description
 
@@ -24,12 +24,12 @@ This dashboard would be particularly valuable for maintenance managers and opera
 
 ## AI-Generated Summary
 
-The "PM Schedules" dashboard provides maintenance managers, operations leaders, and other stakeholders a comprehensive view of the company's planned maintenance (PM) schedules and work orders (WOs). Users can easily filter the data by location, asset category, and date range to identify where maintenance is planned, monitor upcoming activities, and analyze historical trends. This helps them ensure critical assets are properly maintained, minimize unplanned downtime, and optimize the allocation of maintenance resources across the organization.
+The "PM Schedules" dashboard provides a comprehensive view of the company's planned maintenance (PM) schedules and work orders (WOs). This dashboard is likely used by maintenance managers, operations leaders, and other stakeholders who need to oversee and manage the organization's preventive maintenance activities. The dashboard allows users to filter the data by location, parent category, and specific category, as well as view historical trends by selecting a date range. This enables them to quickly identify where maintenance is planned, monitor upcoming activities, and analyze historical trends to optimize their preventive maintenance program. The detailed information displayed in the tables, such as work order status, asset information, and maintenance activities performed, helps users ensure critical assets are properly maintained, minimize unplanned downtime, and optimize the allocation of maintenance resources across the organization.
 
 ### Tags
 
-`preventive maintenance` `asset management` `work order management` `operations optimization` `maintenance scheduling`
+`preventive maintenance` `work order management` `operations` `asset management` `maintenance scheduling`
 
 ---
 
-*Generated on 2026-01-29 11:53:47 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:49 by Luzmo API Tools*

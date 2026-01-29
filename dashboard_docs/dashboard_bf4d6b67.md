@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot Detailed Line Items Dashboard](../screenshots/Hubspot Detailed Line Items_bf4d6b67.png)
+![Hubspot Detailed Line Items Dashboard](../screenshots/Hubspot_Detailed_Line_Items_bf4d6b67.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ This dashboard is likely to be used by sales executives, managers, and analysts 
 
 ## AI-Generated Summary
 
-The Hubspot Detailed Line Items dashboard provides sales teams and managers with a comprehensive view of their deal pipeline and performance. It offers advanced filtering and segmentation capabilities, allowing users to quickly identify trends and patterns within their sales funnel. The dashboard features detailed reporting, including deal-level data, and evolution-based visualizations to track the progress and health of the sales pipeline over time. By combining these features, the dashboard empowers sales leaders and managers to analyze their team's overall sales performance, identify areas for improvement, and make data-driven decisions to drive business growth.
+The Hubspot Detailed Line Items dashboard provides sales teams and managers with a comprehensive view of their deal pipeline and performance. It enables users to filter and segment data by key criteria such as deal status, stage, product, and owner, allowing them to quickly identify trends and patterns within their sales funnel. The dashboard features visualizations that track the progress and health of the sales pipeline over time, as well as detailed reporting on individual deal-level data. This empowers sales leaders and managers to analyze their team's overall sales performance, identify areas for improvement, and make data-driven decisions to optimize their sales strategies and processes.
 
 ### Tags
 
-`sales pipeline` `deal tracking` `sales performance` `data-driven insights` `sales management`
+`sales performance` `deal pipeline` `sales reporting` `data-driven decision making` `business intelligence`
 
 ---
 
-*Generated on 2026-01-29 11:54:07 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:09 by Luzmo API Tools*

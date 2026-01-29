@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![BigQuery Schema Review Dashboard](../screenshots/BigQuery Schema Review_993c4fe3.png)
+![BigQuery Schema Review Dashboard](../screenshots/BigQuery_Schema_Review_993c4fe3.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ This dashboard empowers data teams to better understand, maintain, and optimize 
 
 ## AI-Generated Summary
 
-This BigQuery Schema Review dashboard provides data teams with a comprehensive overview of the data models and schema definitions powering their organization's analytics and reporting. It empowers users to quickly navigate, search, and explore the tables, fields, and metadata stored in their BigQuery data warehouse. By offering an interactive, visual interface to review the schema, this dashboard helps data engineers, analysts, and administrators better understand, maintain, and optimize the underlying data architecture. It supports critical business functions such as data governance, schema management, and data-driven decision making.
+This BigQuery Schema Review dashboard provides a comprehensive overview of the schemas and data structures within a BigQuery data warehouse. It is designed for data engineers, data analysts, and database administrators who need to understand and manage the complex data models and schema definitions powering their organization's analytics and reporting. The dashboard's interactive filters and tables allow users to quickly navigate, explore, and search the various tables, fields, and schema details stored in BigQuery. This helps data teams better understand, maintain, and optimize the underlying data architecture supporting critical business analytics and reporting. The dashboard serves as a valuable tool for data governance, schema management, and supporting data-driven decision making.
 
 ### Tags
 
-`data governance` `schema management` `data architecture` `data analytics` `business intelligence`
+`data governance` `schema management` `data architecture` `data modeling` `analytics`
 
 ---
 
-*Generated on 2026-01-29 11:52:59 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:00 by Luzmo API Tools*

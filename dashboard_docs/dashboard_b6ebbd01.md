@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Assets - Greeneville City Schools Dashboard](../screenshots/Assets - Greeneville City Schools_b6ebbd01.png)
+![Assets - Greeneville City Schools Dashboard](../screenshots/Assets_-_Greeneville_City_Schools_b6ebbd01.png)
 
 ## Description
 
@@ -22,12 +22,12 @@ By consolidating all this asset-related information into a single dashboard, fac
 
 ## AI-Generated Summary
 
-The "Assets - Greeneville City Schools" dashboard provides a comprehensive overview of the assets and maintenance activities across the Greeneville City Schools district. This dashboard is designed to help facilities managers, maintenance teams, and school administration effectively monitor and manage the district's physical assets, including buildings, equipment, and infrastructure. The dashboard offers a range of features, such as filters to focus on specific asset groups, search functionality to quickly find relevant information, and detailed asset details including maintenance spending, labor hours, and preventive maintenance metrics. Additionally, the dashboard presents trend metrics and summary views to help users identify trends, assess asset health, and make informed decisions about maintenance, replacement, and resource allocation. By consolidating this critical asset-related information in a single dashboard, this tool supports efficient asset management and ensures the schools have the necessary resources to provide a high-quality learning environment for students.
+The "Assets - Greeneville City Schools" dashboard provides a comprehensive view of the physical assets and maintenance activities across the Greeneville City Schools district. This dashboard is designed to help facilities managers, maintenance teams, and school administrators monitor the condition, performance, and lifecycle of the district's assets. Users can filter the data by various attributes like location, category, and room to quickly identify areas that require attention. The dashboard displays detailed asset information, including maintenance spend, labor hours, and preventive maintenance ratios, allowing users to make data-driven decisions about asset maintenance, replacement, and resource allocation. By consolidating this asset-related information in a centralized dashboard, the district can ensure its facilities and equipment are properly maintained to support a high-quality learning environment for students.
 
 ### Tags
 
-`asset management` `facility management` `maintenance operations` `school administration` `performance monitoring`
+`asset management` `facilities maintenance` `school administration` `performance monitoring` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:53:50 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:52 by Luzmo API Tools*

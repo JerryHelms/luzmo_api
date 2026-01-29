@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Github Stats Dashboard](../screenshots/_Internal_ Github Stats_360dc07b.png)
+![[Internal] Github Stats Dashboard](../screenshots/_Internal__Github_Stats_360dc07b.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ In summary, this dashboard serves as a centralized hub for monitoring and analyz
 
 ## AI-Generated Summary
 
-The "[Internal] Github Stats" dashboard provides a comprehensive view of key metrics and insights related to an organization's GitHub activity. This dashboard is designed to be used by engineering leaders, project managers, and other stakeholders who need to understand and track the Github-related performance and productivity of their teams. The dashboard includes visualizations and data views that cover different aspects of Github usage, such as releases, builds, build duration, billable minutes, contributor-level insights, and more. This dashboard serves as a centralized hub for monitoring and analyzing an organization's GitHub activity, enabling data-driven decision-making, identifying areas for improvement, and tracking the overall health and productivity of software development teams.
+The "[Internal] Github Stats" dashboard provides a comprehensive overview of an organization's Github activity, enabling engineering leaders, project managers, and other stakeholders to monitor release cadence, build health, and team productivity. The dashboard delivers detailed insights across various metrics, including release and build trends, contributor-level activity, and filterable data tables. This centralized view helps users make data-driven decisions, identify areas for improvement, and track the overall health and performance of their software development teams.
 
 ### Tags
 
-`github` `software development` `engineering analytics` `team productivity` `performance monitoring`
+`software development` `engineering productivity` `release management` `build monitoring` `team analytics`
 
 ---
 
-*Generated on 2026-01-29 11:50:48 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:53 by Luzmo API Tools*

@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Days to Complete Dashboard](../screenshots/Days to Complete_ef8cba16.png)
+![Days to Complete Dashboard](../screenshots/Days_to_Complete_ef8cba16.png)
 
 ## Description
 
@@ -26,11 +26,11 @@ This dashboard would be particularly useful for managers, project leads, and ope
 
 ## AI-Generated Summary
 
-This "Days to Complete" dashboard provides comprehensive insights into the time it takes to complete various types of requests or tasks within an organization. It is designed to help managers, project leads, and operational teams monitor and improve the efficiency of the request completion process. The dashboard offers a wide range of filtering and segmentation options, allowing users to analyze the data from multiple angles, such as by workflow, request type, reason, category, and fiscal year. It displays key performance metrics, including total completed requests and average days to complete, along with specialized charts that break down the completion timelines for different request types. This dashboard empowers stakeholders to identify bottlenecks, optimize workflows, and make data-driven decisions to enhance overall productivity and customer satisfaction.
+This "Days to Complete" dashboard is a comprehensive reporting tool that provides insights into the time it takes to complete various types of requests or tasks within an organization. It offers a wide range of filtering and segmentation options, allowing users to analyze the request completion process from multiple angles. The dashboard displays key performance metrics, such as total completed requests and average days to complete, along with specialized charts that delve deeper into the completion timelines. This dashboard would be particularly useful for managers, project leads, and operational teams responsible for monitoring and improving the efficiency of the request completion process. By providing a detailed view of the relevant data and performance indicators, it can help these stakeholders identify bottlenecks, optimize workflows, and make data-driven decisions to enhance overall productivity and customer satisfaction.
 
 ### Tags
 
-`request management` `performance monitoring` `workflow optimization` `operational efficiency` `task completion`
+`request management` `task completion` `operational efficiency` `performance metrics` `workflow optimization`
 
 ## Filters
 
@@ -42,4 +42,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:10 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:13 by Luzmo API Tools*

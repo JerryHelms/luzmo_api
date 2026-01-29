@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Client Metrics Dashboard](../screenshots/_Internal_ Client Metrics_8ae624f7.png)
+![[Internal] Client Metrics Dashboard](../screenshots/_Internal__Client_Metrics_8ae624f7.png)
 
 ## Description
 
@@ -29,12 +29,12 @@ This dashboard would be particularly useful for client service managers, operati
 
 ## AI-Generated Summary
 
-This [Internal] Client Metrics dashboard provides a comprehensive overview and analysis of key performance metrics related to client service requests and activities. It consolidates data from multiple sources to enable stakeholders, such as client service managers and operations leaders, to monitor and assess the health and performance of the client service function. The dashboard answers critical questions, including the overall volume of client requests and completed work orders, the distribution of request statuses, the balance between corrective and planned maintenance requests, and the trends in request creation by requesters, locations, and workflows. By delivering a centralized, data-driven view of these metrics, the dashboard empowers users to identify areas for improvement, make informed decisions, and enhance the quality of client service and support.
+The [Internal] Client Metrics dashboard provides a comprehensive overview and analysis of key performance metrics related to client service requests and activities. It consolidates data from multiple sources to enable stakeholders, such as client service managers and operations leaders, to monitor and assess the health and performance of the client service function. The dashboard answers critical questions about the volume and status of client requests, the balance between corrective and planned maintenance, and the trends in request creation by requesters, locations, and workflows. This data-driven view empowers users to identify areas for improvement and make informed decisions to enhance the quality of client service and support.
 
 ### Tags
 
-`client service` `performance metrics` `operations management` `data-driven insights` `service request analysis`
+`client service` `performance metrics` `operations management` `request tracking` `maintenance planning`
 
 ---
 
-*Generated on 2026-01-29 11:50:37 by Luzmo API Tools*
+*Generated on 2026-01-29 12:43:45 by Luzmo API Tools*

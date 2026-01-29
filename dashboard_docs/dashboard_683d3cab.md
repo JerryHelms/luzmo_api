@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![[Internal] Client Subscriptions Dashboard](../screenshots/_Internal_ Client Subscriptions_683d3cab.png)
+![[Internal] Client Subscriptions Dashboard](../screenshots/_Internal__Client_Subscriptions_683d3cab.png)
 
 ## Description
 
@@ -23,12 +23,12 @@ By providing a centralized view of client subscription data, this dashboard empo
 
 ## AI-Generated Summary
 
-This internal dashboard provides a comprehensive view of client subscriptions, empowering stakeholders to monitor, analyze, and optimize subscription performance. With a wide range of interactive filters and detailed data visualizations, the dashboard enables users to explore subscription trends, identify growth opportunities, and address any issues related to client subscriptions. The dashboard is likely used by subscription management teams, account managers, and business analysts to answer key questions about the overall subscription base, account-level performance, and subscription activity across different states, products, and services. By consolidating subscription data from multiple sources, this dashboard serves as a centralized hub for subscription management, supporting informed decision-making and driving business growth.
+This internal dashboard provides a comprehensive view of client subscriptions, catering to the needs of subscription management teams, account managers, and business analysts. It offers a deep dive into various aspects of subscription data, enabling users to explore and analyze subscription performance across different dimensions such as state, account name, active subscription status, HeroHQ, events, and inventory. The dashboard features a combination of dropdown filters and evolution-number components, allowing users to easily identify trends, patterns, and anomalies within the subscription data. The regular-table components provide a tabular view of the underlying data, allowing users to delve into the details and gain a thorough understanding of the subscription landscape. This dashboard empowers stakeholders to make informed decisions, identify growth opportunities, and proactively address any issues or concerns related to client subscriptions.
 
 ### Tags
 
-`client subscriptions` `subscription management` `data analytics` `business intelligence` `performance optimization`
+`subscriptions` `client management` `business analytics` `performance monitoring` `subscription optimization`
 
 ---
 
-*Generated on 2026-01-29 11:52:03 by Luzmo API Tools*
+*Generated on 2026-01-29 12:45:03 by Luzmo API Tools*

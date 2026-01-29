@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![NCES Data Review Dashboard](../screenshots/NCES Data Review_feb44891.png)
+![NCES Data Review Dashboard](../screenshots/NCES_Data_Review_feb44891.png)
 
 ## Description
 
@@ -27,12 +27,12 @@ Overall, the NCES Data Review dashboard is a valuable resource for anyone involv
 
 ## AI-Generated Summary
 
-The NCES Data Review dashboard provides a comprehensive overview of key education data and metrics from the National Center for Education Statistics (NCES). This dashboard empowers education administrators, policymakers, and researchers to analyze trends and patterns in the K-12 education system across the United States. With its range of data visualization and exploration tools, including evolution numbers, pivot tables, and bar charts, users can understand the current state of education, identify areas for improvement, and make more informed decisions about education policy and resource allocation. The dashboard's flexible filtering capabilities also allow users to dive deeper into the data and uncover granular insights.
+The NCES Data Review dashboard provides a comprehensive overview of key education data and metrics from the National Center for Education Statistics (NCES). This dashboard empowers education administrators, policymakers, and researchers to analyze trends and patterns in the K-12 education system across the United States. The dashboard offers a range of data visualization and exploration tools, including enrollment figures broken down by state, the total number of states and districts, and how these metrics have changed over time. Users can leverage the flexible filtering and pivot table capabilities to dive deeper into the data and uncover granular insights, enabling them to make more informed decisions about education policy and resource allocation.
 
 ### Tags
 
-`education` `data analysis` `policy decision-making` `k-12` `nces`
+`education` `data analysis` `k-12` `policy` `trends`
 
 ---
 
-*Generated on 2026-01-29 11:51:02 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:05 by Luzmo API Tools*

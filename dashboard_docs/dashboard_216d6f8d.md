@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Events to Review - Copy Dashboard](../screenshots/Events to Review - Copy_216d6f8d.png)
+![Events to Review - Copy Dashboard](../screenshots/Events_to_Review_-_Copy_216d6f8d.png)
 
 ## Description
 
@@ -20,11 +20,11 @@ Overall, this dashboard seems to be a valuable tool for event managers and opera
 
 ## AI-Generated Summary
 
-This "Events to Review - Copy" dashboard provides a comprehensive view and management capabilities for event organizers, managers, and operations teams. It enables users to quickly filter, analyze, and track key details and metrics related to upcoming and past events. The dashboard's flexible filtering options, detailed event data, and performance trending allow users to uncover insights, identify patterns, and make data-driven decisions around resource allocation, event planning, and process improvements. This centralized interface helps event stakeholders monitor, review, and optimize their event-related activities and outcomes.
+This "Events to Review - Copy" dashboard provides event managers, organizers, and operations teams with a comprehensive view and set of controls for monitoring, reviewing, and optimizing their event programs. The dashboard features flexible filtering, detailed event data, and performance trending capabilities, enabling users to quickly identify patterns, uncover insights, and make data-driven decisions around resource allocation, event planning, and process improvements. Key features include event listings, services, and spaces; time-series metrics like event hours and external event occurrences; and the ability to slice and dice the data by factors like start date, status, event group, venue, and internal/external events.
 
 ### Tags
 
-`events` `event management` `operations` `performance tracking` `data-driven decision making`
+`event management` `operations analytics` `performance tracking` `data-driven decisions` `resource optimization`
 
 ## Filters
 
@@ -36,4 +36,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:53:26 by Luzmo API Tools*
+*Generated on 2026-01-29 12:46:27 by Luzmo API Tools*

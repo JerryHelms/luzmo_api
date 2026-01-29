@@ -28,12 +28,12 @@ This dashboard consolidates data from multiple sources, providing a holistic vie
 
 ## AI-Generated Summary
 
-The "Assets" dashboard provides a comprehensive view of an organization's asset management operations. It empowers asset managers, maintenance teams, and operations leaders to monitor and analyze key performance indicators related to asset utilization, maintenance, and work activities. The dashboard consolidates data from multiple sources, offering interactive components such as filters, evolution numbers, pivot tables, and detailed asset listings. Users can explore trends in maintenance costs, labor hours, preventative maintenance ratios, and asset life cycles to make data-driven decisions that optimize asset utilization, reduce maintenance expenses, and ensure reliable operations.
+The "Assets" dashboard provides a comprehensive view of an organization's asset management operations, enabling asset managers, maintenance teams, and operations leaders to monitor and analyze key performance indicators related to asset utilization, maintenance, and work activities. The dashboard consolidates data from multiple sources, offering interactive components such as dropdown filters, evolution numbers, pivot tables, and regular tables to help users answer critical questions about maintenance costs, preventative maintenance targets, asset lifespans, and individual asset work details. By providing a holistic perspective on asset management performance, this dashboard empowers users to make data-driven decisions to optimize asset utilization, reduce maintenance costs, and ensure reliable operations.
 
 ### Tags
 
-`asset management` `maintenance` `operations` `performance monitoring` `work order management`
+`asset management` `maintenance` `operations` `performance analytics` `data-driven decision making`
 
 ---
 
-*Generated on 2026-01-29 11:54:23 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:28 by Luzmo API Tools*

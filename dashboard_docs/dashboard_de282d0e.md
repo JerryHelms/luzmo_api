@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Inventory Stock Issued Dashboard](../screenshots/Inventory Stock Issued_de282d0e.png)
+![Inventory Stock Issued Dashboard](../screenshots/Inventory_Stock_Issued_de282d0e.png)
 
 ## Description
 
@@ -26,12 +26,12 @@ Overall, this dashboard is a valuable tool for inventory management and planning
 
 ## AI-Generated Summary
 
-The Inventory Stock Issued dashboard provides a comprehensive view of the inventory items that have been distributed from a company's stock. This dashboard is likely used by inventory managers, warehouse staff, and procurement teams to track and analyze the flow of inventory items within the organization. The dashboard includes interactive components that allow users to filter, search, and visualize data related to inventory issues, such as by tag number, item type, category, and date. The dashboard offers insights into inventory movement and distribution through visualizations like bar charts, treemaps, and pivot tables. This information can help users identify trends, optimize inventory levels, and ensure efficient and effective inventory management to support the company's operations.
+The Inventory Stock Issued dashboard provides a comprehensive view of inventory items that have been distributed from a company's stock. This dashboard is likely used by inventory managers, warehouse staff, and procurement teams to track and analyze the flow of inventory within the organization. Key features include filters to narrow down data by inventory attributes, visualizations to track issued amounts by month, catalog, and location, as well as pivot tables to analyze issued amounts over time by location and work order. This dashboard helps users gain insights into inventory movement and distribution, enabling data-driven decisions to optimize inventory levels and ensure efficient allocation of resources.
 
 ### Tags
 
-`inventory management` `stock distribution` `procurement` `warehouse operations` `data visualization`
+`inventory management` `supply chain` `data visualization` `operations` `procurement`
 
 ---
 
-*Generated on 2026-01-29 11:51:17 by Luzmo API Tools*
+*Generated on 2026-01-29 12:44:16 by Luzmo API Tools*

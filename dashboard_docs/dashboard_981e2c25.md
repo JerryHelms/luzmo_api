@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Revenue Goals Dashboard - 2026 Dashboard](../screenshots/Revenue Goals Dashboard - 2026_981e2c25.png)
+![Revenue Goals Dashboard - 2026 Dashboard](../screenshots/Revenue_Goals_Dashboard_-_2026_981e2c25.png)
 
 ## Description
 
@@ -28,12 +28,12 @@ By providing a centralized view of critical revenue data, this dashboard empower
 
 ## AI-Generated Summary
 
-The "Revenue Goals Dashboard - 2026" is a comprehensive reporting tool that provides sales, finance, and executive teams with a 360-degree view of their company's financial performance and progress towards revenue targets for the upcoming fiscal year. This dashboard consolidates data from multiple sources to deliver essential insights, such as year-over-year comparisons of key metrics like sales, ARR, and average ARR, as well as monthly order trends and current open deals. The variety of visualizations, including evolution numbers, combination charts, and pivot tables, cater to the needs of different stakeholders, enabling them to make informed, data-driven decisions to achieve their 2026 revenue goals.
+The "Revenue Goals Dashboard - 2026" is a comprehensive reporting tool designed to help sales and finance teams track and analyze their company's financial performance and progress towards revenue goals for the upcoming fiscal year. This dashboard pulls data from multiple connected datasets to provide a detailed, 360-degree view of key revenue metrics and trends. It features a diverse set of visual components, including evolution numbers, combination charts, pivot tables, and dropdown filters, to help users answer critical questions about sales performance, product growth, open deals, and year-over-year trends. By centralizing this critical revenue data, the dashboard empowers stakeholders across the organization to make informed, data-driven decisions to achieve their 2026 revenue targets.
 
 ### Tags
 
-`revenue` `sales performance` `financial reporting` `goal tracking` `data-driven decision making`
+`revenue` `sales` `finance` `performance management` `data visualization`
 
 ---
 
-*Generated on 2026-01-29 11:55:13 by Luzmo API Tools*
+*Generated on 2026-01-29 12:48:21 by Luzmo API Tools*

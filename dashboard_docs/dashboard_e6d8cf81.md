@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Hubspot YoY Dashboard](../screenshots/Hubspot YoY_e6d8cf81.png)
+![Hubspot YoY Dashboard](../screenshots/Hubspot_YoY_e6d8cf81.png)
 
 ## Description
 
@@ -24,11 +24,11 @@ Overall, this Hubspot YoY dashboard serves as a powerful analytical tool that en
 
 ## AI-Generated Summary
 
-This Hubspot YoY dashboard provides a comprehensive view of a company's year-over-year sales performance, empowering sales leaders, managers, and analysts to monitor key metrics, identify trends, and uncover insights to drive business growth. The dashboard features interactive filters, evolution number components, and various chart types that enable users to analyze data from multiple perspectives, such as by product, region, or sales team. With its centralized data sources and powerful analytical capabilities, this dashboard serves as a valuable tool for sales organizations to make data-driven decisions, track progress over time, and ultimately achieve their sales objectives.
+The Hubspot YoY dashboard is a comprehensive sales performance reporting tool designed to help Hubspot teams and managers track and analyze the company's year-over-year sales trends. This dashboard provides a wide range of visualizations and metrics to monitor key sales indicators, identify performance trends, and uncover insights to drive strategic business decisions. It empowers sales leaders, managers, and analysts to quickly understand the sales pipeline, identify areas of strength and opportunities for improvement, and track the company's sales performance over time. With its interactive filters, charts, and tables, this dashboard delivers a centralized view of sales data from multiple sources, enabling data-driven decision-making to support Hubspot's growth and success.
 
 ### Tags
 
-`sales performance` `business analytics` `data-driven decision making` `year-over-year analysis` `sales pipeline management`
+`sales` `performance` `analytics` `business intelligence` `data-driven decision making`
 
 ## Filters
 
@@ -40,4 +40,4 @@ This dashboard has **3 interactive filters**:
 
 ---
 
-*Generated on 2026-01-29 11:54:29 by Luzmo API Tools*
+*Generated on 2026-01-29 12:47:34 by Luzmo API Tools*

@@ -454,7 +454,7 @@ class DashboardScreenshotAuth:
                 return None
 
             # Generate safe filename
-            safe_name = "".join(c if c.isalnum() or c in (' ', '-', '_') else '_' for c in dashboard_name)
+            safe_name = "".join(c if c.isalnum() or c in ('-', '_') else '_' for c in dashboard_name)
             safe_name = safe_name[:50]  # Limit length
             filename = f"{safe_name}_{dashboard_id[:8]}.png"
             filepath = self.output_dir / filename
