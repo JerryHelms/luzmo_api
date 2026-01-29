@@ -1,25 +1,15 @@
 # Luzmo API + LLM Dashboard Analyzer
 
-A Python application that combines Luzmo's API with Anthropic's Claude to generate intelligent, data-driven summaries of your dashboards. Get precise analysis with exact numbers rather than relying on visual interpretation.
+A Python application that combines Luzmo's API with Anthropic's Claude to analyze, export, and manage your dashboards and datasets.
 
 ## Features
 
-- **Precise Data Analysis**: Fetches actual data from Luzmo dashboards, not just visuals
-- **AI-Powered Insights**: Uses Claude to generate intelligent summaries and insights
-- **Multiple Output Formats**: Save summaries as text, markdown, or JSON
-- **Structured Analysis**: Generate summaries with custom sections (overview, metrics, trends, etc.)
-- **Dashboard Comparison**: Compare two dashboards side-by-side
-- **Q&A Capability**: Ask specific questions about your dashboard data
-- **Batch Processing**: Analyze multiple dashboards at once
-
-## Architecture
-
-This project implements **Approach 2** for dashboard analysis:
-
-1. **Fetch Dashboard Metadata**: Pull chart types, filters, dimensions from Luzmo API
-2. **Extract Data**: Get the actual underlying data behind each chart
-3. **LLM Analysis**: Feed both metadata and data to Claude for structured commentary
-4. **Save Summaries**: Store analysis in external files for easy access
+- **Dashboard Export**: Export all dashboards, charts, and filters to Excel
+- **Dataset Export**: Export datasets, columns, and usage relationships to Excel
+- **AI-Powered Descriptions**: Generate dashboard descriptions using Claude (no data retrieval)
+- **Bulk Updates**: Update dashboard descriptions from external files
+- **Precise Data Analysis**: Fetch actual data from Luzmo dashboards for AI analysis
+- **Multiple Output Formats**: Save summaries as text, markdown, JSON, or Excel
 
 ## Installation
 
@@ -43,7 +33,7 @@ cp .env.example .env
 ```env
 LUZMO_API_KEY=your_luzmo_api_key
 LUZMO_API_TOKEN=your_luzmo_api_token
-LUZMO_API_HOST=https://api.luzmo.com
+LUZMO_API_HOST=https://api.luzmo.com  # or https://api.us.luzmo.com
 
 ANTHROPIC_API_KEY=your_anthropic_api_key
 
@@ -52,157 +42,43 @@ OUTPUT_DIR=./summaries
 
 ## Quick Start
 
-### Option 1: Interactive Dashboard Browser
-Run the interactive script to list and analyze dashboards:
-
+### Export Dashboards to Excel
 ```bash
-python list_and_analyze_dashboards.py
+python export_dashboards.py
 ```
+Creates `dashboards_export_YYYYMMDD_HHMMSS.xlsx` with sheets:
+- **Dashboards**: ID, name, description, owner_id, timestamps
+- **Charts**: All charts with dashboard linkage, type, position
+- **Filters**: All filters with dashboard linkage
 
-This will:
-1. List all your dashboards from Luzmo
-2. Allow you to select one for AI analysis
-3. Generate a comprehensive summary with Claude
-
-### Option 2: Programmatic Usage
-
-```python
-from src.luzmo_client import LuzmoClient
-from src.dashboard_summary_pipeline import DashboardSummaryPipeline
-
-# List all dashboards
-client = LuzmoClient()
-dashboards = client.list_dashboards()
-
-for dashboard in dashboards:
-    print(f"Dashboard: {dashboard['name']} (ID: {dashboard['id']})")
-
-# Generate AI summary for a specific dashboard
-pipeline = DashboardSummaryPipeline()
-result = pipeline.generate_summary(
-    dashboard_id=dashboards[0]['id'],
-    save_format="markdown"
-)
-
-print(f"Summary saved to: {result['filepath']}")
-```
-
-## Testing Your Connection
-
-After setting up your credentials, test the connection:
-
+### Export Datasets to Excel
 ```bash
-python test_luzmo_connection.py
+python export_datasets.py
+```
+Creates `datasets_export_YYYYMMDD_HHMMSS.xlsx` with sheets:
+- **Datasets**: ID, name, subtype, row count, sync settings
+- **Columns**: Column definitions with type, format, aggregation
+- **Dataset_Usage**: Which dashboards use which datasets
+
+### Generate AI Dashboard Descriptions
+```bash
+# Single dashboard
+python generate_dashboard_descriptions.py -d <dashboard_id>
+
+# All dashboards (limit to 10)
+python generate_dashboard_descriptions.py --limit 10
+
+# Different styles: business, technical, brief
+python generate_dashboard_descriptions.py --style technical
 ```
 
-This will verify your API credentials are working and show how many dashboards are in your account.
+### Update Dashboard Descriptions
+```bash
+# Preview changes (dry run)
+python update_dashboard_descriptions.py descriptions.xlsx --dry-run
 
-## Iterating Through Dashboards
-
-### Simple Iteration Example
-
-```python
-from src.luzmo_client import LuzmoClient
-
-client = LuzmoClient()
-dashboards = client.list_dashboards()
-
-print(f"Found {len(dashboards)} dashboards\n")
-
-for dashboard in dashboards:
-    print(f"Dashboard: {dashboard['name']}")
-    print(f"  ID: {dashboard['id']}")
-    print(f"  Description: {dashboard.get('description', 'N/A')}")
-    print(f"  Last Modified: {dashboard.get('modified_at', 'N/A')}")
-    print()
-```
-
-### More Examples
-
-See [iterate_dashboards_example.py](iterate_dashboards_example.py) for additional examples including:
-- Finding dashboards by name
-- Getting recently modified dashboards
-- Fetching detailed dashboard information
-
-## Usage Examples
-
-### 1. Basic Dashboard Summary
-
-Generate a comprehensive summary of a dashboard:
-
-```python
-from src.dashboard_summary_pipeline import DashboardSummaryPipeline
-
-pipeline = DashboardSummaryPipeline(output_dir="./summaries")
-
-result = pipeline.generate_summary(
-    dashboard_id="dashboard-123",
-    save_format="markdown"  # Options: 'text', 'markdown', 'json'
-)
-
-print(result['summary'])
-```
-
-### 2. Structured Summary with Sections
-
-Generate a summary with specific sections:
-
-```python
-result = pipeline.generate_structured_summary(
-    dashboard_id="dashboard-123",
-    sections=["overview", "key_metrics", "trends", "insights", "recommendations"]
-)
-```
-
-### 3. Custom Analysis Instructions
-
-Provide custom analysis instructions:
-
-```python
-custom_prompt = """
-Focus on:
-1. Month-over-month growth rates
-2. Top 3 performing products
-3. Any concerning trends
-4. Recommendations for improvement
-"""
-
-result = pipeline.generate_summary(
-    dashboard_id="dashboard-123",
-    custom_prompt=custom_prompt
-)
-```
-
-### 4. Compare Two Dashboards
-
-```python
-result = pipeline.compare_dashboards(
-    dashboard_id1="dashboard-123",
-    dashboard_id2="dashboard-456",
-    comparison_focus="Sales performance and customer metrics"
-)
-```
-
-### 5. Answer Specific Questions
-
-```python
-answer = pipeline.answer_question(
-    dashboard_id="dashboard-123",
-    question="What was the total revenue in Q4 and how does it compare to Q3?"
-)
-
-print(answer)
-```
-
-### 6. Batch Processing
-
-Process multiple dashboards at once:
-
-```python
-results = pipeline.batch_process_dashboards(
-    dashboard_ids=["dashboard-1", "dashboard-2", "dashboard-3"],
-    save_format="markdown"
-)
+# Apply updates
+python update_dashboard_descriptions.py descriptions.xlsx
 ```
 
 ## Project Structure
@@ -213,49 +89,145 @@ luzmo_api/
 │   ├── __init__.py
 │   ├── luzmo_client.py              # Luzmo API client
 │   ├── dashboard_analyzer.py        # Data extraction and structuring
+│   ├── dashboard_exporter.py        # Export dashboards to Excel
+│   ├── dataset_exporter.py          # Export datasets to Excel
+│   ├── dashboard_describer.py       # AI description generator
+│   ├── dashboard_updater.py         # Update dashboards from file
 │   ├── llm_analyzer.py              # Claude integration
 │   ├── summary_writer.py            # File writing utilities
-│   └── dashboard_summary_pipeline.py # Main orchestrator
-├── summaries/                        # Generated summaries (created automatically)
-├── example_usage.py                  # Usage examples
+│   ├── dashboard_summary_pipeline.py # Main orchestrator
+│   └── utils.py                     # Utility functions
+├── summaries/                        # Generated summaries
+├── export_dashboards.py              # Dashboard export script
+├── export_datasets.py                # Dataset export script
+├── generate_dashboard_descriptions.py # AI description script
+├── update_dashboard_descriptions.py  # Bulk update script
 ├── requirements.txt                  # Python dependencies
 ├── .env.example                      # Environment variables template
 └── README.md                         # This file
 ```
 
-## Module Overview
+## Module Reference
 
-### `luzmo_client.py`
-Handles authentication and API requests to Luzmo:
-- `get_dashboard()` - Fetch dashboard metadata
-- `get_dashboard_data()` - Get all dashboard data
-- `get_chart()` - Fetch chart metadata
-- `get_chart_data()` - Get chart data
-- `list_dashboards()` - List all dashboards
+### Dashboard Exporter (`src/dashboard_exporter.py`)
+Exports dashboard metadata to Excel without retrieving actual data.
 
-### `dashboard_analyzer.py`
-Extracts and structures dashboard data:
-- `get_dashboard_metadata()` - Get structured metadata
-- `get_chart_data_structured()` - Get chart data with summaries
-- `get_full_dashboard_data()` - Complete dashboard extraction
-- `format_for_llm()` - Format data for Claude
+```python
+from src.dashboard_exporter import DashboardExporter
 
-### `llm_analyzer.py`
-Uses Claude for analysis:
-- `generate_summary()` - General summary
-- `generate_structured_summary()` - Multi-section summary
-- `compare_dashboards()` - Compare two dashboards
-- `answer_question()` - Q&A about dashboard
+exporter = DashboardExporter()
+output_file = exporter.export_to_excel()
+```
 
-### `summary_writer.py`
-Saves summaries to files:
-- `save_text_summary()` - Plain text format
-- `save_markdown_summary()` - Markdown format
-- `save_json_summary()` - JSON with full data
-- `save_structured_summary()` - Structured markdown
+**Output columns:**
+- Dashboards: id, name, description, slug, type, subtype, item_count, owner_id, account_id, modifier_id, template_id, created_at, modified_at
+- Charts: dashboard_id, dashboard_name, chart_id, chart_type, title, screen_mode, position_x, position_y, width, height
+- Filters: dashboard_id, dashboard_name, filter_id, filter_type, title
 
-### `dashboard_summary_pipeline.py`
-Main orchestrator that combines all components.
+### Dataset Exporter (`src/dataset_exporter.py`)
+Exports dataset metadata, columns, and usage relationships.
+
+```python
+from src.dataset_exporter import DatasetExporter
+
+exporter = DatasetExporter()
+output_file = exporter.export_to_excel()
+```
+
+**Output columns:**
+- Datasets: id, name, description, subtype, rows, source_sheet, storage, cache, meta_sync_enabled, owner_id, timestamps
+- Columns: dataset_id, dataset_name, column_id, name, source_name, type, subtype, format, aggregation_type, min, max, cardinality
+- Dataset_Usage: dataset_id, dataset_name, dashboard_id, dashboard_name
+
+### Dashboard Describer (`src/dashboard_describer.py`)
+Generates AI descriptions based on dashboard structure (no data retrieval).
+
+```python
+from src.dashboard_describer import DashboardDescriber
+
+describer = DashboardDescriber()
+
+# Single dashboard
+result = describer.describe_dashboard(dashboard_id, style="business")
+
+# All dashboards to Excel
+describer.export_descriptions_to_excel(limit=10)
+```
+
+**Styles:**
+- `business`: Focus on insights, value, and use cases
+- `technical`: Structure, data sources, visualization types
+- `brief`: 2-3 sentence summary
+
+### Dashboard Updater (`src/dashboard_updater.py`)
+Updates dashboard descriptions from CSV or Excel files.
+
+```python
+from src.dashboard_updater import DashboardUpdater
+
+updater = DashboardUpdater()
+
+# Preview changes
+preview = updater.preview_updates("descriptions.xlsx")
+
+# Apply updates
+results = updater.update_from_file("descriptions.xlsx")
+```
+
+**Input file format:**
+| id | description |
+|----|-------------|
+| dashboard-uuid | New description text |
+
+Also accepts columns named `generated_description` or `new_description`.
+
+### Luzmo Client (`src/luzmo_client.py`)
+Core API client for Luzmo operations.
+
+```python
+from src.luzmo_client import LuzmoClient
+
+client = LuzmoClient()
+
+# List dashboards
+dashboards = client.list_dashboards()
+
+# Get specific dashboard
+dashboard = client.get_dashboard(dashboard_id)
+
+# Direct API request
+response = client._make_request(
+    action='get',  # get, create, update, delete
+    resource='securable',
+    find={'where': {'type': 'dashboard'}},
+    properties={'description': {'en': 'New description'}},  # for updates
+    id='resource-id'  # for specific resource operations
+)
+```
+
+### LLM Analyzer (`src/llm_analyzer.py`)
+Claude integration for AI-powered analysis.
+
+```python
+from src.llm_analyzer import LLMAnalyzer
+
+llm = LLMAnalyzer(model="claude-3-haiku-20240307")
+
+# Generate summary
+summary = llm.generate_summary(dashboard_data_text)
+
+# Structured summary
+sections = llm.generate_structured_summary(
+    dashboard_data_text,
+    sections=["overview", "key_metrics", "insights"]
+)
+
+# Compare dashboards
+comparison = llm.compare_dashboards(data1, data2)
+
+# Q&A
+answer = llm.answer_question(data, "What is the total revenue?")
+```
 
 ## API Credentials
 
@@ -265,82 +237,56 @@ Main orchestrator that combines all components.
 3. Create a new API key and token
 4. Add to `.env` file
 
+**Note:** Your API key permissions determine what you can read/update. A 403 error means you don't have write permission for that resource.
+
 ### Anthropic API
 1. Sign up at https://console.anthropic.com
 2. Create an API key
 3. Add to `.env` file
+4. Purchase credits at [console.anthropic.com/settings/billing](https://console.anthropic.com/settings/billing)
 
-## Output Formats
+## Common Workflows
 
-### Text Format
-Plain text with headers and structured content.
-
-### Markdown Format
-Markdown with proper formatting, headings, and lists. Great for documentation.
-
-### JSON Format
-JSON with complete metadata and data. Useful for further processing or archiving.
-
-## Advanced Configuration
-
-### Custom Output Directory
-```python
-pipeline = DashboardSummaryPipeline(output_dir="/path/to/summaries")
+### 1. Audit All Dashboards
+```bash
+# Export everything
+python export_dashboards.py
+python export_datasets.py
 ```
 
-### Custom Claude Model
-```python
-from src.llm_analyzer import LLMAnalyzer
+### 2. Generate and Apply Descriptions
+```bash
+# Generate AI descriptions
+python generate_dashboard_descriptions.py --style business
 
-llm_analyzer = LLMAnalyzer(model="claude-3-opus-20240229")
+# Review and edit the Excel file, then apply
+python update_dashboard_descriptions.py dashboard_descriptions_*.xlsx
 ```
 
-### Direct Component Usage
-```python
-from src.luzmo_client import LuzmoClient
-from src.dashboard_analyzer import DashboardAnalyzer
-
-client = LuzmoClient()
-analyzer = DashboardAnalyzer(client)
-
-# Get just the metadata
-metadata = analyzer.get_dashboard_metadata("dashboard-123")
+### 3. Find Dataset Dependencies
+```bash
+python export_datasets.py
+# Check the Dataset_Usage sheet to see which dashboards use which datasets
 ```
 
 ## Error Handling
 
-The pipeline includes error handling for:
-- Missing API credentials
-- Invalid dashboard IDs
-- API connection issues
-- Data formatting errors
+| Error | Cause | Solution |
+|-------|-------|----------|
+| 403 Forbidden | No write permission | Check API key permissions or dashboard ownership |
+| 404 Not Found | Resource doesn't exist | Verify the ID is correct |
+| Invalid argument: `*.xlsx` | Wildcards not supported | Use actual filename |
 
-Errors are raised with descriptive messages for easy debugging.
+## Requirements
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Python 3.8+
+- requests
+- pandas
+- openpyxl
+- anthropic
+- python-dotenv
+- pyyaml
 
 ## License
 
 This project is licensed under the MIT License.
-
-## Support
-
-For issues or questions:
-1. Check the example usage in `example_usage.py`
-2. Review the module documentation in source files
-3. Open an issue on GitHub
-
-## Roadmap
-
-- [ ] Add support for scheduled dashboard analysis
-- [ ] Implement dashboard change detection
-- [ ] Add email notifications for summaries
-- [ ] Create web interface for dashboard selection
-- [ ] Support for exporting to other formats (PDF, HTML)
-- [ ] Integration with Slack/Teams for automated reporting

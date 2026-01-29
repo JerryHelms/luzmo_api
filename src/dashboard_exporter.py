@@ -1,6 +1,6 @@
 """
 Dashboard Exporter
-Retrieves all dashboards and associated details, exports to Excel.
+Retrieves all dashboards and associated details, exports to Excel or BigQuery.
 Does not retrieve actual data or submit to LLM.
 """
 
@@ -11,6 +11,14 @@ from pathlib import Path
 
 from .luzmo_client import LuzmoClient
 from .utils import get_dashboard_name, get_dashboard_description
+
+# BigQuery imports (optional)
+try:
+    import pandas_gbq
+    from google.cloud import bigquery
+    BIGQUERY_AVAILABLE = True
+except ImportError:
+    BIGQUERY_AVAILABLE = False
 
 
 class DashboardExporter:
@@ -50,6 +58,104 @@ class DashboardExporter:
         )
 
         return response.get('rows', [])
+
+    def get_all_collections(self) -> List[Dict[str, Any]]:
+        """
+        Fetch all collections with their associated securables.
+
+        Returns:
+            List of collection objects with securables
+        """
+        response = self.client._make_request(
+            action='get',
+            resource='collection',
+            find={
+                'include': [{'model': 'Securable', 'attributes': ['id', 'name', 'type']}]
+            }
+        )
+
+        return response.get('rows', [])
+
+    def build_collections_dataframe(self, collections: List[Dict[str, Any]]) -> pd.DataFrame:
+        """
+        Build a DataFrame of collection information.
+
+        Args:
+            collections: List of collection objects
+
+        Returns:
+            DataFrame with collection information
+        """
+        records = []
+        for col in collections:
+            securables = col.get('securables', [])
+            dashboards = [s for s in securables if s.get('type') == 'dashboard']
+            datasets = [s for s in securables if s.get('type') == 'dataset']
+
+            record = {
+                'id': col.get('id', ''),
+                'name': self._extract_text(col.get('name', '')),
+                'favorite': col.get('favorite', False),
+                'dashboard_count': len(dashboards),
+                'dataset_count': len(datasets),
+                'created_at': col.get('created_at', ''),
+                'updated_at': col.get('updated_at', ''),
+            }
+            records.append(record)
+
+        return pd.DataFrame(records)
+
+    def build_collection_securables_dataframe(self, collections: List[Dict[str, Any]]) -> pd.DataFrame:
+        """
+        Build a DataFrame linking collections to securables (dashboards/datasets).
+
+        Args:
+            collections: List of collection objects
+
+        Returns:
+            DataFrame with collection-securable relationships
+        """
+        records = []
+        for col in collections:
+            collection_id = col.get('id', '')
+            collection_name = self._extract_text(col.get('name', ''))
+
+            for securable in col.get('securables', []):
+                record = {
+                    'collection_id': collection_id,
+                    'collection_name': collection_name,
+                    'securable_id': securable.get('id', ''),
+                    'securable_name': self._extract_text(securable.get('name', '')),
+                    'securable_type': securable.get('type', ''),
+                }
+                records.append(record)
+
+        return pd.DataFrame(records) if records else pd.DataFrame()
+
+    def build_dashboard_collections_map(self, collections: List[Dict[str, Any]]) -> Dict[str, List[str]]:
+        """
+        Build a mapping of dashboard IDs to their collection names.
+
+        Args:
+            collections: List of collection objects
+
+        Returns:
+            Dict mapping dashboard_id -> list of collection names
+        """
+        dashboard_collections: Dict[str, List[str]] = {}
+
+        for col in collections:
+            collection_name = self._extract_text(col.get('name', ''))
+
+            for securable in col.get('securables', []):
+                if securable.get('type') == 'dashboard':
+                    dashboard_id = securable.get('id', '')
+                    if dashboard_id:
+                        if dashboard_id not in dashboard_collections:
+                            dashboard_collections[dashboard_id] = []
+                        dashboard_collections[dashboard_id].append(collection_name)
+
+        return dashboard_collections
 
     def get_dashboard_contents(self, dashboard_id: str) -> Dict[str, Any]:
         """
@@ -238,16 +344,26 @@ class DashboardExporter:
                 return str(list(value.values())[0])
         return ''
 
-    def build_dashboards_dataframe(self, dashboards: List[Dict[str, Any]]) -> pd.DataFrame:
+    def build_dashboards_dataframe(
+        self,
+        dashboards: List[Dict[str, Any]],
+        collections: Optional[List[Dict[str, Any]]] = None
+    ) -> pd.DataFrame:
         """
         Build a DataFrame of dashboard summary information.
 
         Args:
             dashboards: List of dashboard objects
+            collections: Optional list of collection objects (to add collections column)
 
         Returns:
             DataFrame with dashboard information
         """
+        # Build collections map if collections provided
+        dashboard_collections_map = {}
+        if collections:
+            dashboard_collections_map = self.build_dashboard_collections_map(collections)
+
         records = []
         for dash in dashboards:
             contents = dash.get('contents', {})
@@ -266,14 +382,21 @@ class DashboardExporter:
                     items = contents.get('items', contents.get('charts', []))
                     item_count = len(items) if isinstance(items, list) else 0
 
+            dashboard_id = dash.get('id', '')
+
+            # Get collections for this dashboard
+            collection_names = dashboard_collections_map.get(dashboard_id, [])
+            collections_str = ', '.join(collection_names) if collection_names else ''
+
             record = {
-                'id': dash.get('id', ''),
+                'id': dashboard_id,
                 'name': get_dashboard_name(dash),
                 'description': get_dashboard_description(dash),
                 'slug': dash.get('slug', ''),
                 'type': dash.get('type', ''),
                 'subtype': dash.get('subtype', ''),
                 'item_count': item_count,
+                'collections': collections_str,
                 'owner_id': dash.get('owner_id', ''),
                 'account_id': dash.get('account_id', ''),
                 'modifier_id': dash.get('modifier_id', ''),
@@ -343,9 +466,14 @@ class DashboardExporter:
         dashboards = self.get_all_dashboards_with_details()
         print(f"Found {len(dashboards)} dashboards")
 
+        # Fetch collections to add to dashboards
+        print("Fetching collections...")
+        collections = self.get_all_collections()
+        print(f"Found {len(collections)} collections")
+
         # Build DataFrames
         print("Building dashboard summary...")
-        df_dashboards = self.build_dashboards_dataframe(dashboards)
+        df_dashboards = self.build_dashboards_dataframe(dashboards, collections=collections)
 
         print("Extracting charts...")
         df_charts = self.build_charts_dataframe(dashboards)
@@ -368,6 +496,137 @@ class DashboardExporter:
 
         print(f"Export complete: {output_path}")
         return str(output_file.absolute())
+
+    def export_to_bigquery(
+        self,
+        project_id: str,
+        dataset_id: str = 'luzmo_metadata',
+        if_exists: str = 'replace'
+    ) -> Dict[str, str]:
+        """
+        Export all dashboard details to BigQuery.
+
+        Args:
+            project_id: Google Cloud project ID
+            dataset_id: BigQuery dataset ID (default: 'luzmo_metadata')
+            if_exists: What to do if table exists ('replace', 'append', 'fail')
+
+        Returns:
+            Dict with table names as keys and full table IDs as values
+        """
+        if not BIGQUERY_AVAILABLE:
+            raise ImportError(
+                "BigQuery libraries not installed. "
+                "Run: pip install pandas-gbq google-cloud-bigquery"
+            )
+
+        # Fetch all dashboards
+        print("Fetching dashboards...")
+        dashboards = self.get_all_dashboards_with_details()
+        print(f"Found {len(dashboards)} dashboards")
+
+        # Fetch collections (needed for both dashboard collections column and collections tables)
+        print("Fetching collections...")
+        collections = self.get_all_collections()
+        print(f"Found {len(collections)} collections")
+
+        # Build DataFrames
+        print("Building dashboard summary...")
+        df_dashboards = self.build_dashboards_dataframe(dashboards, collections=collections)
+
+        print("Extracting charts...")
+        df_charts = self.build_charts_dataframe(dashboards)
+        print(f"Found {len(df_charts)} charts")
+
+        print("Extracting filters...")
+        df_filters = self.build_filters_dataframe(dashboards)
+        print(f"Found {len(df_filters)} filters")
+
+        # Create BigQuery client to ensure dataset exists
+        client = bigquery.Client(project=project_id)
+
+        # Create dataset if it doesn't exist
+        dataset_ref = f"{project_id}.{dataset_id}"
+        try:
+            client.get_dataset(dataset_ref)
+            print(f"Dataset {dataset_ref} exists")
+        except Exception:
+            print(f"Creating dataset {dataset_ref}...")
+            dataset = bigquery.Dataset(dataset_ref)
+            dataset.location = "US"
+            client.create_dataset(dataset, exists_ok=True)
+
+        results = {}
+
+        # Upload dashboards table
+        table_id = f"{project_id}.{dataset_id}.dashboards"
+        print(f"Uploading to {table_id}...")
+        pandas_gbq.to_gbq(
+            df_dashboards,
+            f"{dataset_id}.dashboards",
+            project_id=project_id,
+            if_exists=if_exists
+        )
+        results['dashboards'] = table_id
+        print(f"  Uploaded {len(df_dashboards)} rows to dashboards")
+
+        # Upload charts table
+        if not df_charts.empty:
+            table_id = f"{project_id}.{dataset_id}.charts"
+            print(f"Uploading to {table_id}...")
+            pandas_gbq.to_gbq(
+                df_charts,
+                f"{dataset_id}.charts",
+                project_id=project_id,
+                if_exists=if_exists
+            )
+            results['charts'] = table_id
+            print(f"  Uploaded {len(df_charts)} rows to charts")
+
+        # Upload filters table
+        if not df_filters.empty:
+            table_id = f"{project_id}.{dataset_id}.filters"
+            print(f"Uploading to {table_id}...")
+            pandas_gbq.to_gbq(
+                df_filters,
+                f"{dataset_id}.filters",
+                project_id=project_id,
+                if_exists=if_exists
+            )
+            results['filters'] = table_id
+            print(f"  Uploaded {len(df_filters)} rows to filters")
+
+        df_collections = self.build_collections_dataframe(collections)
+        df_collection_securables = self.build_collection_securables_dataframe(collections)
+
+        # Upload collections table
+        if not df_collections.empty:
+            table_id = f"{project_id}.{dataset_id}.collections"
+            print(f"Uploading to {table_id}...")
+            pandas_gbq.to_gbq(
+                df_collections,
+                f"{dataset_id}.collections",
+                project_id=project_id,
+                if_exists=if_exists
+            )
+            results['collections'] = table_id
+            print(f"  Uploaded {len(df_collections)} rows to collections")
+
+        # Upload collection_securables table (mapping table)
+        if not df_collection_securables.empty:
+            table_id = f"{project_id}.{dataset_id}.collection_securables"
+            print(f"Uploading to {table_id}...")
+            pandas_gbq.to_gbq(
+                df_collection_securables,
+                f"{dataset_id}.collection_securables",
+                project_id=project_id,
+                if_exists=if_exists
+            )
+            results['collection_securables'] = table_id
+            print(f"  Uploaded {len(df_collection_securables)} rows to collection_securables")
+
+        print("BigQuery export complete!")
+        return results
 
 
 def main():
