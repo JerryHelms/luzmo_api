@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![AK DEED Report Dashboard](./screenshots/AK DEED Report_2641a380.png)
+![AK DEED Report Dashboard](../screenshots/AK DEED Report_2641a380.png)
 
 ## Description
 
