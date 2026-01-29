@@ -101,25 +101,20 @@ class DashboardScreenshotAuth:
         else:
             return 'https://app.luzmo.com'
 
-    def get_dashboard_url(self, dashboard_id: str, preview: bool = False) -> str:
+    def get_dashboard_url(self, dashboard_id: str) -> str:
         """
         Get the direct dashboard URL.
 
         Args:
             dashboard_id: Dashboard ID
-            preview: If True, try to get preview/embed URL
 
         Returns:
             Dashboard URL
         """
         app_host = self.get_app_host()
 
-        # If preview mode requested, try the embed URL which is cleaner
-        if preview:
-            # Embed URLs are typically cleaner without edit controls
-            return f"{app_host}/embed/{dashboard_id}"
-
-        # Standard dashboard edit view
+        # Always use standard dashboard view - embed URLs redirect to dashboard list
+        # The fullscreen parameter will control CSS hiding instead
         return f"{app_host}/dashboard/{dashboard_id}"
 
     async def login(self, page: Page, debug: bool = False) -> bool:
@@ -308,8 +303,7 @@ class DashboardScreenshotAuth:
         """
         try:
             # Navigate to dashboard
-            # Try preview mode if fullscreen is requested
-            url = self.get_dashboard_url(dashboard_id, preview=fullscreen)
+            url = self.get_dashboard_url(dashboard_id)
             print(f"  Navigating to: {url}")
 
             await page.goto(url, wait_until='networkidle', timeout=60000)
@@ -582,6 +576,18 @@ class DashboardScreenshotAuth:
             Path to saved screenshot or None if failed
         """
         async def _capture():
+            # Get dashboard name first (before launching browser)
+            try:
+                dashboards = self.get_all_dashboards()
+                dashboard = next((d for d in dashboards if d.get('id') == dashboard_id), None)
+                if not dashboard:
+                    print(f"Dashboard {dashboard_id} not found")
+                    return None
+                dashboard_name = get_dashboard_name(dashboard)
+            except Exception as e:
+                print(f"Error fetching dashboard: {str(e)}")
+                return None
+
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
                 try:
@@ -596,21 +602,6 @@ class DashboardScreenshotAuth:
                         print("ERROR: Could not log in to Luzmo")
                         return None
 
-                    # Get dashboard name
-                    response = self.client._make_request(
-                        action='get',
-                        resource='securable',
-                        find={
-                            'where': {'id': dashboard_id},
-                            'attributes': ['id', 'name']
-                        }
-                    )
-                    rows = response.get('rows', [])
-                    if not rows:
-                        print(f"Dashboard {dashboard_id} not found")
-                        return None
-
-                    dashboard_name = get_dashboard_name(rows[0])
                     result = await self.capture_screenshot_async(
                         page,
                         dashboard_id,
