@@ -10,6 +10,10 @@ A Python application that combines Luzmo's API with Anthropic's Claude to analyz
 - **Bulk Updates**: Update dashboard descriptions from external files
 - **Precise Data Analysis**: Fetch actual data from Luzmo dashboards for AI analysis
 - **Multiple Output Formats**: Save summaries as text, markdown, JSON, or Excel
+- **Dashboard Documentation**: Generate comprehensive markdown documentation with AI descriptions and tags
+- **Screenshot Capture**: Automated screenshot capture with authenticated login (no embed API required)
+- **Dashboard Index**: Searchable index with collection organization and production dashboard filtering
+- **Maintenance Tools**: Find and delete untitled dashboards with automatic cleanup
 
 ## Installation
 
@@ -31,12 +35,19 @@ cp .env.example .env
 
 4. Edit `.env` and add your credentials:
 ```env
+# Luzmo API credentials
 LUZMO_API_KEY=your_luzmo_api_key
 LUZMO_API_TOKEN=your_luzmo_api_token
 LUZMO_API_HOST=https://api.luzmo.com  # or https://api.us.luzmo.com
 
+# Anthropic Claude API
 ANTHROPIC_API_KEY=your_anthropic_api_key
 
+# Screenshot authentication (optional - can be passed via command line)
+LUZMO_EMAIL=your@email.com
+LUZMO_PASSWORD=your_password
+
+# Output directory
 OUTPUT_DIR=./summaries
 ```
 
@@ -81,6 +92,45 @@ python update_dashboard_descriptions.py descriptions.xlsx --dry-run
 python update_dashboard_descriptions.py descriptions.xlsx
 ```
 
+### Generate Dashboard Documentation
+```bash
+# Generate documentation for a single dashboard
+python generate_dashboard_md.py <dashboard_id>
+
+# Regenerate all dashboard documentation with AI descriptions and tags
+python regenerate_all_docs.py
+
+# Generate searchable index
+python generate_dashboard_index.py
+```
+
+### Capture Dashboard Screenshots
+```bash
+# Capture all dashboards
+python capture_screenshots_auth.py
+
+# Capture specific dashboard (requires full UUID)
+python capture_screenshots_auth.py --dashboard "uuid-here"
+
+# Increase wait time for complex dashboards
+python capture_screenshots_auth.py --wait 15000
+
+# Capture with debug mode
+python capture_screenshots_auth.py --dashboard "uuid-here" --debug
+```
+
+### Maintenance Tools
+```bash
+# Find untitled dashboards
+python find_untitled_dashboards.py
+
+# Delete untitled dashboards and cleanup files
+python find_untitled_dashboards.py --delete
+
+# Dry run to see what would be deleted
+python find_untitled_dashboards.py --dry-run
+```
+
 ## Project Structure
 
 ```
@@ -93,19 +143,118 @@ luzmo_api/
 │   ├── dataset_exporter.py          # Export datasets to Excel
 │   ├── dashboard_describer.py       # AI description generator
 │   ├── dashboard_updater.py         # Update dashboards from file
+│   ├── dashboard_screenshot_auth.py # Screenshot capture with authentication
 │   ├── llm_analyzer.py              # Claude integration
 │   ├── summary_writer.py            # File writing utilities
 │   ├── dashboard_summary_pipeline.py # Main orchestrator
 │   └── utils.py                     # Utility functions
+├── dashboard_docs/                   # Generated markdown documentation
+│   ├── README.md                    # Searchable dashboard index
+│   └── dashboard_*.md               # Individual dashboard docs
+├── screenshots/                      # Dashboard screenshots
 ├── summaries/                        # Generated summaries
 ├── export_dashboards.py              # Dashboard export script
 ├── export_datasets.py                # Dataset export script
 ├── generate_dashboard_descriptions.py # AI description script
 ├── update_dashboard_descriptions.py  # Bulk update script
+├── generate_dashboard_md.py          # Generate markdown documentation
+├── regenerate_all_docs.py            # Batch regenerate all docs
+├── generate_dashboard_index.py       # Generate searchable index
+├── capture_screenshots_auth.py       # Screenshot capture CLI
+├── find_untitled_dashboards.py       # Find/delete untitled dashboards
+├── dashboard_summary.py              # Dashboard search and summary CLI
 ├── requirements.txt                  # Python dependencies
 ├── .env.example                      # Environment variables template
 └── README.md                         # This file
 ```
+
+## Dashboard Documentation System
+
+The project includes a comprehensive documentation system that generates markdown files for each dashboard with AI-powered descriptions, tags, and screenshots.
+
+### Documentation Structure
+
+Each dashboard gets its own markdown file in `dashboard_docs/` with:
+- Dashboard name and collections
+- Screenshot (auto-linked if exists)
+- Original description from Luzmo
+- AI-generated summary
+- Relevant tags for categorization
+- Generation timestamp
+
+### Screenshot Capture
+
+Screenshots are captured using Playwright with authenticated login (no embed API required):
+
+```python
+from src.dashboard_screenshot_auth import DashboardScreenshotAuth
+
+capturer = DashboardScreenshotAuth(
+    email='your@email.com',
+    password='your_password',
+    width=1920,
+    height=1080,
+    fullscreen=True  # Hides UI elements via CSS
+)
+
+# Capture single dashboard
+capturer.capture_single('dashboard-uuid', wait_time=5000)
+
+# Capture all dashboards
+capturer.capture_all(limit=None, wait_time=5000)
+```
+
+**Features:**
+- Authenticated login (no embed API required)
+- Fullscreen mode with CSS hiding of UI elements
+- Configurable viewport size and wait times
+- Automatic filename generation with safe characters
+- Debug mode for troubleshooting
+
+**URL Format:** Uses `/dashboard/{id}` (not `/embed/{id}` which redirects)
+
+### Dashboard Index
+
+The `dashboard_docs/README.md` provides:
+- Summary statistics (total dashboards, production count)
+- Collection breakdown table
+- Alphabetically sorted production dashboards
+- Links to individual documentation files
+- Organized by collection
+
+Regenerate with: `python generate_dashboard_index.py`
+
+### Workflow Example
+
+```bash
+# 1. Generate markdown documentation with AI descriptions
+python regenerate_all_docs.py
+
+# 2. Capture screenshots for all dashboards
+python capture_screenshots_auth.py --wait 10000
+
+# 3. Regenerate docs to include screenshot links
+python regenerate_all_docs.py
+
+# 4. Generate searchable index
+python generate_dashboard_index.py
+```
+
+### Maintenance
+
+```bash
+# Find untitled/empty dashboards
+python find_untitled_dashboards.py
+
+# Delete untitled dashboards and cleanup related files
+python find_untitled_dashboards.py --delete
+```
+
+This automatically:
+- Deletes dashboards from Luzmo
+- Removes screenshot files
+- Removes documentation files
+- Regenerates the index
 
 ## Module Reference
 
@@ -247,14 +396,32 @@ answer = llm.answer_question(data, "What is the total revenue?")
 
 ## Common Workflows
 
-### 1. Audit All Dashboards
+### 1. Complete Documentation Setup
+```bash
+# Clean up untitled dashboards first
+python find_untitled_dashboards.py --delete
+
+# Generate markdown documentation with AI descriptions and tags
+python regenerate_all_docs.py
+
+# Capture screenshots
+python capture_screenshots_auth.py --wait 10000
+
+# Regenerate docs to include screenshot links
+python regenerate_all_docs.py
+
+# Generate searchable index
+python generate_dashboard_index.py
+```
+
+### 2. Audit All Dashboards
 ```bash
 # Export everything
 python export_dashboards.py
 python export_datasets.py
 ```
 
-### 2. Generate and Apply Descriptions
+### 3. Generate and Apply Descriptions
 ```bash
 # Generate AI descriptions
 python generate_dashboard_descriptions.py --style business
@@ -263,10 +430,22 @@ python generate_dashboard_descriptions.py --style business
 python update_dashboard_descriptions.py dashboard_descriptions_*.xlsx
 ```
 
-### 3. Find Dataset Dependencies
+### 4. Find Dataset Dependencies
 ```bash
 python export_datasets.py
 # Check the Dataset_Usage sheet to see which dashboards use which datasets
+```
+
+### 5. Search and Filter Dashboards
+```bash
+# Search for dashboards
+python dashboard_summary.py --search "inventory"
+
+# List production dashboards only
+python dashboard_summary.py --production-only
+
+# Show collection counts
+python dashboard_summary.py --list
 ```
 
 ## Error Handling
@@ -276,6 +455,30 @@ python export_datasets.py
 | 403 Forbidden | No write permission | Check API key permissions or dashboard ownership |
 | 404 Not Found | Resource doesn't exist | Verify the ID is correct |
 | Invalid argument: `*.xlsx` | Wildcards not supported | Use actual filename |
+| Screenshots show dashboard list | Wrong URL format | Uses `/dashboard/{id}` not `/embed/{id}` |
+| Loading spinners in screenshots | Insufficient wait time | Increase `--wait` to 10000-15000ms |
+| UnicodeEncodeError on Windows | Emoji in output | Scripts use ASCII-compatible characters |
+
+## Technical Notes
+
+### Screenshot Capture
+- **Authentication Method**: Direct login via Playwright (no embed API)
+- **URL Format**: `https://app.us.luzmo.com/dashboard/{uuid}`
+- **Fullscreen**: CSS hiding of UI elements (no native preview button)
+- **Wait Strategy**: Network idle + element detection + configurable wait time
+- **File Naming**: Spaces replaced with underscores, special characters removed
+- **Default Viewport**: 1920x1080 (configurable)
+
+### Documentation Generation
+- **AI Model**: Claude Sonnet 4.5 for descriptions and tags
+- **Screenshot Detection**: Auto-links screenshots if file exists
+- **Filename Format**: `dashboard_{short_id}.md` and `{safe_name}_{short_id}.png`
+- **Index Update**: Run `generate_dashboard_index.py` after changes
+
+### API Client
+- **Empty Responses**: Handles DELETE operations returning empty content
+- **Error Handling**: Raises exceptions with descriptive messages
+- **Rate Limiting**: No built-in rate limiting (implement if needed)
 
 ## Requirements
 
@@ -286,6 +489,15 @@ python export_datasets.py
 - anthropic
 - python-dotenv
 - pyyaml
+- playwright (for screenshot capture)
+- Pillow (for image processing)
+
+### Additional Setup
+
+For screenshot capture, install Playwright browsers:
+```bash
+playwright install chromium
+```
 
 ## License
 
