@@ -1,0 +1,211 @@
+Checking 143 screenshots for loading spinners...
+================================================================================
+
+[1/143] Checking: _4bf07a0c.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3r7QEss66GXyrMrR3'}
+
+[2/143] Checking: __Support_-_Copy_fc73fa88.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3sK5RGvW8ddhfTTfk'}
+
+[3/143] Checking: _ac671805.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3t4EEyg7ofVyrqvtr'}
+
+[4/143] Checking: _cfdcdbd6.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3uYmgN76Czjd3Zpr1'}
+
+[5/143] Checking: _ddae3fd1.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3vVpap7eHa9nEhJRr'}
+
+[6/143] Checking: _ee94d05c.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3wWLdXtFaAhmmrqPG'}
+
+[7/143] Checking: _f9389d52.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3y4rLJAQWfkU8vfpN'}
+
+[8/143] Checking: _Internal__Account_Admins_07b74613.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo3z8MSifaeYFaW2bPL'}
+
+[9/143] Checking: _Internal__Account_Renewals_00ce45f7.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo41PFon2CcA9H8YCcp'}
+
+[10/143] Checking: _Internal__Client_Metrics_8ae624f7.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo44BBW7HxPNAajeBwr'}
+
+[11/143] Checking: _Internal__Client_Subscriptions_683d3cab.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo45VZPdWYB53daX6zc'}
+
+[12/143] Checking: _Internal__GeoClientHero__8f26baf7.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo46oSLBGbR2i1XEW36'}
+
+[13/143] Checking: _Internal__Github_Stats_360dc07b.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo47f39Xf3tED5imaC8'}
+
+[14/143] Checking: _Internal__Login_Activity_891700ef.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo48fZ5w5USXUUjTX6R'}
+
+[15/143] Checking: _Internal__Map_From_Subscriptions_e6fadd78.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo49eqPNjZTetpfkRGm'}
+
+[16/143] Checking: _Internal__Missing_User_Roles_8648af41.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4B3RyPbW93A7w76y6'}
+
+[17/143] Checking: _Luzmo_Support__-_Event_Summary_Report_-_Copy_3aba7b4b.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4CT1c6rqVjEeAGxKe'}
+
+[18/143] Checking: _Support_Events_to_Review_-_Copy_3fc1b59f.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4DZVCTwuJYAbWCCeq'}
+
+[19/143] Checking: _WIP__Technicians_a51a2228.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4FMPZwqBgyFGAGVaK'}
+
+[20/143] Checking: Admins_73fee03f.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4GSNgHaC8HDGwEwB2'}
+
+[21/143] Checking: AK_DEED_Report_-_Copy_6fcc4c4c.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4HPvJD3tC1694sVtJ'}
+
+[22/143] Checking: AK_DEED_Report_2641a380.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4JJVYxN3jDzhPp3N1'}
+
+[23/143] Checking: Alaska_Reports_db158efd.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4KY9uYANZy9nCkLmW'}
+
+[24/143] Checking: AR_Recent_Work_Orders_1a98f4be.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4LRjYR6kFFge6hRHM'}
+
+[25/143] Checking: AR_Schedules_9fa87299.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4Micx4HN1msnGZRwg'}
+
+[26/143] Checking: Arkansas_Org_1cf0df5c.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4PJd48iYfYdZHkHv3'}
+
+[27/143] Checking: Arkansas_State_Mandated_Inspections_-_Copy_33482b75.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4QaGZJ2SeCVGwaSWC'}
+
+[28/143] Checking: Arkansas_State_Mandated_Inspections_b36dd41d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4S3pWFQEe8W3BtUeq'}
+
+[29/143] Checking: Arkansas_State_Mandates__96f41b31.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4T17taSPUHEPGGZHw'}
+
+[30/143] Checking: Arkansas_Usage_54fda4ac.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4U9aLsTChqtHXq9Kq'}
+
+[31/143] Checking: Arkansas_Work_Order_Details_763e165d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4fe8jyfX4ocbNfsRT'}
+
+[32/143] Checking: Assets_-_Greeneville_City_Schools_b6ebbd01.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4gaCB63MRzP2hBFFx'}
+
+[33/143] Checking: Assets_and_Work_Orders_-_Deprecated_aec8f091.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4iHtAaqWR1bgSCAk7'}
+
+[34/143] Checking: Assets_and_Work_Orders_with_Allocated_Costs_09fd6b61.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4jSazWEsaPENbYjKP'}
+
+[35/143] Checking: Assets_f22b7352.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4kUbLF8SChcxMvB4A'}
+
+[36/143] Checking: Assigned_To_Summary_222dd056.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4ng4CxCWW4ShTRcgX'}
+
+[37/143] Checking: BigQuery_Schema_Review_993c4fe3.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4oh57xAeqNqxRwvgA'}
+
+[38/143] Checking: Bridge_02c89716.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4pdNybVgFCKF3dVY3'}
+
+[39/143] Checking: Capital_Needs_-_Haddonfield_1fc0620d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4rDsRTyQJ11RzfJTY'}
+
+[40/143] Checking: Capital_Needs_4612b44d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4sKbxuVvYpQ332uwp'}
+
+[41/143] Checking: Capital_Needs_for_Review_-_All_Saints_Episcopal_bc8b18c0.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4tAwvM2akY36JFzTv'}
+
+[42/143] Checking: Capital_Needs_for_Review_-_Ashley_Hall_f69e15b6.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4uiDe8vu2NcY2gM2e'}
+
+[43/143] Checking: Capital_Needs_for_Review_-_Francis_Howell_379e11e7.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4w8o44NjQxktayiUR'}
+
+[44/143] Checking: Capital_Needs_for_Review_2ae21d2c.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4yB5NWRMjPrKyFQEH'}
+
+[45/143] Checking: Capital_Needs_With_Pivot_Tables_00001b2d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo4zVxNczXpWdL7DFzH'}
+
+[46/143] Checking: Closed_Corrective_and_Scheduled_Work_Order_Statist_63a8bbf9.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo51gtVMcem1obco5xv'}
+
+[47/143] Checking: Companies_47c467de.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo52TGz7BHJPCCNnjDc'}
+
+[48/143] Checking: Completed_and_Open_Work_Orders_0165180a.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo53y4RNV4tTcWkYNfK'}
+
+[49/143] Checking: Completed_Progress_5943e135.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo554YPj5Bq3aJVUzjb'}
+
+[50/143] Checking: Conroe_Data_Audit_fb525d00.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo56AX7imhX5tnxiv5E'}
+
+[51/143] Checking: Construction_Management_Dashboard_Template_-_Copy_67f12484.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo57BHp2VJwWPV888dm'}
+
+[52/143] Checking: Created_Work_Orders_f35d6af9.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo58DYjLS1MhcwHACL3'}
+
+[53/143] Checking: Days_Open_31e17e03.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo597NePgd6NYW3FeNP'}
+
+[54/143] Checking: Days_to_Complete_ef8cba16.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5AGKyTuT1x1RDCPqh'}
+
+[55/143] Checking: Due_This_Week_e73e8868.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5BSXFuHrKqZa8bRKN'}
+
+[56/143] Checking: Event_Invoices_Payments_Pat_Copy_7444284f.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5CZjhDErqgAw1LvhR'}
+
+[57/143] Checking: Event_Schedules_ef7fc1f0.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5Dgi2sGFjfJJzYNYu'}
+
+[58/143] Checking: Event_Summary_Report_2b554033.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5F82a5Z5X2wU1ePo5'}
+
+[59/143] Checking: Event_Summary_Report__Updated__3a8f8747.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5GGEcjW2RtmdvkYaV'}
+
+[60/143] Checking: Events_0a81d954.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5HNi3PLyAcdB8k7M2'}
+
+[61/143] Checking: Events_to_Review_-_Copy_216d6f8d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5Jj4mhrQ2UTNAjDHY'}
+
+[62/143] Checking: Events_to_Review_d75d197d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5Ksn52hheT8peCimu'}
+
+[63/143] Checking: Evesham_Work_Order_Status_acdefce1.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5MiehG4JkuWfoG3gx'}
+
+[64/143] Checking: Google_Analytics_Dashboard_Template_-_Copy_5395254d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5NY21gWD6ePUMcqcB'}
+
+[65/143] Checking: Group_Details_20a55b34.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5PmBpUcSk9CF5ujDf'}
+
+[66/143] Checking: Hold_or_Canceled_Work_Orders_79df2982.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5QbnaLfu4Ts5kstu9'}
+
+[67/143] Checking: Hubspot_Companies_and_Contacts_Exploration_d808285d.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5RaphatYSnnt2yXQg'}
+
+[68/143] Checking: Hubspot_Contacts_239c21a5.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5SkGTZovEnuZETH6B'}
+
+[69/143] Checking: Hubspot_Contacts_Exploration_1279f3ca.png
+  [ERROR] Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXdo5UArEAMkVikpRJ1Wq'}
+
+[70/143] Checking: Hubspot_Deal_Line_Items_2fac66e5.png
