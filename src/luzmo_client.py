@@ -72,6 +72,11 @@ class LuzmoClient:
         try:
             response = requests.post(url, json=payload, headers=headers)
             response.raise_for_status()
+
+            # Handle empty responses (common for DELETE operations)
+            if not response.content or response.content.strip() == b'':
+                return {}
+
             return response.json()
         except requests.exceptions.RequestException as e:
             raise Exception(f"API request failed: {str(e)}")
